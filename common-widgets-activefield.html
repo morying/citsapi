@@ -1,0 +1,2011 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="language" content="en" />
+        <link href="./assets/ecfcc8d9/css/bootstrap.css" rel="stylesheet">
+<link href="./assets/8953faef/solarized_light.css" rel="stylesheet">
+<link href="./assets/6a301683/style.css" rel="stylesheet">
+<script src="./assets/5f1ea0f7/jquery.js"></script>
+<script src="./assets/ecfcc8d9/js/bootstrap.js"></script>
+<script src="./assets/8cb1d6b1/jssearch.js"></script>    <title>ActiveField, common\widgets\ActiveField - Yii Framework 2.0 API Documentation</title>
+</head>
+<body>
+
+<div class="wrap">
+    <nav id="w2446" class="navbar-inverse navbar-fixed-top navbar"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w2446-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="./index.html">Yii Framework 2.0 API Documentation</a></div><div id="w2446-collapse" class="collapse navbar-collapse"><ul id="w2447" class="navbar-nav nav"><li><a href="./index.html">Class reference</a></li></ul><div class="navbar-form navbar-left" role="search">
+  <div class="form-group">
+    <input id="searchbox" type="text" class="form-control" placeholder="Search">
+  </div>
+</div>
+</div></nav>
+    <div id="search-resultbox" style="display: none;" class="modal-content">
+        <ul id="search-results">
+        </ul>
+    </div>
+
+    
+<div class="row">
+    <div class="col-md-3">
+                <div id="navigation" class="list-group"><a class="list-group-item" href="#navigation-2430" data-toggle="collapse" data-parent="#navigation">app\models <b class="caret"></b></a><div id="navigation-2430" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-models-settingquery.html">SettingQuery</a>
+<a class="list-group-item" href="./app-models-settingsearch.html">SettingSearch</a></div>
+<a class="list-group-item" href="#navigation-2431" data-toggle="collapse" data-parent="#navigation">backend\controllers <b class="caret"></b></a><div id="navigation-2431" class="submenu panel-collapse collapse"><a class="list-group-item" href="./backend-controllers-activitycontroller.html">ActivityController</a>
+<a class="list-group-item" href="./backend-controllers-admincontroller.html">AdminController</a>
+<a class="list-group-item" href="./backend-controllers-airlinecontroller.html">AirlineController</a>
+<a class="list-group-item" href="./backend-controllers-airportcontroller.html">AirportController</a>
+<a class="list-group-item" href="./backend-controllers-attractioncontroller.html">AttractionController</a>
+<a class="list-group-item" href="./backend-controllers-businesstypecontroller.html">BusinessTypeController</a>
+<a class="list-group-item" href="./backend-controllers-citycontroller.html">CityController</a>
+<a class="list-group-item" href="./backend-controllers-contactcontroller.html">ContactController</a>
+<a class="list-group-item" href="./backend-controllers-continentcontroller.html">ContinentController</a>
+<a class="list-group-item" href="./backend-controllers-countrycontroller.html">CountryController</a>
+<a class="list-group-item" href="./backend-controllers-currencycontroller.html">CurrencyController</a>
+<a class="list-group-item" href="./backend-controllers-customercontroller.html">CustomerController</a>
+<a class="list-group-item" href="./backend-controllers-departmentcontroller.html">DepartmentController</a>
+<a class="list-group-item" href="./backend-controllers-employeecontroller.html">EmployeeController</a>
+<a class="list-group-item" href="./backend-controllers-flightcontroller.html">FlightController</a>
+<a class="list-group-item" href="./backend-controllers-hotelcontroller.html">HotelController</a>
+<a class="list-group-item" href="./backend-controllers-itinerarycontroller.html">ItineraryController</a>
+<a class="list-group-item" href="./backend-controllers-marketingcontroller.html">MarketingController</a>
+<a class="list-group-item" href="./backend-controllers-mediacontroller.html">MediaController</a>
+<a class="list-group-item" href="./backend-controllers-menucontroller.html">MenuController</a>
+<a class="list-group-item" href="./backend-controllers-metacontroller.html">MetaController</a>
+<a class="list-group-item" href="./backend-controllers-operationcontroller.html">OperationController</a>
+<a class="list-group-item" href="./backend-controllers-optioncontroller.html">OptionController</a>
+<a class="list-group-item" href="./backend-controllers-ordercontroller.html">OrderController</a>
+<a class="list-group-item" href="./backend-controllers-organizationcontroller.html">OrganizationController</a>
+<a class="list-group-item" href="./backend-controllers-paymentdayscontroller.html">PaymentDaysController</a>
+<a class="list-group-item" href="./backend-controllers-permissioncontroller.html">PermissionController</a>
+<a class="list-group-item" href="./backend-controllers-postcontroller.html">PostController</a>
+<a class="list-group-item" href="./backend-controllers-postvisacontroller.html">PostVisaController</a>
+<a class="list-group-item" href="./backend-controllers-productcatcontroller.html">ProductCatController</a>
+<a class="list-group-item" href="./backend-controllers-productcontroller.html">ProductController</a>
+<a class="list-group-item" href="./backend-controllers-provincecontroller.html">ProvinceController</a>
+<a class="list-group-item" href="./backend-controllers-restaurantcontroller.html">RestaurantController</a>
+<a class="list-group-item" href="./backend-controllers-rolecontroller.html">RoleController</a>
+<a class="list-group-item" href="./backend-controllers-sellingtypecontroller.html">SellingTypeController</a>
+<a class="list-group-item" href="./backend-controllers-sitecontroller.html">SiteController</a>
+<a class="list-group-item" href="./backend-controllers-storecontroller.html">StoreController</a>
+<a class="list-group-item" href="./backend-controllers-suppliercontroller.html">SupplierController</a>
+<a class="list-group-item" href="./backend-controllers-tempcostcontroller.html">TempCostController</a>
+<a class="list-group-item" href="./backend-controllers-templatecontroller.html">TemplateController</a>
+<a class="list-group-item" href="./backend-controllers-termcontroller.html">TermController</a>
+<a class="list-group-item" href="./backend-controllers-ticketcontroller.html">TicketController</a>
+<a class="list-group-item" href="./backend-controllers-tourroutecontroller.html">TourRouteController</a>
+<a class="list-group-item" href="./backend-controllers-tourthemeconsumecontroller.html">TourThemeConsumeController</a>
+<a class="list-group-item" href="./backend-controllers-tourthemeculturecontroller.html">TourThemeCultureController</a>
+<a class="list-group-item" href="./backend-controllers-tourthemedailycontroller.html">TourThemeDailyController</a>
+<a class="list-group-item" href="./backend-controllers-usercontroller.html">UserController</a>
+<a class="list-group-item" href="./backend-controllers-usermetacontroller.html">UsermetaController</a>
+<a class="list-group-item" href="./backend-controllers-visaconditioncontroller.html">VisaConditionController</a>
+<a class="list-group-item" href="./backend-controllers-visapersoncontroller.html">VisaPersonController</a>
+<a class="list-group-item" href="./backend-controllers-visatypecontroller.html">VisaTypeController</a></div>
+<a class="list-group-item" href="#navigation-2432" data-toggle="collapse" data-parent="#navigation">common\base <b class="caret"></b></a><div id="navigation-2432" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-base-base64imagetrait.html">Base64ImageTrait</a>
+<a class="list-group-item" href="./common-base-basefile.html">BaseFile</a>
+<a class="list-group-item" href="./common-base-basemessage.html">BaseMessage</a>
+<a class="list-group-item" href="./common-base-exception.html">Exception</a>
+<a class="list-group-item" href="./common-base-htmlmessage.html">HtmlMessage</a>
+<a class="list-group-item" href="./common-base-jsonmessage.html">JsonMessage</a>
+<a class="list-group-item" href="./common-base-metacontrollertrait.html">MetaControllerTrait</a>
+<a class="list-group-item" href="./common-base-metahtmltrait.html">MetaHtmlTrait</a>
+<a class="list-group-item" href="./common-base-metarecordtrait.html">MetaRecordTrait</a>
+<a class="list-group-item" href="./common-base-settableinterface.html">SettableInterface</a>
+<a class="list-group-item" href="./common-base-sortableinterface.html">SortableInterface</a>
+<a class="list-group-item" href="./common-base-textmessage.html">TextMessage</a></div>
+<a class="list-group-item" href="#navigation-2433" data-toggle="collapse" data-parent="#navigation">common\behaviors <b class="caret"></b></a><div id="navigation-2433" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-behaviors-attachbehavior.html">AttachBehavior</a></div>
+<a class="list-group-item" href="#navigation-2434" data-toggle="collapse" data-parent="#navigation">common\controllers <b class="caret"></b></a><div id="navigation-2434" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-controllers-controller.html">Controller</a></div>
+<a class="list-group-item" href="#navigation-2435" data-toggle="collapse" data-parent="#navigation">common\fixtures <b class="caret"></b></a><div id="navigation-2435" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-fixtures-userfixture.html">UserFixture</a></div>
+<a class="list-group-item" href="#navigation-2436" data-toggle="collapse" data-parent="#navigation">common\helpers <b class="caret"></b></a><div id="navigation-2436" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-helpers-arrayhelper.html">ArrayHelper</a>
+<a class="list-group-item" href="./common-helpers-basehtml.html">BaseHtml</a>
+<a class="list-group-item" href="./common-helpers-html.html">Html</a>
+<a class="list-group-item" href="./common-helpers-stringhelper.html">StringHelper</a></div>
+<a class="list-group-item" href="#navigation-2437" data-toggle="collapse" data-parent="#navigation">common\models <b class="caret"></b></a><div id="navigation-2437" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-models-activequery.html">ActiveQuery</a>
+<a class="list-group-item" href="./common-models-activerecord.html">ActiveRecord</a>
+<a class="list-group-item" href="./common-models-activity.html">Activity</a>
+<a class="list-group-item" href="./common-models-airline.html">Airline</a>
+<a class="list-group-item" href="./common-models-airport.html">Airport</a>
+<a class="list-group-item" href="./common-models-attraction.html">Attraction</a>
+<a class="list-group-item" href="./common-models-businesstype.html">BusinessType</a>
+<a class="list-group-item" href="./common-models-city.html">City</a>
+<a class="list-group-item" href="./common-models-contact.html">Contact</a>
+<a class="list-group-item" href="./common-models-contactmeta.html">ContactMeta</a>
+<a class="list-group-item" href="./common-models-continent.html">Continent</a>
+<a class="list-group-item" href="./common-models-country.html">Country</a>
+<a class="list-group-item" href="./common-models-currency.html">Currency</a>
+<a class="list-group-item" href="./common-models-customer.html">Customer</a>
+<a class="list-group-item" href="./common-models-department.html">Department</a>
+<a class="list-group-item" href="./common-models-employee.html">Employee</a>
+<a class="list-group-item" href="./common-models-flight.html">Flight</a>
+<a class="list-group-item" href="./common-models-hotel.html">Hotel</a>
+<a class="list-group-item" href="./common-models-itinerary.html">Itinerary</a>
+<a class="list-group-item" href="./common-models-loginform.html">LoginForm</a>
+<a class="list-group-item" href="./common-models-marketing.html">Marketing</a>
+<a class="list-group-item" href="./common-models-media.html">Media</a>
+<a class="list-group-item" href="./common-models-menu.html">Menu</a>
+<a class="list-group-item" href="./common-models-message.html">Message</a>
+<a class="list-group-item" href="./common-models-meta.html">Meta</a>
+<a class="list-group-item" href="./common-models-operation.html">Operation</a>
+<a class="list-group-item" href="./common-models-option.html">Option</a>
+<a class="list-group-item" href="./common-models-order.html">Order</a>
+<a class="list-group-item" href="./common-models-organization.html">Organization</a>
+<a class="list-group-item" href="./common-models-paymentdays.html">PaymentDays</a>
+<a class="list-group-item" href="./common-models-permission.html">Permission</a>
+<a class="list-group-item" href="./common-models-post.html">Post</a>
+<a class="list-group-item" href="./common-models-postmeta.html">PostMeta</a>
+<a class="list-group-item" href="./common-models-postvisa.html">PostVisa</a>
+<a class="list-group-item" href="./common-models-product.html">Product</a>
+<a class="list-group-item" href="./common-models-productcat.html">ProductCat</a>
+<a class="list-group-item" href="./common-models-province.html">Province</a>
+<a class="list-group-item" href="./common-models-restaurant.html">Restaurant</a>
+<a class="list-group-item" href="./common-models-role.html">Role</a>
+<a class="list-group-item" href="./common-models-sellingtype.html">SellingType</a>
+<a class="list-group-item" href="./common-models-setting.html">Setting</a>
+<a class="list-group-item" href="./common-models-store.html">Store</a>
+<a class="list-group-item" href="./common-models-supplier.html">Supplier</a>
+<a class="list-group-item" href="./common-models-tempcost.html">TempCost</a>
+<a class="list-group-item" href="./common-models-template.html">Template</a>
+<a class="list-group-item" href="./common-models-term.html">Term</a>
+<a class="list-group-item" href="./common-models-termmeta.html">TermMeta</a>
+<a class="list-group-item" href="./common-models-ticket.html">Ticket</a>
+<a class="list-group-item" href="./common-models-tourroute.html">TourRoute</a>
+<a class="list-group-item" href="./common-models-tourthemeconsume.html">TourThemeConsume</a>
+<a class="list-group-item" href="./common-models-tourthemeculture.html">TourThemeCulture</a>
+<a class="list-group-item" href="./common-models-tourthemedaily.html">TourThemeDaily</a>
+<a class="list-group-item" href="./common-models-treeactiverecord.html">TreeActiveRecord</a>
+<a class="list-group-item" href="./common-models-treeview.html">TreeView</a>
+<a class="list-group-item" href="./common-models-uploader.html">Uploader</a>
+<a class="list-group-item" href="./common-models-user.html">User</a>
+<a class="list-group-item" href="./common-models-usermeta.html">UserMeta</a>
+<a class="list-group-item" href="./common-models-visacondition.html">VisaCondition</a>
+<a class="list-group-item" href="./common-models-visaperson.html">VisaPerson</a>
+<a class="list-group-item" href="./common-models-visatype.html">VisaType</a></div>
+<a class="list-group-item" href="#navigation-2438" data-toggle="collapse" data-parent="#navigation">common\tests <b class="caret"></b></a><div id="navigation-2438" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-tests-unittester.html">UnitTester</a></div>
+<a class="list-group-item" href="#navigation-2439" data-toggle="collapse" data-parent="#navigation">common\tests\unit\models <b class="caret"></b></a><div id="navigation-2439" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-tests-unit-models-loginformtest.html">LoginFormTest</a></div>
+<a class="list-group-item active" href="#navigation-2440" data-toggle="collapse" data-parent="#navigation">common\widgets <b class="caret"></b></a><div id="navigation-2440" class="submenu panel-collapse collapse in"><a class="list-group-item active" href="./common-widgets-activefield.html">ActiveField</a>
+<a class="list-group-item" href="./common-widgets-activeform.html">ActiveForm</a>
+<a class="list-group-item" href="./common-widgets-alert.html">Alert</a>
+<a class="list-group-item" href="./common-widgets-bootstrappluginasset.html">BootstrapPluginAsset</a>
+<a class="list-group-item" href="./common-widgets-breadcrumbs.html">Breadcrumbs</a>
+<a class="list-group-item" href="./common-widgets-image.html">Image</a>
+<a class="list-group-item" href="./common-widgets-linkpager.html">LinkPager</a>
+<a class="list-group-item" href="./common-widgets-modal.html">Modal</a></div>
+<a class="list-group-item" href="#navigation-2441" data-toggle="collapse" data-parent="#navigation">common\widgets\datepicker <b class="caret"></b></a><div id="navigation-2441" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-widgets-datepicker-datepicker.html">DatePicker</a>
+<a class="list-group-item" href="./common-widgets-datepicker-datepickerasset.html">DatePickerAsset</a></div>
+<a class="list-group-item" href="#navigation-2442" data-toggle="collapse" data-parent="#navigation">common\widgets\modaldialog <b class="caret"></b></a><div id="navigation-2442" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-widgets-modaldialog-modaldialog.html">ModalDialog</a>
+<a class="list-group-item" href="./common-widgets-modaldialog-modaldialogasset.html">ModalDialogAsset</a></div>
+<a class="list-group-item" href="#navigation-2443" data-toggle="collapse" data-parent="#navigation">common\widgets\select2 <b class="caret"></b></a><div id="navigation-2443" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-widgets-select2-assetboundle.html">AssetBoundle</a>
+<a class="list-group-item" href="./common-widgets-select2-select2.html">Select2</a>
+<a class="list-group-item" href="./common-widgets-select2-select2asset.html">Select2Asset</a>
+<a class="list-group-item" href="./common-widgets-select2-themebootstrapasset.html">ThemeBootstrapAsset</a></div>
+<a class="list-group-item" href="#navigation-2444" data-toggle="collapse" data-parent="#navigation">common\widgets\summernote <b class="caret"></b></a><div id="navigation-2444" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-widgets-summernote-summernote.html">Summernote</a>
+<a class="list-group-item" href="./common-widgets-summernote-summernoteasset.html">SummernoteAsset</a>
+<a class="list-group-item" href="./common-widgets-summernote-summernotelanguageasset.html">SummernoteLanguageAsset</a></div>
+<a class="list-group-item" href="#navigation-2445" data-toggle="collapse" data-parent="#navigation">kartik\select2 <b class="caret"></b></a><div id="navigation-2445" class="submenu panel-collapse collapse"><a class="list-group-item" href="./kartik-select2-themeclassicasset.html">ThemeClassicAsset</a>
+<a class="list-group-item" href="./kartik-select2-themedefaultasset.html">ThemeDefaultAsset</a>
+<a class="list-group-item" href="./kartik-select2-themekrajeeasset.html">ThemeKrajeeAsset</a></div></div>    </div>
+    <div class="col-md-9 api-content" role="main">
+        <h1>Class common\widgets\ActiveField</h1>
+<div class="top-nav">
+    <a href="index.html">All Classes</a>
+            | <a href="#properties">Properties</a>
+                | <a href="#methods">Methods</a>
+            </div>
+
+<table class="summaryTable docClass table table-bordered">
+    <colgroup>
+        <col class="col-name" />
+        <col class="col-value" />
+    </colgroup>
+            <tr><th>Inheritance</th><td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a> &raquo;
+yii\bootstrap\ActiveField</td></tr>
+                                        </table>
+
+<div class="class-description">
+    <p><strong></strong></p>
+    
+    </div>
+
+<a id="properties"></a>
+
+<div class="summary doc-property">
+<h2>Public Properties</h2>
+
+<p><a href="#" class="toggle">Hide inherited properties</a></p>
+
+<table class="summary-table table table-striped table-bordered table-hover">
+<colgroup>
+    <col class="col-property" />
+    <col class="col-type" />
+    <col class="col-description" />
+    <col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Property</th><th>Type</th><th>Description</th><th>Defined By</th>
+</tr>
+        <tr id="$checkboxTemplate">
+        <td><a href="common-widgets-activefield.html#$checkboxTemplate-detail">$checkboxTemplate</a></td>
+        <td><a href="http://www.php.net/language.types.string">string</a></td>
+        <td>The template for checkboxes in default layout</td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="$labelOptions">
+        <td><a href="common-widgets-activefield.html#$labelOptions-detail">$labelOptions</a></td>
+        <td></td>
+        <td></td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="$template">
+        <td><a href="common-widgets-activefield.html#$template-detail">$template</a></td>
+        <td></td>
+        <td></td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+    </table>
+</div>
+
+<a id="methods"></a>
+
+<div class="summary doc-method">
+<h2>Public Methods</h2>
+
+<p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+<table class="summary-table table table-striped table-bordered table-hover">
+<colgroup>
+    <col class="col-method" />
+    <col class="col-description" />
+    <col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Method</th><th>Description</th><th>Defined By</th>
+</tr>
+            <tr id="begin()">
+        <td><a href="common-widgets-activefield.html#begin()-detail">begin()</a></td>
+        <td>Renders the opening tag of the field container.</td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="blankInput()">
+        <td><a href="common-widgets-activefield.html#blankInput()-detail">blankInput()</a></td>
+        <td></td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="buttonList()">
+        <td><a href="common-widgets-activefield.html#buttonList()-detail">buttonList()</a></td>
+        <td></td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="checkbox()">
+        <td><a href="common-widgets-activefield.html#checkbox()-detail">checkbox()</a></td>
+        <td>Renders a checkbox.</td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="checkboxList()">
+        <td><a href="common-widgets-activefield.html#checkboxList()-detail">checkboxList()</a></td>
+        <td>Renders a list of checkboxes.</td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="colorInput()">
+        <td><a href="common-widgets-activefield.html#colorInput()-detail">colorInput()</a></td>
+        <td></td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="dateInput()">
+        <td><a href="common-widgets-activefield.html#dateInput()-detail">dateInput()</a></td>
+        <td></td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="dateRangeInput()">
+        <td><a href="common-widgets-activefield.html#dateRangeInput()-detail">dateRangeInput()</a></td>
+        <td></td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="dropDownList()">
+        <td><a href="common-widgets-activefield.html#dropDownList()-detail">dropDownList()</a></td>
+        <td>Renders a drop-down list.</td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="emailInput()">
+        <td><a href="common-widgets-activefield.html#emailInput()-detail">emailInput()</a></td>
+        <td></td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="end()">
+        <td><a href="common-widgets-activefield.html#end()-detail">end()</a></td>
+        <td>Renders the closing tag of the field container.</td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="error()">
+        <td><a href="common-widgets-activefield.html#error()-detail">error()</a></td>
+        <td>Generates a tag that contains the first validation error of <span class="broken-link">\attribute</span>.</td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="fileInput()">
+        <td><a href="common-widgets-activefield.html#fileInput()-detail">fileInput()</a></td>
+        <td>Renders a file input.</td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+                    <tr id="hiddenInput()">
+        <td><a href="common-widgets-activefield.html#hiddenInput()-detail">hiddenInput()</a></td>
+        <td>Renders a hidden input.</td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="hint()">
+        <td><a href="common-widgets-activefield.html#hint()-detail">hint()</a></td>
+        <td>Renders the hint tag.</td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="htmlEditor()">
+        <td><a href="common-widgets-activefield.html#htmlEditor()-detail">htmlEditor()</a></td>
+        <td></td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="input()">
+        <td><a href="common-widgets-activefield.html#input()-detail">input()</a></td>
+        <td>Renders an input tag.</td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="label()">
+        <td><a href="common-widgets-activefield.html#label()-detail">label()</a></td>
+        <td>Generates a label tag for <span class="broken-link">\attribute</span>.</td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="listBox()">
+        <td><a href="common-widgets-activefield.html#listBox()-detail">listBox()</a></td>
+        <td>Renders a list box.</td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="localeList()">
+        <td><a href="common-widgets-activefield.html#localeList()-detail">localeList()</a></td>
+        <td></td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="modalInput()">
+        <td><a href="common-widgets-activefield.html#modalInput()-detail">modalInput()</a></td>
+        <td></td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="numberInput()">
+        <td><a href="common-widgets-activefield.html#numberInput()-detail">numberInput()</a></td>
+        <td></td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="passwordInput()">
+        <td><a href="common-widgets-activefield.html#passwordInput()-detail">passwordInput()</a></td>
+        <td>Renders a password input.</td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="radio()">
+        <td><a href="common-widgets-activefield.html#radio()-detail">radio()</a></td>
+        <td>Renders a radio button.</td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="radioList()">
+        <td><a href="common-widgets-activefield.html#radioList()-detail">radioList()</a></td>
+        <td>Renders a list of radio buttons.</td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="searchableList()">
+        <td><a href="common-widgets-activefield.html#searchableList()-detail">searchableList()</a></td>
+        <td></td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="setTemplate()">
+        <td><a href="common-widgets-activefield.html#setTemplate()-detail">setTemplate()</a></td>
+        <td></td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="tagInput()">
+        <td><a href="common-widgets-activefield.html#tagInput()-detail">tagInput()</a></td>
+        <td></td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="telInput()">
+        <td><a href="common-widgets-activefield.html#telInput()-detail">telInput()</a></td>
+        <td></td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="textInput()">
+        <td><a href="common-widgets-activefield.html#textInput()-detail">textInput()</a></td>
+        <td>Renders a text input.</td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="textarea()">
+        <td><a href="common-widgets-activefield.html#textarea()-detail">textarea()</a></td>
+        <td>Renders a text area.</td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="timeInput()">
+        <td><a href="common-widgets-activefield.html#timeInput()-detail">timeInput()</a></td>
+        <td></td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="urlInput()">
+        <td><a href="common-widgets-activefield.html#urlInput()-detail">urlInput()</a></td>
+        <td></td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="widget()">
+        <td><a href="common-widgets-activefield.html#widget()-detail">widget()</a></td>
+        <td>Renders a widget as the input of the field.</td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+    </table>
+</div>
+
+<div class="summary doc-method">
+<h2>Protected Methods</h2>
+
+<p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+<table class="summary-table table table-striped table-bordered table-hover">
+<colgroup>
+    <col class="col-method" />
+    <col class="col-description" />
+    <col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Method</th><th>Description</th><th>Defined By</th>
+</tr>
+        <tr id="addErrorClassIfNeeded()">
+        <td><a href="common-widgets-activefield.html#addErrorClassIfNeeded()-detail">addErrorClassIfNeeded()</a></td>
+        <td>Adds validation class to the input options if needed.</td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+                                                                <tr id="getClientOptions()">
+        <td><a href="common-widgets-activefield.html#getClientOptions()-detail">getClientOptions()</a></td>
+        <td>Returns the JS options for the field.</td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+            <tr id="getInputId()">
+        <td><a href="common-widgets-activefield.html#getInputId()-detail">getInputId()</a></td>
+        <td>Returns the HTML <code>id</code> of the input element of this form field.</td>
+        <td><a href="common-widgets-activefield.html">common\widgets\ActiveField</a></td>
+    </tr>
+                                                                                        </table>
+</div>
+
+<a id="events"></a>
+
+<a id="constants"></a>
+
+<h2>Property Details</h2>
+
+<div class="property-doc">
+
+    <div class="detail-header h3" id="$checkboxTemplate-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#$checkboxTemplate-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        $checkboxTemplate        <span class="detail-header-tag small">
+            public                                                property
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p>The template for checkboxes in default layout</p>
+
+            </div>
+
+    <div class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.string">string</a></span> <a href="common-widgets-activefield.html#$checkboxTemplate-detail">$checkboxTemplate</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"\n{beginLabel}\n{input}\n{labelTitle}\n{endLabel}\n{error}\n{hint}\n"</span></div>
+
+
+    <div class="detail-header h3" id="$labelOptions-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#$labelOptions-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        $labelOptions        <span class="detail-header-tag small">
+            public                                                property
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        
+            </div>
+
+    <div class="signature"><span class="signature-defs">public</span> <span class="signature-type"></span> <a href="common-widgets-activefield.html#$labelOptions-detail">$labelOptions</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;[</span><span style="color: #DD0000">'class'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'control-label&nbsp;col-md-3'</span><span style="color: #007700">]</span></div>
+
+
+    <div class="detail-header h3" id="$template-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#$template-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        $template        <span class="detail-header-tag small">
+            public                                                property
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        
+            </div>
+
+    <div class="signature"><span class="signature-defs">public</span> <span class="signature-type"></span> <a href="common-widgets-activefield.html#$template-detail">$template</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"{label}\n&lt;div&nbsp;class=\"col-md-9&nbsp;form-inline\"&gt;{input}\n{hint}\n{error}&lt;/div&gt;"</span></div>
+
+</div>
+<h2>Method Details</h2>
+
+<div class="method-doc">
+
+    <div class="detail-header h3" id="addErrorClassIfNeeded()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#addErrorClassIfNeeded()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        addErrorClassIfNeeded()
+        <span class="detail-header-tag small">
+            protected                                    method
+                            (available since version 2.0.14)
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Adds validation class to the input options if needed.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">protected</span> <span class="signature-type">void</span> <strong><a href="common-widgets-activefield.html#addErrorClassIfNeeded()-detail">addErrorClassIfNeeded</a></strong> ( <b>&</b><span style="color: #0000BB">$options</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"></td>
+                  <td class="param-desc-col"><p>Array input options</p>
+</td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="begin()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#begin()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        begin()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Renders the opening tag of the field container.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.string">string</a></span> <strong><a href="common-widgets-activefield.html#begin()-detail">begin</a></strong> ( )</td></tr>
+                                                <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a></td>
+                  <td class="param-desc-col"><p>The rendering result.</p>
+</td>
+                </tr>
+                                    </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="blankInput()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#blankInput()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        blankInput()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="common-widgets-activefield.html#blankInput()-detail">blankInput</a></strong> ( <span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="buttonList()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#buttonList()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        buttonList()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="common-widgets-activefield.html#buttonList()-detail">buttonList</a></strong> ( <span style="color: #0000BB">$items</span>, <span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$items</span></td>
+                  <td class="param-type-col"></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="checkbox()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#checkbox()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        checkbox()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Renders a checkbox.</strong></p>
+
+        <p>This method will generate the <code>checked</code> tag attribute according to the model attribute value.</p>
+
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="common-widgets-activefield.html">$this</a></span> <strong><a href="common-widgets-activefield.html#checkbox()-detail">checkbox</a></strong> ( <span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;[]</span>, <span style="color: #0000BB">$enclosedByLabel&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">true</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.array">array</a></td>
+                  <td class="param-desc-col"><p>The tag options in terms of name-value pairs. The following options are specially handled:</p>
+<ul>
+<li><code>uncheck</code>: string, the value associated with the uncheck state of the radio button. If not set,
+it will take the default value <code>0</code>. This method will render a hidden input so that if the radio button
+is not checked and is submitted, the value of this attribute will still be submitted to the server
+via the hidden input. If you do not want any hidden input, you should explicitly set this option as <code>null</code>.</li>
+<li><code>label</code>: string, a label displayed next to the checkbox. It will NOT be HTML-encoded. Therefore you can pass
+in HTML code such as an image tag. If this is coming from end users, you should <span class="broken-link">\Html::encode()</span> it to prevent XSS attacks.
+When this option is specified, the checkbox will be enclosed by a label tag. If you do not want any label, you should
+explicitly set this option as <code>null</code>.</li>
+<li><code>labelOptions</code>: array, the HTML attributes for the label tag. This is only used when the <code>label</code> option is specified.</li>
+</ul>
+<p>The rest of the options will be rendered as the attributes of the resulting tag. The values will
+be HTML-encoded using <span class="broken-link">\Html::encode()</span>. If a value is <code>null</code>, the corresponding attribute will not be rendered.</p>
+<p>If you set a custom <code>id</code> for the input element, you may need to adjust the <span class="broken-link">\$selectors</span> accordingly.</p>
+</td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$enclosedByLabel</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.boolean">boolean</a></td>
+                  <td class="param-desc-col"><p>Whether to enclose the checkbox within the label.
+If <code>true</code>, the method will still use <a href="common-widgets-activefield.html#$template-detail">$template</a> to layout the checkbox and the error message
+except that the checkbox is enclosed by the label tag.</p>
+</td>
+                </tr>
+                                        <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="common-widgets-activefield.html">$this</a></td>
+                  <td class="param-desc-col"><p>The field object itself.</p>
+</td>
+                </tr>
+                                    </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="checkboxList()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#checkboxList()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        checkboxList()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Renders a list of checkboxes.</strong></p>
+
+        <p>A checkbox list allows multiple selection, like <a href="common-widgets-activefield.html#listBox()-detail">listBox()</a>.
+As a result, the corresponding submitted value is an array.
+The selection of the checkbox list is taken from the value of the model attribute.</p>
+
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="common-widgets-activefield.html">$this</a></span> <strong><a href="common-widgets-activefield.html#checkboxList()-detail">checkboxList</a></strong> ( <span style="color: #0000BB">$items</span>, <span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$items</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.array">array</a></td>
+                  <td class="param-desc-col"><p>The data item used to generate the checkboxes.
+The array values are the labels, while the array keys are the corresponding checkbox values.</p>
+</td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.array">array</a></td>
+                  <td class="param-desc-col"><p>Options (name =&gt; config) for the checkbox list.
+For the list of available options please refer to the <code>$options</code> parameter of <span class="broken-link">\yii\helpers\Html::activeCheckboxList()</span>.</p>
+</td>
+                </tr>
+                                        <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="common-widgets-activefield.html">$this</a></td>
+                  <td class="param-desc-col"><p>The field object itself.</p>
+</td>
+                </tr>
+                                    </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="colorInput()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#colorInput()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        colorInput()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="common-widgets-activefield.html#colorInput()-detail">colorInput</a></strong> ( <span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="dateInput()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#dateInput()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        dateInput()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="common-widgets-activefield.html#dateInput()-detail">dateInput</a></strong> ( <span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="dateRangeInput()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#dateRangeInput()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        dateRangeInput()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="common-widgets-activefield.html#dateRangeInput()-detail">dateRangeInput</a></strong> ( <span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="dropDownList()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#dropDownList()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        dropDownList()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Renders a drop-down list.</strong></p>
+
+        <p>The selection of the drop-down list is taken from the value of the model attribute.</p>
+
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="common-widgets-activefield.html">$this</a></span> <strong><a href="common-widgets-activefield.html#dropDownList()-detail">dropDownList</a></strong> ( <span style="color: #0000BB">$items</span>, <span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$items</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.array">array</a></td>
+                  <td class="param-desc-col"><p>The option data items. The array keys are option values, and the array values
+are the corresponding option labels. The array can also be nested (i.e. some array values are arrays too).
+For each sub-array, an option group will be generated whose label is the key associated with the sub-array.
+If you have a list of data models, you may convert them into the format described above using
+<span class="broken-link">\ArrayHelper::map()</span>.</p>
+<p>Note, the values and labels will be automatically HTML-encoded by this method, and the blank spaces in
+the labels will also be HTML-encoded.</p>
+</td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.array">array</a></td>
+                  <td class="param-desc-col"><p>The tag options in terms of name-value pairs.</p>
+<p>For the list of available options please refer to the <code>$options</code> parameter of <span class="broken-link">\yii\helpers\Html::activeDropDownList()</span>.</p>
+<p>If you set a custom <code>id</code> for the input element, you may need to adjust the <span class="broken-link">\$selectors</span> accordingly.</p>
+</td>
+                </tr>
+                                        <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="common-widgets-activefield.html">$this</a></td>
+                  <td class="param-desc-col"><p>The field object itself.</p>
+</td>
+                </tr>
+                                    </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="emailInput()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#emailInput()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        emailInput()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="common-widgets-activefield.html">$this</a></span> <strong><a href="common-widgets-activefield.html#emailInput()-detail">emailInput</a></strong> ( <span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.array">array</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="end()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#end()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        end()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Renders the closing tag of the field container.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.string">string</a></span> <strong><a href="common-widgets-activefield.html#end()-detail">end</a></strong> ( )</td></tr>
+                                                <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a></td>
+                  <td class="param-desc-col"><p>The rendering result.</p>
+</td>
+                </tr>
+                                    </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="error()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#error()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        error()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Generates a tag that contains the first validation error of <span class="broken-link">\attribute</span>.</strong></p>
+
+        <p>Note that even if there is no validation error, this method will still return an empty error tag.</p>
+
+        <p>See also <span class="broken-link">\$errorOptions</span>.</p>    </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="common-widgets-activefield.html">$this</a></span> <strong><a href="common-widgets-activefield.html#error()-detail">error</a></strong> ( <span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.array">array</a>|<a href="http://www.php.net/language.types.boolean">false</a></td>
+                  <td class="param-desc-col"><p>The tag options in terms of name-value pairs. It will be merged with <span class="broken-link">\errorOptions</span>.
+The options will be rendered as the attributes of the resulting tag. The values will be HTML-encoded
+using <span class="broken-link">\Html::encode()</span>. If this parameter is <code>false</code>, no error tag will be rendered.</p>
+<p>The following options are specially handled:</p>
+<ul>
+<li><code>tag</code>: this specifies the tag name. If not set, <code>div</code> will be used.
+See also <span class="broken-link">\yii\helpers\Html::tag()</span>.</li>
+</ul>
+<p>If you set a custom <code>id</code> for the error element, you may need to adjust the <span class="broken-link">\$selectors</span> accordingly.</p>
+</td>
+                </tr>
+                                        <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="common-widgets-activefield.html">$this</a></td>
+                  <td class="param-desc-col"><p>The field object itself.</p>
+</td>
+                </tr>
+                                    </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="fileInput()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#fileInput()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        fileInput()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Renders a file input.</strong></p>
+
+        <p>This method will generate the <code>name</code> and <code>value</code> tag attributes automatically for the model attribute
+unless they are explicitly specified in <code>$options</code>.</p>
+
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="common-widgets-activefield.html">$this</a></span> <strong><a href="common-widgets-activefield.html#fileInput()-detail">fileInput</a></strong> ( <span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.array">array</a></td>
+                  <td class="param-desc-col"><p>The tag options in terms of name-value pairs. These will be rendered as
+the attributes of the resulting tag. The values will be HTML-encoded using <span class="broken-link">\Html::encode()</span>.</p>
+<p>If you set a custom <code>id</code> for the input element, you may need to adjust the <span class="broken-link">\$selectors</span> accordingly.</p>
+</td>
+                </tr>
+                                        <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="common-widgets-activefield.html">$this</a></td>
+                  <td class="param-desc-col"><p>The field object itself.</p>
+</td>
+                </tr>
+                                    </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="getClientOptions()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#getClientOptions()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        getClientOptions()
+        <span class="detail-header-tag small">
+            protected                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Returns the JS options for the field.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">protected</span> <span class="signature-type"><a href="http://www.php.net/language.types.array">array</a></span> <strong><a href="common-widgets-activefield.html#getClientOptions()-detail">getClientOptions</a></strong> ( )</td></tr>
+                                                <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.array">array</a></td>
+                  <td class="param-desc-col"><p>The JS options.</p>
+</td>
+                </tr>
+                                    </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="getInputId()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#getInputId()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        getInputId()
+        <span class="detail-header-tag small">
+            protected                                    method
+                            (available since version 2.0.7)
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Returns the HTML <code>id</code> of the input element of this form field.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">protected</span> <span class="signature-type"><a href="http://www.php.net/language.types.string">string</a></span> <strong><a href="common-widgets-activefield.html#getInputId()-detail">getInputId</a></strong> ( )</td></tr>
+                                                <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a></td>
+                  <td class="param-desc-col"><p>The input id.</p>
+</td>
+                </tr>
+                                    </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="hiddenInput()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#hiddenInput()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        hiddenInput()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Renders a hidden input.</strong></p>
+
+        <p>Note that this method is provided for completeness. In most cases because you do not need
+to validate a hidden input, you should not need to use this method. Instead, you should
+use <span class="broken-link">\yii\helpers\Html::activeHiddenInput()</span>.</p>
+<p>This method will generate the <code>name</code> and <code>value</code> tag attributes automatically for the model attribute
+unless they are explicitly specified in <code>$options</code>.</p>
+
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="common-widgets-activefield.html">$this</a></span> <strong><a href="common-widgets-activefield.html#hiddenInput()-detail">hiddenInput</a></strong> ( <span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.array">array</a></td>
+                  <td class="param-desc-col"><p>The tag options in terms of name-value pairs. These will be rendered as
+the attributes of the resulting tag. The values will be HTML-encoded using <span class="broken-link">\Html::encode()</span>.</p>
+<p>If you set a custom <code>id</code> for the input element, you may need to adjust the <span class="broken-link">\$selectors</span> accordingly.</p>
+</td>
+                </tr>
+                                        <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="common-widgets-activefield.html">$this</a></td>
+                  <td class="param-desc-col"><p>The field object itself.</p>
+</td>
+                </tr>
+                                    </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="hint()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#hint()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        hint()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Renders the hint tag.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="common-widgets-activefield.html">$this</a></span> <strong><a href="common-widgets-activefield.html#hint()-detail">hint</a></strong> ( <span style="color: #0000BB">$content</span>, <span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$content</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/language.types.boolean">boolean</a></td>
+                  <td class="param-desc-col"><p>The hint content.
+If <code>null</code>, the hint will be generated via <span class="broken-link">\Model::getAttributeHint()</span>.
+If <code>false</code>, the generated field will not contain the hint part.
+Note that this will NOT be <span class="broken-link">\Html::encode()</span>.</p>
+</td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.array">array</a></td>
+                  <td class="param-desc-col"><p>The tag options in terms of name-value pairs. These will be rendered as
+the attributes of the hint tag. The values will be HTML-encoded using <span class="broken-link">\Html::encode()</span>.</p>
+<p>The following options are specially handled:</p>
+<ul>
+<li><code>tag</code>: this specifies the tag name. If not set, <code>div</code> will be used.
+See also <span class="broken-link">\yii\helpers\Html::tag()</span>.</li>
+</ul>
+</td>
+                </tr>
+                                        <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="common-widgets-activefield.html">$this</a></td>
+                  <td class="param-desc-col"><p>The field object itself.</p>
+</td>
+                </tr>
+                                    </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="htmlEditor()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#htmlEditor()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        htmlEditor()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="common-widgets-activefield.html#htmlEditor()-detail">htmlEditor</a></strong> ( <span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="input()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#input()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        input()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Renders an input tag.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="common-widgets-activefield.html">$this</a></span> <strong><a href="common-widgets-activefield.html#input()-detail">input</a></strong> ( <span style="color: #0000BB">$type</span>, <span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$type</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a></td>
+                  <td class="param-desc-col"><p>The input type (e.g. <code>text</code>, <code>password</code>)</p>
+</td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.array">array</a></td>
+                  <td class="param-desc-col"><p>The tag options in terms of name-value pairs. These will be rendered as
+the attributes of the resulting tag. The values will be HTML-encoded using <span class="broken-link">\Html::encode()</span>.</p>
+<p>If you set a custom <code>id</code> for the input element, you may need to adjust the <span class="broken-link">\$selectors</span> accordingly.</p>
+</td>
+                </tr>
+                                        <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="common-widgets-activefield.html">$this</a></td>
+                  <td class="param-desc-col"><p>The field object itself.</p>
+</td>
+                </tr>
+                                    </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="label()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#label()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        label()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Generates a label tag for <span class="broken-link">\attribute</span>.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="common-widgets-activefield.html">$this</a></span> <strong><a href="common-widgets-activefield.html#label()-detail">label</a></strong> ( <span style="color: #0000BB">$label&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">null</span>, <span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$label</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.null">null</a>|<a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/language.types.boolean">false</a></td>
+                  <td class="param-desc-col"><p>The label to use. If <code>null</code>, the label will be generated via <span class="broken-link">\Model::getAttributeLabel()</span>.
+If <code>false</code>, the generated field will not contain the label part.
+Note that this will NOT be <span class="broken-link">\Html::encode()</span>.</p>
+</td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.null">null</a>|<a href="http://www.php.net/language.types.array">array</a></td>
+                  <td class="param-desc-col"><p>The tag options in terms of name-value pairs. It will be merged with <a href="common-widgets-activefield.html#$labelOptions-detail">$labelOptions</a>.
+The options will be rendered as the attributes of the resulting tag. The values will be HTML-encoded
+using <span class="broken-link">\Html::encode()</span>. If a value is <code>null</code>, the corresponding attribute will not be rendered.</p>
+</td>
+                </tr>
+                                        <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="common-widgets-activefield.html">$this</a></td>
+                  <td class="param-desc-col"><p>The field object itself.</p>
+</td>
+                </tr>
+                                    </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="listBox()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#listBox()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        listBox()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Renders a list box.</strong></p>
+
+        <p>The selection of the list box is taken from the value of the model attribute.</p>
+
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="common-widgets-activefield.html">$this</a></span> <strong><a href="common-widgets-activefield.html#listBox()-detail">listBox</a></strong> ( <span style="color: #0000BB">$items</span>, <span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$items</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.array">array</a></td>
+                  <td class="param-desc-col"><p>The option data items. The array keys are option values, and the array values
+are the corresponding option labels. The array can also be nested (i.e. some array values are arrays too).
+For each sub-array, an option group will be generated whose label is the key associated with the sub-array.
+If you have a list of data models, you may convert them into the format described above using
+<span class="broken-link">\yii\helpers\ArrayHelper::map()</span>.</p>
+<p>Note, the values and labels will be automatically HTML-encoded by this method, and the blank spaces in
+the labels will also be HTML-encoded.</p>
+</td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.array">array</a></td>
+                  <td class="param-desc-col"><p>The tag options in terms of name-value pairs.</p>
+<p>For the list of available options please refer to the <code>$options</code> parameter of <span class="broken-link">\yii\helpers\Html::activeListBox()</span>.</p>
+<p>If you set a custom <code>id</code> for the input element, you may need to adjust the <span class="broken-link">\$selectors</span> accordingly.</p>
+</td>
+                </tr>
+                                        <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="common-widgets-activefield.html">$this</a></td>
+                  <td class="param-desc-col"><p>The field object itself.</p>
+</td>
+                </tr>
+                                    </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="localeList()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#localeList()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        localeList()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="common-widgets-activefield.html#localeList()-detail">localeList</a></strong> ( <span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="modalInput()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#modalInput()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        modalInput()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="common-widgets-activefield.html#modalInput()-detail">modalInput</a></strong> ( <span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="numberInput()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#numberInput()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        numberInput()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="common-widgets-activefield.html">$this</a></span> <strong><a href="common-widgets-activefield.html#numberInput()-detail">numberInput</a></strong> ( <span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.array">array</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="passwordInput()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#passwordInput()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        passwordInput()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Renders a password input.</strong></p>
+
+        <p>This method will generate the <code>name</code> and <code>value</code> tag attributes automatically for the model attribute
+unless they are explicitly specified in <code>$options</code>.</p>
+
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="common-widgets-activefield.html">$this</a></span> <strong><a href="common-widgets-activefield.html#passwordInput()-detail">passwordInput</a></strong> ( <span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.array">array</a></td>
+                  <td class="param-desc-col"><p>The tag options in terms of name-value pairs. These will be rendered as
+the attributes of the resulting tag. The values will be HTML-encoded using <span class="broken-link">\Html::encode()</span>.</p>
+<p>If you set a custom <code>id</code> for the input element, you may need to adjust the <span class="broken-link">\$selectors</span> accordingly.</p>
+</td>
+                </tr>
+                                        <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="common-widgets-activefield.html">$this</a></td>
+                  <td class="param-desc-col"><p>The field object itself.</p>
+</td>
+                </tr>
+                                    </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="radio()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#radio()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        radio()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Renders a radio button.</strong></p>
+
+        <p>This method will generate the <code>checked</code> tag attribute according to the model attribute value.</p>
+
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="common-widgets-activefield.html">$this</a></span> <strong><a href="common-widgets-activefield.html#radio()-detail">radio</a></strong> ( <span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;[]</span>, <span style="color: #0000BB">$enclosedByLabel&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">true</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.array">array</a></td>
+                  <td class="param-desc-col"><p>The tag options in terms of name-value pairs. The following options are specially handled:</p>
+<ul>
+<li><code>uncheck</code>: string, the value associated with the uncheck state of the radio button. If not set,
+it will take the default value <code>0</code>. This method will render a hidden input so that if the radio button
+is not checked and is submitted, the value of this attribute will still be submitted to the server
+via the hidden input. If you do not want any hidden input, you should explicitly set this option as <code>null</code>.</li>
+<li><code>label</code>: string, a label displayed next to the radio button. It will NOT be HTML-encoded. Therefore you can pass
+in HTML code such as an image tag. If this is coming from end users, you should <span class="broken-link">\Html::encode()</span> it to prevent XSS attacks.
+When this option is specified, the radio button will be enclosed by a label tag. If you do not want any label, you should
+explicitly set this option as <code>null</code>.</li>
+<li><code>labelOptions</code>: array, the HTML attributes for the label tag. This is only used when the <code>label</code> option is specified.</li>
+</ul>
+<p>The rest of the options will be rendered as the attributes of the resulting tag. The values will
+be HTML-encoded using <span class="broken-link">\Html::encode()</span>. If a value is <code>null</code>, the corresponding attribute will not be rendered.</p>
+<p>If you set a custom <code>id</code> for the input element, you may need to adjust the <span class="broken-link">\$selectors</span> accordingly.</p>
+</td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$enclosedByLabel</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.boolean">boolean</a></td>
+                  <td class="param-desc-col"><p>Whether to enclose the radio within the label.
+If <code>true</code>, the method will still use <a href="common-widgets-activefield.html#$template-detail">$template</a> to layout the radio button and the error message
+except that the radio is enclosed by the label tag.</p>
+</td>
+                </tr>
+                                        <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="common-widgets-activefield.html">$this</a></td>
+                  <td class="param-desc-col"><p>The field object itself.</p>
+</td>
+                </tr>
+                                    </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="radioList()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#radioList()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        radioList()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Renders a list of radio buttons.</strong></p>
+
+        <p>A radio button list is like a checkbox list, except that it only allows single selection.
+The selection of the radio buttons is taken from the value of the model attribute.</p>
+
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="common-widgets-activefield.html">$this</a></span> <strong><a href="common-widgets-activefield.html#radioList()-detail">radioList</a></strong> ( <span style="color: #0000BB">$items</span>, <span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$items</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.array">array</a></td>
+                  <td class="param-desc-col"><p>The data item used to generate the radio buttons.
+The array values are the labels, while the array keys are the corresponding radio values.</p>
+</td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.array">array</a></td>
+                  <td class="param-desc-col"><p>Options (name =&gt; config) for the radio button list.
+For the list of available options please refer to the <code>$options</code> parameter of <span class="broken-link">\yii\helpers\Html::activeRadioList()</span>.</p>
+</td>
+                </tr>
+                                        <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="common-widgets-activefield.html">$this</a></td>
+                  <td class="param-desc-col"><p>The field object itself.</p>
+</td>
+                </tr>
+                                    </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="searchableList()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#searchableList()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        searchableList()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="common-widgets-activefield.html#searchableList()-detail">searchableList</a></strong> ( <span style="color: #0000BB">$items</span>, <span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$items</span></td>
+                  <td class="param-type-col"></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="setTemplate()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#setTemplate()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        setTemplate()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="common-widgets-activefield.html#setTemplate()-detail">setTemplate</a></strong> ( <span style="color: #0000BB">$template</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$template</span></td>
+                  <td class="param-type-col"></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="tagInput()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#tagInput()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        tagInput()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="common-widgets-activefield.html">$this</a></span> <strong><a href="common-widgets-activefield.html#tagInput()-detail">tagInput</a></strong> ( <span style="color: #0000BB">$items</span>, <span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$items</span></td>
+                  <td class="param-type-col"></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.array">array</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="telInput()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#telInput()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        telInput()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="common-widgets-activefield.html#telInput()-detail">telInput</a></strong> ( <span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="textInput()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#textInput()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        textInput()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Renders a text input.</strong></p>
+
+        <p>This method will generate the <code>name</code> and <code>value</code> tag attributes automatically for the model attribute
+unless they are explicitly specified in <code>$options</code>.</p>
+
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="common-widgets-activefield.html">$this</a></span> <strong><a href="common-widgets-activefield.html#textInput()-detail">textInput</a></strong> ( <span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.array">array</a></td>
+                  <td class="param-desc-col"><p>The tag options in terms of name-value pairs. These will be rendered as
+the attributes of the resulting tag. The values will be HTML-encoded using <span class="broken-link">\Html::encode()</span>.</p>
+<p>The following special options are recognized:</p>
+<ul>
+<li><code>maxlength</code>: int|bool, when <code>maxlength</code> is set <code>true</code> and the model attribute is validated
+by a string validator, the <code>maxlength</code> option will take the value of <span class="broken-link">\yii\validators\StringValidator::max</span>.
+This is available since version 2.0.3.</li>
+</ul>
+<p>Note that if you set a custom <code>id</code> for the input element, you may need to adjust the value of <span class="broken-link">\selectors</span> accordingly.</p>
+</td>
+                </tr>
+                                        <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="common-widgets-activefield.html">$this</a></td>
+                  <td class="param-desc-col"><p>The field object itself.</p>
+</td>
+                </tr>
+                                    </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="textarea()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#textarea()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        textarea()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Renders a text area.</strong></p>
+
+        <p>The model attribute value will be used as the content in the textarea.</p>
+
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="common-widgets-activefield.html">$this</a></span> <strong><a href="common-widgets-activefield.html#textarea()-detail">textarea</a></strong> ( <span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.array">array</a></td>
+                  <td class="param-desc-col"><p>The tag options in terms of name-value pairs. These will be rendered as
+the attributes of the resulting tag. The values will be HTML-encoded using <span class="broken-link">\Html::encode()</span>.</p>
+<p>If you set a custom <code>id</code> for the textarea element, you may need to adjust the <span class="broken-link">\$selectors</span> accordingly.</p>
+</td>
+                </tr>
+                                        <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="common-widgets-activefield.html">$this</a></td>
+                  <td class="param-desc-col"><p>The field object itself.</p>
+</td>
+                </tr>
+                                    </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="timeInput()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#timeInput()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        timeInput()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="common-widgets-activefield.html#timeInput()-detail">timeInput</a></strong> ( <span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="urlInput()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#urlInput()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        urlInput()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="common-widgets-activefield.html#urlInput()-detail">urlInput</a></strong> ( <span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$options</span></td>
+                  <td class="param-type-col"></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="widget()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-widgets-activefield.html#widget()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        widget()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Renders a widget as the input of the field.</strong></p>
+
+        <p>Note that the widget must have both <code>model</code> and <code>attribute</code> properties. They will
+be initialized with <span class="broken-link">\model</span> and <span class="broken-link">\attribute</span> of this field, respectively.</p>
+<p>If you want to use a widget that does not have <code>model</code> and <code>attribute</code> properties,
+please use <span class="broken-link">\render()</span> instead.</p>
+<p>For example to use the <span class="broken-link">\MaskedInput</span> widget to get some date input, you can use
+the following code, assuming that <code>$form</code> is your <span class="broken-link">\ActiveForm</span> instance:</p>
+<pre><code class="hljs php language-php"><span class="hljs-variable">$form</span>-&gt;Input(<span class="hljs-variable">$model</span>, <span class="hljs-string">'date'</span>)-&gt;widget(\yii\widgets\MaskedInput::className(), [
+    <span class="hljs-string">'mask'</span> =&gt; <span class="hljs-string">'99/99/9999'</span>,
+]);
+</code></pre>
+<p>If you set a custom <code>id</code> for the input element, you may need to adjust the <span class="broken-link">\$selectors</span> accordingly.</p>
+
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="common-widgets-activefield.html">$this</a></span> <strong><a href="common-widgets-activefield.html#widget()-detail">widget</a></strong> ( <span style="color: #0000BB">$class</span>, <span style="color: #0000BB">$config&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$class</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a></td>
+                  <td class="param-desc-col"><p>The widget class name.</p>
+</td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$config</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.array">array</a></td>
+                  <td class="param-desc-col"><p>Name-value pairs that will be used to initialize the widget.</p>
+</td>
+                </tr>
+                                        <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="common-widgets-activefield.html">$this</a></td>
+                  <td class="param-desc-col"><p>The field object itself.</p>
+</td>
+                </tr>
+                                    </table>
+
+<!--	-->
+</div>
+        </div>
+</div>
+
+<script type="text/javascript">
+    /*<![CDATA[*/
+    $("a.toggle").on('click', function () {
+        var $this = $(this);
+        if ($this.hasClass('properties-hidden')) {
+            $this.text($this.text().replace(/Show/,'Hide'));
+            $this.parents(".summary").find(".inherited").show();
+            $this.removeClass('properties-hidden');
+        } else {
+            $this.text($this.text().replace(/Hide/,'Show'));
+            $this.parents(".summary").find(".inherited").hide();
+            $this.addClass('properties-hidden');
+        }
+
+        return false;
+    });
+    /*
+     $(".sourceCode a.show").toggle(function () {
+     $(this).text($(this).text().replace(/show/,'hide'));
+     $(this).parents(".sourceCode").find("div.code").show();
+     },function () {
+     $(this).text($(this).text().replace(/hide/,'show'));
+     $(this).parents(".sourceCode").find("div.code").hide();
+     });
+     $("a.sourceLink").click(function () {
+     $(this).attr('target','_blank');
+     });
+     */
+    /*]]>*/
+</script>
+
+
+</div>
+
+<footer class="footer">
+        <p class="pull-right"><small>Page generated on Wed, 10 Oct 2018 14:58:28 +0000</small></p>
+    Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></footer>
+
+<script>jQuery(function ($) {
+    var shiftWindow = function () { scrollBy(0, -50) };
+    if (location.hash) setTimeout(shiftWindow, 1);
+    window.addEventListener("hashchange", shiftWindow);
+var element = document.createElement("script");
+element.src = "./jssearch.index.js";
+document.body.appendChild(element);
+
+var searchBox = $('#searchbox');
+
+// search when typing in search field
+searchBox.on("keyup", function(event) {
+    var query = $(this).val();
+
+    if (query == '' || event.which == 27) {
+        $('#search-resultbox').hide();
+        return;
+    } else if (event.which == 13) {
+        var selectedLink = $('#search-resultbox a.selected');
+        if (selectedLink.length != 0) {
+            document.location = selectedLink.attr('href');
+            return;
+        }
+    } else if (event.which == 38 || event.which == 40) {
+        $('#search-resultbox').show();
+
+        var selected = $('#search-resultbox a.selected');
+        if (selected.length == 0) {
+            $('#search-results').find('a').first().addClass('selected');
+        } else {
+            var next;
+            if (event.which == 40) {
+                next = selected.parent().next().find('a').first();
+            } else {
+                next = selected.parent().prev().find('a').first();
+            }
+            if (next.length != 0) {
+                var resultbox = $('#search-results');
+                var position = next.position();
+
+//              TODO scrolling is buggy and jumps around
+//                resultbox.scrollTop(Math.floor(position.top));
+//                console.log(position.top);
+
+                selected.removeClass('selected');
+                next.addClass('selected');
+            }
+        }
+
+        return;
+    }
+    $('#search-resultbox').show();
+    $('#search-results').html('<li><span class="no-results">No results</span></li>');
+
+    var result = jssearch.search(query);
+
+    if (result.length > 0) {
+        var i = 0;
+        var resHtml = '';
+
+        for (var key in result) {
+            if (i++ > 20) {
+                break;
+            }
+            resHtml = resHtml +
+            '<li><a href="' + result[key].file.u.substr(3) +'"><span class="title">' + result[key].file.t + '</span>' +
+            '<span class="description">' + result[key].file.d + '</span></a></li>';
+        }
+        $('#search-results').html(resHtml);
+    }
+});
+
+// hide the search results on ESC
+$(document).on("keyup", function(event) { if (event.which == 27) { $('#search-resultbox').hide(); } });
+// hide search results on click to document
+$(document).bind('click', function (e) { $('#search-resultbox').hide(); });
+// except the following:
+searchBox.bind('click', function(e) { e.stopPropagation(); });
+$('#search-resultbox').bind('click', function(e) { e.stopPropagation(); });
+
+});</script></body>
+</html>

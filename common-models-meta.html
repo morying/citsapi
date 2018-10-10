@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="language" content="en" />
+        <link href="./assets/ecfcc8d9/css/bootstrap.css" rel="stylesheet">
+<link href="./assets/8953faef/solarized_light.css" rel="stylesheet">
+<link href="./assets/6a301683/style.css" rel="stylesheet">
+<script src="./assets/5f1ea0f7/jquery.js"></script>
+<script src="./assets/ecfcc8d9/js/bootstrap.js"></script>
+<script src="./assets/8cb1d6b1/jssearch.js"></script>    <title>Meta, common\models\Meta - Yii Framework 2.0 API Documentation</title>
+</head>
+<body>
+
+<div class="wrap">
+    <nav id="w1528" class="navbar-inverse navbar-fixed-top navbar"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w1528-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="./index.html">Yii Framework 2.0 API Documentation</a></div><div id="w1528-collapse" class="collapse navbar-collapse"><ul id="w1529" class="navbar-nav nav"><li><a href="./index.html">Class reference</a></li></ul><div class="navbar-form navbar-left" role="search">
+  <div class="form-group">
+    <input id="searchbox" type="text" class="form-control" placeholder="Search">
+  </div>
+</div>
+</div></nav>
+    <div id="search-resultbox" style="display: none;" class="modal-content">
+        <ul id="search-results">
+        </ul>
+    </div>
+
+    
+<div class="row">
+    <div class="col-md-3">
+                <div id="navigation" class="list-group"><a class="list-group-item" href="#navigation-1512" data-toggle="collapse" data-parent="#navigation">app\models <b class="caret"></b></a><div id="navigation-1512" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-models-settingquery.html">SettingQuery</a>
+<a class="list-group-item" href="./app-models-settingsearch.html">SettingSearch</a></div>
+<a class="list-group-item" href="#navigation-1513" data-toggle="collapse" data-parent="#navigation">backend\controllers <b class="caret"></b></a><div id="navigation-1513" class="submenu panel-collapse collapse"><a class="list-group-item" href="./backend-controllers-activitycontroller.html">ActivityController</a>
+<a class="list-group-item" href="./backend-controllers-admincontroller.html">AdminController</a>
+<a class="list-group-item" href="./backend-controllers-airlinecontroller.html">AirlineController</a>
+<a class="list-group-item" href="./backend-controllers-airportcontroller.html">AirportController</a>
+<a class="list-group-item" href="./backend-controllers-attractioncontroller.html">AttractionController</a>
+<a class="list-group-item" href="./backend-controllers-businesstypecontroller.html">BusinessTypeController</a>
+<a class="list-group-item" href="./backend-controllers-citycontroller.html">CityController</a>
+<a class="list-group-item" href="./backend-controllers-contactcontroller.html">ContactController</a>
+<a class="list-group-item" href="./backend-controllers-continentcontroller.html">ContinentController</a>
+<a class="list-group-item" href="./backend-controllers-countrycontroller.html">CountryController</a>
+<a class="list-group-item" href="./backend-controllers-currencycontroller.html">CurrencyController</a>
+<a class="list-group-item" href="./backend-controllers-customercontroller.html">CustomerController</a>
+<a class="list-group-item" href="./backend-controllers-departmentcontroller.html">DepartmentController</a>
+<a class="list-group-item" href="./backend-controllers-employeecontroller.html">EmployeeController</a>
+<a class="list-group-item" href="./backend-controllers-flightcontroller.html">FlightController</a>
+<a class="list-group-item" href="./backend-controllers-hotelcontroller.html">HotelController</a>
+<a class="list-group-item" href="./backend-controllers-itinerarycontroller.html">ItineraryController</a>
+<a class="list-group-item" href="./backend-controllers-marketingcontroller.html">MarketingController</a>
+<a class="list-group-item" href="./backend-controllers-mediacontroller.html">MediaController</a>
+<a class="list-group-item" href="./backend-controllers-menucontroller.html">MenuController</a>
+<a class="list-group-item" href="./backend-controllers-metacontroller.html">MetaController</a>
+<a class="list-group-item" href="./backend-controllers-operationcontroller.html">OperationController</a>
+<a class="list-group-item" href="./backend-controllers-optioncontroller.html">OptionController</a>
+<a class="list-group-item" href="./backend-controllers-ordercontroller.html">OrderController</a>
+<a class="list-group-item" href="./backend-controllers-organizationcontroller.html">OrganizationController</a>
+<a class="list-group-item" href="./backend-controllers-paymentdayscontroller.html">PaymentDaysController</a>
+<a class="list-group-item" href="./backend-controllers-permissioncontroller.html">PermissionController</a>
+<a class="list-group-item" href="./backend-controllers-postcontroller.html">PostController</a>
+<a class="list-group-item" href="./backend-controllers-postvisacontroller.html">PostVisaController</a>
+<a class="list-group-item" href="./backend-controllers-productcatcontroller.html">ProductCatController</a>
+<a class="list-group-item" href="./backend-controllers-productcontroller.html">ProductController</a>
+<a class="list-group-item" href="./backend-controllers-provincecontroller.html">ProvinceController</a>
+<a class="list-group-item" href="./backend-controllers-restaurantcontroller.html">RestaurantController</a>
+<a class="list-group-item" href="./backend-controllers-rolecontroller.html">RoleController</a>
+<a class="list-group-item" href="./backend-controllers-sellingtypecontroller.html">SellingTypeController</a>
+<a class="list-group-item" href="./backend-controllers-sitecontroller.html">SiteController</a>
+<a class="list-group-item" href="./backend-controllers-storecontroller.html">StoreController</a>
+<a class="list-group-item" href="./backend-controllers-suppliercontroller.html">SupplierController</a>
+<a class="list-group-item" href="./backend-controllers-tempcostcontroller.html">TempCostController</a>
+<a class="list-group-item" href="./backend-controllers-templatecontroller.html">TemplateController</a>
+<a class="list-group-item" href="./backend-controllers-termcontroller.html">TermController</a>
+<a class="list-group-item" href="./backend-controllers-ticketcontroller.html">TicketController</a>
+<a class="list-group-item" href="./backend-controllers-tourroutecontroller.html">TourRouteController</a>
+<a class="list-group-item" href="./backend-controllers-tourthemeconsumecontroller.html">TourThemeConsumeController</a>
+<a class="list-group-item" href="./backend-controllers-tourthemeculturecontroller.html">TourThemeCultureController</a>
+<a class="list-group-item" href="./backend-controllers-tourthemedailycontroller.html">TourThemeDailyController</a>
+<a class="list-group-item" href="./backend-controllers-usercontroller.html">UserController</a>
+<a class="list-group-item" href="./backend-controllers-usermetacontroller.html">UsermetaController</a>
+<a class="list-group-item" href="./backend-controllers-visaconditioncontroller.html">VisaConditionController</a>
+<a class="list-group-item" href="./backend-controllers-visapersoncontroller.html">VisaPersonController</a>
+<a class="list-group-item" href="./backend-controllers-visatypecontroller.html">VisaTypeController</a></div>
+<a class="list-group-item" href="#navigation-1514" data-toggle="collapse" data-parent="#navigation">common\base <b class="caret"></b></a><div id="navigation-1514" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-base-base64imagetrait.html">Base64ImageTrait</a>
+<a class="list-group-item" href="./common-base-basefile.html">BaseFile</a>
+<a class="list-group-item" href="./common-base-basemessage.html">BaseMessage</a>
+<a class="list-group-item" href="./common-base-exception.html">Exception</a>
+<a class="list-group-item" href="./common-base-htmlmessage.html">HtmlMessage</a>
+<a class="list-group-item" href="./common-base-jsonmessage.html">JsonMessage</a>
+<a class="list-group-item" href="./common-base-metacontrollertrait.html">MetaControllerTrait</a>
+<a class="list-group-item" href="./common-base-metahtmltrait.html">MetaHtmlTrait</a>
+<a class="list-group-item" href="./common-base-metarecordtrait.html">MetaRecordTrait</a>
+<a class="list-group-item" href="./common-base-settableinterface.html">SettableInterface</a>
+<a class="list-group-item" href="./common-base-sortableinterface.html">SortableInterface</a>
+<a class="list-group-item" href="./common-base-textmessage.html">TextMessage</a></div>
+<a class="list-group-item" href="#navigation-1515" data-toggle="collapse" data-parent="#navigation">common\behaviors <b class="caret"></b></a><div id="navigation-1515" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-behaviors-attachbehavior.html">AttachBehavior</a></div>
+<a class="list-group-item" href="#navigation-1516" data-toggle="collapse" data-parent="#navigation">common\controllers <b class="caret"></b></a><div id="navigation-1516" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-controllers-controller.html">Controller</a></div>
+<a class="list-group-item" href="#navigation-1517" data-toggle="collapse" data-parent="#navigation">common\fixtures <b class="caret"></b></a><div id="navigation-1517" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-fixtures-userfixture.html">UserFixture</a></div>
+<a class="list-group-item" href="#navigation-1518" data-toggle="collapse" data-parent="#navigation">common\helpers <b class="caret"></b></a><div id="navigation-1518" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-helpers-arrayhelper.html">ArrayHelper</a>
+<a class="list-group-item" href="./common-helpers-basehtml.html">BaseHtml</a>
+<a class="list-group-item" href="./common-helpers-html.html">Html</a>
+<a class="list-group-item" href="./common-helpers-stringhelper.html">StringHelper</a></div>
+<a class="list-group-item active" href="#navigation-1519" data-toggle="collapse" data-parent="#navigation">common\models <b class="caret"></b></a><div id="navigation-1519" class="submenu panel-collapse collapse in"><a class="list-group-item" href="./common-models-activequery.html">ActiveQuery</a>
+<a class="list-group-item" href="./common-models-activerecord.html">ActiveRecord</a>
+<a class="list-group-item" href="./common-models-activity.html">Activity</a>
+<a class="list-group-item" href="./common-models-airline.html">Airline</a>
+<a class="list-group-item" href="./common-models-airport.html">Airport</a>
+<a class="list-group-item" href="./common-models-attraction.html">Attraction</a>
+<a class="list-group-item" href="./common-models-businesstype.html">BusinessType</a>
+<a class="list-group-item" href="./common-models-city.html">City</a>
+<a class="list-group-item" href="./common-models-contact.html">Contact</a>
+<a class="list-group-item" href="./common-models-contactmeta.html">ContactMeta</a>
+<a class="list-group-item" href="./common-models-continent.html">Continent</a>
+<a class="list-group-item" href="./common-models-country.html">Country</a>
+<a class="list-group-item" href="./common-models-currency.html">Currency</a>
+<a class="list-group-item" href="./common-models-customer.html">Customer</a>
+<a class="list-group-item" href="./common-models-department.html">Department</a>
+<a class="list-group-item" href="./common-models-employee.html">Employee</a>
+<a class="list-group-item" href="./common-models-flight.html">Flight</a>
+<a class="list-group-item" href="./common-models-hotel.html">Hotel</a>
+<a class="list-group-item" href="./common-models-itinerary.html">Itinerary</a>
+<a class="list-group-item" href="./common-models-loginform.html">LoginForm</a>
+<a class="list-group-item" href="./common-models-marketing.html">Marketing</a>
+<a class="list-group-item" href="./common-models-media.html">Media</a>
+<a class="list-group-item" href="./common-models-menu.html">Menu</a>
+<a class="list-group-item" href="./common-models-message.html">Message</a>
+<a class="list-group-item active" href="./common-models-meta.html">Meta</a>
+<a class="list-group-item" href="./common-models-operation.html">Operation</a>
+<a class="list-group-item" href="./common-models-option.html">Option</a>
+<a class="list-group-item" href="./common-models-order.html">Order</a>
+<a class="list-group-item" href="./common-models-organization.html">Organization</a>
+<a class="list-group-item" href="./common-models-paymentdays.html">PaymentDays</a>
+<a class="list-group-item" href="./common-models-permission.html">Permission</a>
+<a class="list-group-item" href="./common-models-post.html">Post</a>
+<a class="list-group-item" href="./common-models-postmeta.html">PostMeta</a>
+<a class="list-group-item" href="./common-models-postvisa.html">PostVisa</a>
+<a class="list-group-item" href="./common-models-product.html">Product</a>
+<a class="list-group-item" href="./common-models-productcat.html">ProductCat</a>
+<a class="list-group-item" href="./common-models-province.html">Province</a>
+<a class="list-group-item" href="./common-models-restaurant.html">Restaurant</a>
+<a class="list-group-item" href="./common-models-role.html">Role</a>
+<a class="list-group-item" href="./common-models-sellingtype.html">SellingType</a>
+<a class="list-group-item" href="./common-models-setting.html">Setting</a>
+<a class="list-group-item" href="./common-models-store.html">Store</a>
+<a class="list-group-item" href="./common-models-supplier.html">Supplier</a>
+<a class="list-group-item" href="./common-models-tempcost.html">TempCost</a>
+<a class="list-group-item" href="./common-models-template.html">Template</a>
+<a class="list-group-item" href="./common-models-term.html">Term</a>
+<a class="list-group-item" href="./common-models-termmeta.html">TermMeta</a>
+<a class="list-group-item" href="./common-models-ticket.html">Ticket</a>
+<a class="list-group-item" href="./common-models-tourroute.html">TourRoute</a>
+<a class="list-group-item" href="./common-models-tourthemeconsume.html">TourThemeConsume</a>
+<a class="list-group-item" href="./common-models-tourthemeculture.html">TourThemeCulture</a>
+<a class="list-group-item" href="./common-models-tourthemedaily.html">TourThemeDaily</a>
+<a class="list-group-item" href="./common-models-treeactiverecord.html">TreeActiveRecord</a>
+<a class="list-group-item" href="./common-models-treeview.html">TreeView</a>
+<a class="list-group-item" href="./common-models-uploader.html">Uploader</a>
+<a class="list-group-item" href="./common-models-user.html">User</a>
+<a class="list-group-item" href="./common-models-usermeta.html">UserMeta</a>
+<a class="list-group-item" href="./common-models-visacondition.html">VisaCondition</a>
+<a class="list-group-item" href="./common-models-visaperson.html">VisaPerson</a>
+<a class="list-group-item" href="./common-models-visatype.html">VisaType</a></div>
+<a class="list-group-item" href="#navigation-1520" data-toggle="collapse" data-parent="#navigation">common\tests <b class="caret"></b></a><div id="navigation-1520" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-tests-unittester.html">UnitTester</a></div>
+<a class="list-group-item" href="#navigation-1521" data-toggle="collapse" data-parent="#navigation">common\tests\unit\models <b class="caret"></b></a><div id="navigation-1521" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-tests-unit-models-loginformtest.html">LoginFormTest</a></div>
+<a class="list-group-item" href="#navigation-1522" data-toggle="collapse" data-parent="#navigation">common\widgets <b class="caret"></b></a><div id="navigation-1522" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-widgets-activefield.html">ActiveField</a>
+<a class="list-group-item" href="./common-widgets-activeform.html">ActiveForm</a>
+<a class="list-group-item" href="./common-widgets-alert.html">Alert</a>
+<a class="list-group-item" href="./common-widgets-bootstrappluginasset.html">BootstrapPluginAsset</a>
+<a class="list-group-item" href="./common-widgets-breadcrumbs.html">Breadcrumbs</a>
+<a class="list-group-item" href="./common-widgets-image.html">Image</a>
+<a class="list-group-item" href="./common-widgets-linkpager.html">LinkPager</a>
+<a class="list-group-item" href="./common-widgets-modal.html">Modal</a></div>
+<a class="list-group-item" href="#navigation-1523" data-toggle="collapse" data-parent="#navigation">common\widgets\datepicker <b class="caret"></b></a><div id="navigation-1523" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-widgets-datepicker-datepicker.html">DatePicker</a>
+<a class="list-group-item" href="./common-widgets-datepicker-datepickerasset.html">DatePickerAsset</a></div>
+<a class="list-group-item" href="#navigation-1524" data-toggle="collapse" data-parent="#navigation">common\widgets\modaldialog <b class="caret"></b></a><div id="navigation-1524" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-widgets-modaldialog-modaldialog.html">ModalDialog</a>
+<a class="list-group-item" href="./common-widgets-modaldialog-modaldialogasset.html">ModalDialogAsset</a></div>
+<a class="list-group-item" href="#navigation-1525" data-toggle="collapse" data-parent="#navigation">common\widgets\select2 <b class="caret"></b></a><div id="navigation-1525" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-widgets-select2-assetboundle.html">AssetBoundle</a>
+<a class="list-group-item" href="./common-widgets-select2-select2.html">Select2</a>
+<a class="list-group-item" href="./common-widgets-select2-select2asset.html">Select2Asset</a>
+<a class="list-group-item" href="./common-widgets-select2-themebootstrapasset.html">ThemeBootstrapAsset</a></div>
+<a class="list-group-item" href="#navigation-1526" data-toggle="collapse" data-parent="#navigation">common\widgets\summernote <b class="caret"></b></a><div id="navigation-1526" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-widgets-summernote-summernote.html">Summernote</a>
+<a class="list-group-item" href="./common-widgets-summernote-summernoteasset.html">SummernoteAsset</a>
+<a class="list-group-item" href="./common-widgets-summernote-summernotelanguageasset.html">SummernoteLanguageAsset</a></div>
+<a class="list-group-item" href="#navigation-1527" data-toggle="collapse" data-parent="#navigation">kartik\select2 <b class="caret"></b></a><div id="navigation-1527" class="submenu panel-collapse collapse"><a class="list-group-item" href="./kartik-select2-themeclassicasset.html">ThemeClassicAsset</a>
+<a class="list-group-item" href="./kartik-select2-themedefaultasset.html">ThemeDefaultAsset</a>
+<a class="list-group-item" href="./kartik-select2-themekrajeeasset.html">ThemeKrajeeAsset</a></div></div>    </div>
+    <div class="col-md-9 api-content" role="main">
+        <h1>Class common\models\Meta</h1>
+<div class="top-nav">
+    <a href="index.html">All Classes</a>
+            | <a href="#properties">Properties</a>
+                | <a href="#methods">Methods</a>
+            </div>
+
+<table class="summaryTable docClass table table-bordered">
+    <colgroup>
+        <col class="col-name" />
+        <col class="col-value" />
+    </colgroup>
+            <tr><th>Inheritance</th><td><a href="common-models-meta.html">common\models\Meta</a> &raquo;
+<a href="common-models-setting.html">common\models\Setting</a> &raquo;
+<a href="common-models-treeactiverecord.html">common\models\TreeActiveRecord</a> &raquo;
+<a href="common-models-activerecord.html">common\models\ActiveRecord</a> &raquo;
+yii\db\ActiveRecord</td></tr>
+                <tr><th>Implements</th><td><a href="common-base-sortableinterface.html">common\base\SortableInterface</a></td></tr>
+                    <tr><th>Uses Traits</th><td><a href="common-base-metarecordtrait.html">common\base\MetaRecordTrait</a></td></tr>
+                            </table>
+
+<div class="class-description">
+    <p><strong></strong></p>
+    
+    </div>
+
+<a id="properties"></a>
+
+<div class="summary doc-property">
+<h2>Public Properties</h2>
+
+<p><a href="#" class="toggle">Hide inherited properties</a></p>
+
+<table class="summary-table table table-striped table-bordered table-hover">
+<colgroup>
+    <col class="col-property" />
+    <col class="col-type" />
+    <col class="col-description" />
+    <col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Property</th><th>Type</th><th>Description</th><th>Defined By</th>
+</tr>
+        <tr id="$categories">
+        <td><a href="common-models-meta.html#$categories-detail">$categories</a></td>
+        <td></td>
+        <td></td>
+        <td><a href="common-models-meta.html">common\models\Meta</a></td>
+    </tr>
+            <tr class="inherited" id="$modelClass">
+        <td><a href="common-base-metarecordtrait.html#$modelClass-detail">$modelClass</a></td>
+        <td></td>
+        <td></td>
+        <td><a href="common-base-metarecordtrait.html">common\base\MetaRecordTrait</a></td>
+    </tr>
+    </table>
+</div>
+
+<a id="methods"></a>
+
+<div class="summary doc-method">
+<h2>Public Methods</h2>
+
+<p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+<table class="summary-table table table-striped table-bordered table-hover">
+<colgroup>
+    <col class="col-method" />
+    <col class="col-description" />
+    <col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Method</th><th>Description</th><th>Defined By</th>
+</tr>
+        <tr class="inherited" id="__construct()">
+        <td><a href="common-models-activerecord.html#__construct()-detail">__construct()</a></td>
+        <td></td>
+        <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
+    </tr>
+            <tr class="inherited" id="__get()">
+        <td><a href="common-base-metarecordtrait.html#__get()-detail">__get()</a></td>
+        <td>元数据验证时，会直接通过$model-&gt;$attribute取值，所以要覆盖此方法</td>
+        <td><a href="common-base-metarecordtrait.html">common\base\MetaRecordTrait</a></td>
+    </tr>
+            <tr class="inherited" id="__set()">
+        <td><a href="common-base-metarecordtrait.html#__set()-detail">__set()</a></td>
+        <td></td>
+        <td><a href="common-base-metarecordtrait.html">common\base\MetaRecordTrait</a></td>
+    </tr>
+            <tr class="inherited" id="afterBlock()">
+        <td><a href="common-models-activerecord.html#afterBlock()-detail">afterBlock()</a></td>
+        <td>获取模型数据后事件</td>
+        <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
+    </tr>
+            <tr class="inherited" id="attributeHints()">
+        <td><a href="common-models-activerecord.html#attributeHints()-detail">attributeHints()</a></td>
+        <td>获取所有字段描述</td>
+        <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
+    </tr>
+            <tr class="inherited" id="attributeLabels()">
+        <td><a href="common-models-activerecord.html#attributeLabels()-detail">attributeLabels()</a></td>
+        <td>重写方法，获取字段标题</td>
+        <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
+    </tr>
+            <tr class="inherited" id="attributeNames()">
+        <td><a href="common-models-activerecord.html#attributeNames()-detail">attributeNames()</a></td>
+        <td>返回模型的属性名称</td>
+        <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
+    </tr>
+            <tr class="inherited" id="attributeSchema()">
+        <td><a href="common-models-activerecord.html#attributeSchema()-detail">attributeSchema()</a></td>
+        <td>返回模型的属性模式数据</td>
+        <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
+    </tr>
+            <tr class="inherited" id="beforeBlock()">
+        <td><a href="common-models-activerecord.html#beforeBlock()-detail">beforeBlock()</a></td>
+        <td></td>
+        <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
+    </tr>
+            <tr class="inherited" id="beforeSave()">
+        <td><a href="common-models-activerecord.html#beforeSave()-detail">beforeSave()</a></td>
+        <td>保存前事件</td>
+        <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
+    </tr>
+            <tr class="inherited" id="block()">
+        <td><a href="common-models-activerecord.html#block()-detail">block()</a></td>
+        <td>返回指定参数的模型数据</td>
+        <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
+    </tr>
+            <tr class="inherited" id="buildSql()">
+        <td><a href="common-base-metarecordtrait.html#buildSql()-detail">buildSql()</a></td>
+        <td>构造meta数据查询SQL</td>
+        <td><a href="common-base-metarecordtrait.html">common\base\MetaRecordTrait</a></td>
+    </tr>
+            <tr class="inherited" id="dbName()">
+        <td><a href="common-models-activerecord.html#dbName()-detail">dbName()</a></td>
+        <td>返回数据库名称</td>
+        <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
+    </tr>
+            <tr class="inherited" id="extraFields()">
+        <td><a href="common-models-activerecord.html#extraFields()-detail">extraFields()</a></td>
+        <td></td>
+        <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
+    </tr>
+            <tr id="filterCondition()">
+        <td><a href="common-models-meta.html#filterCondition()-detail">filterCondition()</a></td>
+        <td></td>
+        <td><a href="common-models-meta.html">common\models\Meta</a></td>
+    </tr>
+            <tr class="inherited" id="find()">
+        <td><a href="common-models-activerecord.html#find()-detail">find()</a></td>
+        <td>{@inheritdoc}</td>
+        <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
+    </tr>
+            <tr class="inherited" id="findByPreName()">
+        <td><a href="common-models-setting.html#findByPreName()-detail">findByPreName()</a></td>
+        <td></td>
+        <td><a href="common-models-setting.html">common\models\Setting</a></td>
+    </tr>
+            <tr class="inherited" id="getAttributeLabel()">
+        <td><a href="common-models-activerecord.html#getAttributeLabel()-detail">getAttributeLabel()</a></td>
+        <td></td>
+        <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
+    </tr>
+            <tr class="inherited" id="getCacheKey()">
+        <td><a href="common-models-activerecord.html#getCacheKey()-detail">getCacheKey()</a></td>
+        <td>生成唯一的缓存键值</td>
+        <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
+    </tr>
+            <tr class="inherited" id="getMetaData()">
+        <td><a href="common-base-metarecordtrait.html#getMetaData()-detail">getMetaData()</a></td>
+        <td>返回模型的元数据</td>
+        <td><a href="common-base-metarecordtrait.html">common\base\MetaRecordTrait</a></td>
+    </tr>
+                <tr class="inherited" id="getMetaName()">
+        <td><a href="common-base-metarecordtrait.html#getMetaName()-detail">getMetaName()</a></td>
+        <td>获取模型的元数据模型名称</td>
+        <td><a href="common-base-metarecordtrait.html">common\base\MetaRecordTrait</a></td>
+    </tr>
+            <tr class="inherited" id="getMetaValue()">
+        <td><a href="common-base-metarecordtrait.html#getMetaValue()-detail">getMetaValue()</a></td>
+        <td></td>
+        <td><a href="common-base-metarecordtrait.html">common\base\MetaRecordTrait</a></td>
+    </tr>
+            <tr class="inherited" id="getObject()">
+        <td><a href="common-models-activerecord.html#getObject()-detail">getObject()</a></td>
+        <td>返回模型的额外对象</td>
+        <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
+    </tr>
+            <tr id="getParams()">
+        <td><a href="common-models-meta.html#getParams()-detail">getParams()</a></td>
+        <td></td>
+        <td><a href="common-models-meta.html">common\models\Meta</a></td>
+    </tr>
+            <tr class="inherited" id="getParentData()">
+        <td><a href="common-models-setting.html#getParentData()-detail">getParentData()</a></td>
+        <td></td>
+        <td><a href="common-models-setting.html">common\models\Setting</a></td>
+    </tr>
+            <tr class="inherited" id="getParents()">
+        <td><a href="common-models-treeactiverecord.html#getParents()-detail">getParents()</a></td>
+        <td>返回当前节点的所有父节点，2018-09-22 改为public，因为派生类可能会覆盖此方法，</td>
+        <td><a href="common-models-treeactiverecord.html">common\models\TreeActiveRecord</a></td>
+    </tr>
+            <tr class="inherited" id="getRoots()">
+        <td><a href="common-models-treeactiverecord.html#getRoots()-detail">getRoots()</a></td>
+        <td></td>
+        <td><a href="common-models-treeactiverecord.html">common\models\TreeActiveRecord</a></td>
+    </tr>
+            <tr id="init()">
+        <td><a href="common-models-meta.html#init()-detail">init()</a></td>
+        <td></td>
+        <td><a href="common-models-meta.html">common\models\Meta</a></td>
+    </tr>
+                <tr class="inherited" id="nestable()">
+        <td><a href="common-models-treeactiverecord.html#nestable()-detail">nestable()</a></td>
+        <td>重新排序，整个节点都调都顺序。</td>
+        <td><a href="common-models-treeactiverecord.html">common\models\TreeActiveRecord</a></td>
+    </tr>
+            <tr class="inherited" id="parentKey()">
+        <td><a href="common-models-treeactiverecord.html#parentKey()-detail">parentKey()</a></td>
+        <td></td>
+        <td><a href="common-models-treeactiverecord.html">common\models\TreeActiveRecord</a></td>
+    </tr>
+                    <tr class="inherited" id="reorder()">
+        <td><a href="common-models-treeactiverecord.html#reorder()-detail">reorder()</a></td>
+        <td>对调顺序，只对调相关的两个</td>
+        <td><a href="common-models-treeactiverecord.html">common\models\TreeActiveRecord</a></td>
+    </tr>
+            <tr class="inherited" id="rules()">
+        <td><a href="common-models-setting.html#rules()-detail">rules()</a></td>
+        <td></td>
+        <td><a href="common-models-setting.html">common\models\Setting</a></td>
+    </tr>
+            <tr class="inherited" id="setObject()">
+        <td><a href="common-models-activerecord.html#setObject()-detail">setObject()</a></td>
+        <td>设置模型的额外对象值</td>
+        <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
+    </tr>
+            <tr class="inherited" id="setScenario()">
+        <td><a href="common-models-activerecord.html#setScenario()-detail">setScenario()</a></td>
+        <td>覆盖设置场景方法，加返回实例</td>
+        <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
+    </tr>
+            <tr id="tableName()">
+        <td><a href="common-models-meta.html#tableName()-detail">tableName()</a></td>
+        <td></td>
+        <td><a href="common-models-meta.html">common\models\Meta</a></td>
+    </tr>
+            <tr class="inherited" id="toArray()">
+        <td><a href="common-models-activerecord.html#toArray()-detail">toArray()</a></td>
+        <td>将查询结果模型数据转为数组</td>
+        <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
+    </tr>
+    </table>
+</div>
+
+<div class="summary doc-method">
+<h2>Protected Methods</h2>
+
+<p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+<table class="summary-table table table-striped table-bordered table-hover">
+<colgroup>
+    <col class="col-method" />
+    <col class="col-description" />
+    <col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Method</th><th>Description</th><th>Defined By</th>
+</tr>
+                                                                                        <tr class="inherited" id="getMetaExtraFields()">
+        <td><a href="common-base-metarecordtrait.html#getMetaExtraFields()-detail">getMetaExtraFields()</a></td>
+        <td>获取meta的扩展字段</td>
+        <td><a href="common-base-metarecordtrait.html">common\base\MetaRecordTrait</a></td>
+    </tr>
+                                            <tr class="inherited" id="metaValueToText()">
+        <td><a href="common-base-metarecordtrait.html#metaValueToText()-detail">metaValueToText()</a></td>
+        <td>将meta值转为文本显示内容</td>
+        <td><a href="common-base-metarecordtrait.html">common\base\MetaRecordTrait</a></td>
+    </tr>
+                    <tr class="inherited" id="processMetaSchema()">
+        <td><a href="common-base-metarecordtrait.html#processMetaSchema()-detail">processMetaSchema()</a></td>
+        <td></td>
+        <td><a href="common-base-metarecordtrait.html">common\base\MetaRecordTrait</a></td>
+    </tr>
+            <tr class="inherited" id="processMetaValue()">
+        <td><a href="common-base-metarecordtrait.html#processMetaValue()-detail">processMetaValue()</a></td>
+        <td>处理meta数据</td>
+        <td><a href="common-base-metarecordtrait.html">common\base\MetaRecordTrait</a></td>
+    </tr>
+                            </table>
+</div>
+
+<a id="events"></a>
+
+<a id="constants"></a>
+
+<h2>Property Details</h2>
+
+<div class="property-doc">
+
+    <div class="detail-header h3" id="$categories-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-models-meta.html#$categories-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        $categories        <span class="detail-header-tag small">
+            public            static                                    property
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        
+            </div>
+
+    <div class="signature"><span class="signature-defs">public static</span> <span class="signature-type"></span> <a href="common-models-meta.html#$categories-detail">$categories</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;[</span><span style="color: #DD0000">'_tour_route_'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'线路'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'_product_'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'产品'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'_activity_'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'活动'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'_order_'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'订单'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'_post_visa_'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'签证'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'_voucher_'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'票据'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'_flight_'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'航班'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'_airport_'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'机场'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'_continent_'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'大洲'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'_country_'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'国家'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'_city_'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'城市'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'_operation_'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'操作'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'_airline_'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'航空公司'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'_hotel_'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'酒店'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'_store_'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'商店'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'_restaurant_'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'餐厅'</span><span style="color: #007700">]</span></div>
+
+</div>
+<h2>Method Details</h2>
+
+<div class="method-doc">
+
+    <div class="detail-header h3" id="filterCondition()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-models-meta.html#filterCondition()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        filterCondition()
+        <span class="detail-header-tag small">
+            public                        static            method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public static</span> <span class="signature-type">void</span> <strong><a href="common-models-meta.html#filterCondition()-detail">filterCondition</a></strong> ( <span class="signature-type"><a href="http://www.php.net/language.types.array">array</a></span> <span style="color: #0000BB">$condition</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$condition</span></td>
+                  <td class="param-type-col"></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="getParams()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-models-meta.html#getParams()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        getParams()
+        <span class="detail-header-tag small">
+            public                        static            method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public static</span> <span class="signature-type">void</span> <strong><a href="common-models-meta.html#getParams()-detail">getParams</a></strong> ( <span style="color: #0000BB">$params</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$params</span></td>
+                  <td class="param-type-col"></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="init()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-models-meta.html#init()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        init()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="common-models-meta.html#init()-detail">init</a></strong> ( )</td></tr>
+            </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="tableName()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-models-meta.html#tableName()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        tableName()
+        <span class="detail-header-tag small">
+            public                        static            method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public static</span> <span class="signature-type">void</span> <strong><a href="common-models-meta.html#tableName()-detail">tableName</a></strong> ( )</td></tr>
+            </table>
+
+<!--	-->
+</div>
+        </div>
+</div>
+
+<script type="text/javascript">
+    /*<![CDATA[*/
+    $("a.toggle").on('click', function () {
+        var $this = $(this);
+        if ($this.hasClass('properties-hidden')) {
+            $this.text($this.text().replace(/Show/,'Hide'));
+            $this.parents(".summary").find(".inherited").show();
+            $this.removeClass('properties-hidden');
+        } else {
+            $this.text($this.text().replace(/Hide/,'Show'));
+            $this.parents(".summary").find(".inherited").hide();
+            $this.addClass('properties-hidden');
+        }
+
+        return false;
+    });
+    /*
+     $(".sourceCode a.show").toggle(function () {
+     $(this).text($(this).text().replace(/show/,'hide'));
+     $(this).parents(".sourceCode").find("div.code").show();
+     },function () {
+     $(this).text($(this).text().replace(/hide/,'show'));
+     $(this).parents(".sourceCode").find("div.code").hide();
+     });
+     $("a.sourceLink").click(function () {
+     $(this).attr('target','_blank');
+     });
+     */
+    /*]]>*/
+</script>
+
+
+</div>
+
+<footer class="footer">
+        <p class="pull-right"><small>Page generated on Wed, 10 Oct 2018 14:58:25 +0000</small></p>
+    Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></footer>
+
+<script>jQuery(function ($) {
+    var shiftWindow = function () { scrollBy(0, -50) };
+    if (location.hash) setTimeout(shiftWindow, 1);
+    window.addEventListener("hashchange", shiftWindow);
+var element = document.createElement("script");
+element.src = "./jssearch.index.js";
+document.body.appendChild(element);
+
+var searchBox = $('#searchbox');
+
+// search when typing in search field
+searchBox.on("keyup", function(event) {
+    var query = $(this).val();
+
+    if (query == '' || event.which == 27) {
+        $('#search-resultbox').hide();
+        return;
+    } else if (event.which == 13) {
+        var selectedLink = $('#search-resultbox a.selected');
+        if (selectedLink.length != 0) {
+            document.location = selectedLink.attr('href');
+            return;
+        }
+    } else if (event.which == 38 || event.which == 40) {
+        $('#search-resultbox').show();
+
+        var selected = $('#search-resultbox a.selected');
+        if (selected.length == 0) {
+            $('#search-results').find('a').first().addClass('selected');
+        } else {
+            var next;
+            if (event.which == 40) {
+                next = selected.parent().next().find('a').first();
+            } else {
+                next = selected.parent().prev().find('a').first();
+            }
+            if (next.length != 0) {
+                var resultbox = $('#search-results');
+                var position = next.position();
+
+//              TODO scrolling is buggy and jumps around
+//                resultbox.scrollTop(Math.floor(position.top));
+//                console.log(position.top);
+
+                selected.removeClass('selected');
+                next.addClass('selected');
+            }
+        }
+
+        return;
+    }
+    $('#search-resultbox').show();
+    $('#search-results').html('<li><span class="no-results">No results</span></li>');
+
+    var result = jssearch.search(query);
+
+    if (result.length > 0) {
+        var i = 0;
+        var resHtml = '';
+
+        for (var key in result) {
+            if (i++ > 20) {
+                break;
+            }
+            resHtml = resHtml +
+            '<li><a href="' + result[key].file.u.substr(3) +'"><span class="title">' + result[key].file.t + '</span>' +
+            '<span class="description">' + result[key].file.d + '</span></a></li>';
+        }
+        $('#search-results').html(resHtml);
+    }
+});
+
+// hide the search results on ESC
+$(document).on("keyup", function(event) { if (event.which == 27) { $('#search-resultbox').hide(); } });
+// hide search results on click to document
+$(document).bind('click', function (e) { $('#search-resultbox').hide(); });
+// except the following:
+searchBox.bind('click', function(e) { e.stopPropagation(); });
+$('#search-resultbox').bind('click', function(e) { e.stopPropagation(); });
+
+});</script></body>
+</html>
