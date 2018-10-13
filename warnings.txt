@@ -891,2084 +891,2273 @@ Array
 
     [127] => Array
         (
-            [line] => 13
-            [file] => common/base/BaseFile.php
-            [message] => No docblock for element '$content'
+            [line] => 15
+            [file] => common/base/Base64ImageTrait.php
+            [message] => No docblock for element 'common\base\Base64ImageTrait'
         )
 
     [128] => Array
         (
             [line] => 13
             [file] => common/base/BaseFile.php
-            [message] => No short description for element '$content'
+            [message] => No docblock for element '$content'
         )
 
     [129] => Array
         (
-            [line] => 14
+            [line] => 13
             [file] => common/base/BaseFile.php
-            [message] => No docblock for element '$newFile'
+            [message] => No short description for element '$content'
         )
 
     [130] => Array
         (
             [line] => 14
             [file] => common/base/BaseFile.php
-            [message] => No short description for element '$newFile'
+            [message] => No docblock for element '$newFile'
         )
 
     [131] => Array
+        (
+            [line] => 14
+            [file] => common/base/BaseFile.php
+            [message] => No short description for element '$newFile'
+        )
+
+    [132] => Array
         (
             [line] => 11
             [file] => common/base/BaseMessage.php
             [message] => No docblock for element 'common\base\BaseMessage'
         )
 
-    [132] => Array
+    [133] => Array
         (
             [line] => 12
             [file] => common/base/BaseMessage.php
             [message] => No docblock for element '__construct'
         )
 
-    [133] => Array
+    [134] => Array
         (
             [line] => 15
             [file] => common/base/BaseMessage.php
             [message] => No docblock for element '__destruct'
         )
 
-    [134] => Array
+    [135] => Array
         (
             [line] => 18
             [file] => common/base/BaseMessage.php
             [message] => No docblock for element 'get'
         )
 
-    [135] => Array
+    [136] => Array
         (
             [line] => 22
             [file] => common/base/Exception.php
             [message] => No docblock for element '__construct'
         )
 
-    [136] => Array
+    [137] => Array
+        (
+            [line] => 23
+            [file] => common/base/Exception.php
+            [message] => No docblock for element '__construct'
+        )
+
+    [138] => Array
         (
             [line] => 24
             [file] => common/base/FilterControllerTrait.php
             [message] => No docblock for element 'common\base\FilterControllerTrait'
         )
 
-    [137] => Array
+    [139] => Array
         (
             [line] => 25
             [file] => common/base/FilterControllerTrait.php
             [message] => No docblock for element 'filterByCity'
         )
 
-    [138] => Array
+    [140] => Array
         (
             [line] => 19
             [file] => common/base/HtmlMessage.php
             [message] => No docblock for element 'get'
         )
 
-    [139] => Array
+    [141] => Array
         (
             [line] => 10
             [file] => common/base/JsonMessage.php
             [message] => No docblock for element 'common\base\JsonMessage'
         )
 
-    [140] => Array
+    [142] => Array
         (
             [line] => 11
             [file] => common/base/JsonMessage.php
             [message] => No docblock for element 'get'
         )
 
-    [141] => Array
+    [143] => Array
+        (
+            [line] => 18
+            [file] => common/base/JsonMessage.php
+            [message] => No docblock for element 'get'
+        )
+
+    [144] => Array
         (
             [line] => 16
             [file] => common/base/MetaControllerTrait.php
             [message] => No docblock for element 'common\base\MetaControllerTrait'
         )
 
-    [142] => Array
+    [145] => Array
         (
             [line] => 17
             [file] => common/base/MetaControllerTrait.php
             [message] => No docblock for element 'saveMeta'
         )
 
-    [143] => Array
+    [146] => Array
         (
             [line] => 16
             [file] => common/base/MetaHtmlTrait.php
             [message] => No docblock for element 'common\base\MetaHtmlTrait'
         )
 
-    [144] => Array
+    [147] => Array
         (
             [line] => 17
             [file] => common/base/MetaHtmlTrait.php
             [message] => No docblock for element 'isAttributeMeta'
         )
 
-    [145] => Array
+    [148] => Array
         (
             [line] => 18
             [file] => common/base/MetaRecordTrait.php
             [message] => No docblock for element 'common\base\MetaRecordTrait'
         )
 
-    [146] => Array
+    [149] => Array
         (
             [line] => 21
             [file] => common/base/MetaRecordTrait.php
             [message] => No docblock for element '$modelClass'
         )
 
-    [147] => Array
+    [150] => Array
         (
             [line] => 21
             [file] => common/base/MetaRecordTrait.php
             [message] => No short description for element '$modelClass'
         )
 
-    [148] => Array
+    [151] => Array
         (
             [line] => 132
             [file] => common/base/MetaRecordTrait.php
             [message] => No docblock for element 'processMetaSchema'
         )
 
-    [149] => Array
+    [152] => Array
         (
             [line] => 213
             [file] => common/base/MetaRecordTrait.php
             [message] => No docblock for element '__set'
         )
 
-    [150] => Array
+    [153] => Array
+        (
+            [line] => 26
+            [file] => common/base/MetaRecordTrait.php
+            [message] => No docblock for element '$modelClass'
+        )
+
+    [154] => Array
+        (
+            [line] => 26
+            [file] => common/base/MetaRecordTrait.php
+            [message] => No short description for element '$modelClass'
+        )
+
+    [155] => Array
+        (
+            [line] => 232
+            [file] => common/base/MetaRecordTrait.php
+            [message] => No docblock for element '__set'
+        )
+
+    [156] => Array
         (
             [line] => 11
             [file] => common/base/SettableInterface.php
             [message] => No docblock for element 'common\base\SettableInterface'
         )
 
-    [151] => Array
+    [157] => Array
         (
             [line] => 12
             [file] => common/base/SettableInterface.php
             [message] => No docblock for element 'actionSetup'
         )
 
-    [152] => Array
+    [158] => Array
         (
             [line] => 11
             [file] => common/base/SortableInterface.php
             [message] => No docblock for element 'common\base\SortableInterface'
         )
 
-    [153] => Array
+    [159] => Array
         (
             [line] => 12
             [file] => common/base/SortableInterface.php
             [message] => No docblock for element 'reorder'
         )
 
-    [154] => Array
+    [160] => Array
         (
             [line] => 14
             [file] => common/base/SortableInterface.php
             [message] => No docblock for element 'nestable'
         )
 
-    [155] => Array
+    [161] => Array
         (
             [line] => 19
             [file] => common/base/TextMessage.php
             [message] => No docblock for element 'get'
         )
 
-    [156] => Array
+    [162] => Array
         (
             [line] => 11
             [file] => common/behaviors/AttachBehavior.php
             [message] => No docblock for element 'common\behaviors\AttachBehavior'
         )
 
-    [157] => Array
+    [163] => Array
         (
             [line] => 14
             [file] => common/behaviors/AttachBehavior.php
             [message] => No docblock for element 'getData'
         )
 
-    [158] => Array
+    [164] => Array
         (
             [line] => 18
             [file] => common/behaviors/AttachBehavior.php
             [message] => No docblock for element 'setData'
         )
 
-    [159] => Array
+    [165] => Array
         (
             [line] => 930
             [file] => common/controllers/Controller.php
             [message] => No docblock for element 'processParams'
         )
 
-    [160] => Array
+    [166] => Array
         (
             [line] => 933
             [file] => common/controllers/Controller.php
             [message] => No docblock for element 'processTree'
         )
 
-    [161] => Array
+    [167] => Array
         (
             [line] => 965
             [file] => common/controllers/Controller.php
             [message] => No docblock for element 'processItem'
         )
 
-    [162] => Array
+    [168] => Array
+        (
+            [line] => 931
+            [file] => common/controllers/Controller.php
+            [message] => No docblock for element 'processParams'
+        )
+
+    [169] => Array
+        (
+            [line] => 934
+            [file] => common/controllers/Controller.php
+            [message] => No docblock for element 'processTree'
+        )
+
+    [170] => Array
+        (
+            [line] => 966
+            [file] => common/controllers/Controller.php
+            [message] => No docblock for element 'processItem'
+        )
+
+    [171] => Array
         (
             [line] => 6
             [file] => common/fixtures/UserFixture.php
             [message] => No docblock for element 'common\fixtures\UserFixture'
         )
 
-    [163] => Array
+    [172] => Array
         (
             [line] => 8
             [file] => common/fixtures/UserFixture.php
             [message] => No docblock for element '$modelClass'
         )
 
-    [164] => Array
+    [173] => Array
         (
             [line] => 8
             [file] => common/fixtures/UserFixture.php
             [message] => No short description for element '$modelClass'
         )
 
-    [165] => Array
+    [174] => Array
         (
             [line] => 12
             [file] => common/helpers/ArrayHelper.php
             [message] => No docblock for element 'common\helpers\ArrayHelper'
         )
 
-    [166] => Array
+    [175] => Array
         (
             [line] => 13
             [file] => common/helpers/ArrayHelper.php
             [message] => No docblock for element 'insert'
         )
 
-    [167] => Array
+    [176] => Array
         (
             [line] => 18
             [file] => common/helpers/ArrayHelper.php
             [message] => No docblock for element 'move'
         )
 
-    [168] => Array
+    [177] => Array
         (
             [line] => 34
             [file] => common/helpers/BaseHtml.php
             [message] => No docblock for element 'common\helpers\BaseHtml'
         )
 
-    [169] => Array
+    [178] => Array
         (
             [line] => 72
             [file] => common/helpers/BaseHtml.php
             [message] => No docblock for element 'fileInput'
         )
 
-    [170] => Array
+    [179] => Array
         (
             [line] => 251
             [file] => common/helpers/BaseHtml.php
             [message] => No docblock for element 'activeFileInput'
         )
 
-    [171] => Array
+    [180] => Array
         (
             [line] => 332
             [file] => common/helpers/BaseHtml.php
             [message] => No docblock for element 'modalInput'
         )
 
-    [172] => Array
+    [181] => Array
         (
             [line] => 376
             [file] => common/helpers/BaseHtml.php
             [message] => No docblock for element 'activeModalInput'
         )
 
-    [173] => Array
+    [182] => Array
         (
             [line] => 580
             [file] => common/helpers/BaseHtml.php
             [message] => No docblock for element 'activeTimeInput'
         )
 
-    [174] => Array
+    [183] => Array
         (
             [line] => 654
             [file] => common/helpers/BaseHtml.php
             [message] => No docblock for element 'activeEmailInput'
         )
 
-    [175] => Array
+    [184] => Array
         (
             [line] => 681
             [file] => common/helpers/BaseHtml.php
             [message] => No docblock for element 'activeTelInput'
         )
 
-    [176] => Array
+    [185] => Array
         (
             [line] => 707
             [file] => common/helpers/BaseHtml.php
             [message] => No docblock for element 'activeUrlInput'
         )
 
-    [177] => Array
+    [186] => Array
         (
             [line] => 995
             [file] => common/helpers/BaseHtml.php
             [message] => No docblock for element 'activeHtmlEditor'
         )
 
-    [178] => Array
+    [187] => Array
         (
             [line] => 1007
             [file] => common/helpers/BaseHtml.php
             [message] => No docblock for element 'dropDownList'
         )
 
-    [179] => Array
+    [188] => Array
         (
             [line] => 1119
             [file] => common/helpers/BaseHtml.php
             [message] => No docblock for element 'activeSearchableList'
         )
 
-    [180] => Array
+    [189] => Array
         (
             [line] => 1136
             [file] => common/helpers/BaseHtml.php
             [message] => No docblock for element 'tagInput'
         )
 
-    [181] => Array
+    [190] => Array
         (
             [line] => 1168
             [file] => common/helpers/BaseHtml.php
             [message] => No docblock for element 'activeTagInput'
         )
 
-    [182] => Array
+    [191] => Array
         (
             [line] => 1180
             [file] => common/helpers/BaseHtml.php
             [message] => No docblock for element 'buttonList'
         )
 
-    [183] => Array
+    [192] => Array
         (
             [line] => 1200
             [file] => common/helpers/BaseHtml.php
             [message] => No docblock for element 'activeButtonList'
         )
 
-    [184] => Array
+    [193] => Array
+        (
+            [line] => 34
+            [file] => common/helpers/BaseHtml.php
+            [message] => No docblock for element 'common\helpers\BaseHtml'
+        )
+
+    [194] => Array
+        (
+            [line] => 262
+            [file] => common/helpers/BaseHtml.php
+            [message] => No docblock for element 'activeFileInput'
+        )
+
+    [195] => Array
+        (
+            [line] => 343
+            [file] => common/helpers/BaseHtml.php
+            [message] => No docblock for element 'modalInput'
+        )
+
+    [196] => Array
+        (
+            [line] => 387
+            [file] => common/helpers/BaseHtml.php
+            [message] => No docblock for element 'activeModalInput'
+        )
+
+    [197] => Array
+        (
+            [line] => 591
+            [file] => common/helpers/BaseHtml.php
+            [message] => No docblock for element 'activeTimeInput'
+        )
+
+    [198] => Array
+        (
+            [line] => 665
+            [file] => common/helpers/BaseHtml.php
+            [message] => No docblock for element 'activeEmailInput'
+        )
+
+    [199] => Array
+        (
+            [line] => 692
+            [file] => common/helpers/BaseHtml.php
+            [message] => No docblock for element 'activeTelInput'
+        )
+
+    [200] => Array
+        (
+            [line] => 718
+            [file] => common/helpers/BaseHtml.php
+            [message] => No docblock for element 'activeUrlInput'
+        )
+
+    [201] => Array
+        (
+            [line] => 1006
+            [file] => common/helpers/BaseHtml.php
+            [message] => No docblock for element 'activeHtmlEditor'
+        )
+
+    [202] => Array
+        (
+            [line] => 1018
+            [file] => common/helpers/BaseHtml.php
+            [message] => No docblock for element 'dropDownList'
+        )
+
+    [203] => Array
+        (
+            [line] => 1130
+            [file] => common/helpers/BaseHtml.php
+            [message] => No docblock for element 'activeSearchableList'
+        )
+
+    [204] => Array
+        (
+            [line] => 1147
+            [file] => common/helpers/BaseHtml.php
+            [message] => No docblock for element 'tagInput'
+        )
+
+    [205] => Array
+        (
+            [line] => 1179
+            [file] => common/helpers/BaseHtml.php
+            [message] => No docblock for element 'activeTagInput'
+        )
+
+    [206] => Array
+        (
+            [line] => 1191
+            [file] => common/helpers/BaseHtml.php
+            [message] => No docblock for element 'buttonList'
+        )
+
+    [207] => Array
+        (
+            [line] => 1211
+            [file] => common/helpers/BaseHtml.php
+            [message] => No docblock for element 'activeButtonList'
+        )
+
+    [208] => Array
         (
             [line] => 8
             [file] => common/helpers/StringHelper.php
             [message] => No docblock for element 'common\helpers\StringHelper'
         )
 
-    [185] => Array
+    [209] => Array
         (
             [line] => 10
             [file] => common/models/ActiveQuery.php
             [message] => No docblock for element 'common\models\ActiveQuery'
         )
 
-    [186] => Array
+    [210] => Array
         (
             [line] => 23
             [file] => common/models/ActiveRecord.php
             [message] => No docblock for element 'common\models\ActiveRecord'
         )
 
-    [187] => Array
+    [211] => Array
         (
             [line] => 28
             [file] => common/models/ActiveRecord.php
             [message] => No docblock for element '__construct'
         )
 
-    [188] => Array
+    [212] => Array
+        (
+            [line] => 35
+            [file] => common/models/ActiveRecord.php
+            [message] => No docblock for element '__construct'
+        )
+
+    [213] => Array
         (
             [line] => 14
             [file] => common/models/Activity.php
             [message] => No docblock for element 'common\models\Activity'
         )
 
-    [189] => Array
+    [214] => Array
         (
             [line] => 15
             [file] => common/models/Activity.php
             [message] => No docblock for element 'rules'
         )
 
-    [190] => Array
+    [215] => Array
         (
             [line] => 71
             [file] => common/models/Activity.php
             [message] => No docblock for element 'attributeLabels'
         )
 
-    [191] => Array
+    [216] => Array
         (
             [line] => 13
             [file] => common/models/Airline.php
             [message] => No docblock for element 'common\models\Airline'
         )
 
-    [192] => Array
+    [217] => Array
         (
             [line] => 14
             [file] => common/models/Airline.php
             [message] => No docblock for element 'filterCondition'
         )
 
-    [193] => Array
+    [218] => Array
         (
             [line] => 13
             [file] => common/models/Airport.php
             [message] => No docblock for element 'common\models\Airport'
         )
 
-    [194] => Array
+    [219] => Array
         (
             [line] => 14
             [file] => common/models/Airport.php
             [message] => No docblock for element 'getCityData'
         )
 
-    [195] => Array
+    [220] => Array
         (
             [line] => 13
             [file] => common/models/Attraction.php
             [message] => No docblock for element 'common\models\Attraction'
         )
 
-    [196] => Array
+    [221] => Array
         (
             [line] => 14
             [file] => common/models/Attraction.php
             [message] => No docblock for element 'filterCondition'
         )
 
-    [197] => Array
+    [222] => Array
         (
             [line] => 37
             [file] => common/models/Attraction.php
             [message] => No docblock for element 'afterBlock'
         )
 
-    [198] => Array
+    [223] => Array
         (
             [line] => 13
             [file] => common/models/BusinessType.php
             [message] => No docblock for element 'common\models\BusinessType'
         )
 
-    [199] => Array
+    [224] => Array
         (
             [line] => 14
             [file] => common/models/City.php
             [message] => No docblock for element 'common\models\City'
         )
 
-    [200] => Array
+    [225] => Array
         (
             [line] => 15
             [file] => common/models/City.php
             [message] => No docblock for element 'attributeLabels'
         )
 
-    [201] => Array
+    [226] => Array
         (
             [line] => 21
             [file] => common/models/City.php
             [message] => No docblock for element 'filterCondition'
         )
 
-    [202] => Array
+    [227] => Array
         (
             [line] => 26
             [file] => common/models/Contact.php
             [message] => No docblock for element 'processMetaValue'
         )
 
-    [203] => Array
+    [228] => Array
         (
             [line] => 35
             [file] => common/models/Contact.php
             [message] => No docblock for element 'filterCondition'
         )
 
-    [204] => Array
+    [229] => Array
         (
             [line] => 22
             [file] => common/models/Continent.php
             [message] => No docblock for element 'attributeLabels'
         )
 
-    [205] => Array
+    [230] => Array
         (
             [line] => 23
             [file] => common/models/Country.php
             [message] => No docblock for element 'attributeLabels'
         )
 
-    [206] => Array
+    [231] => Array
         (
             [line] => 22
             [file] => common/models/Currency.php
             [message] => No docblock for element 'attributeLabels'
         )
 
-    [207] => Array
+    [232] => Array
         (
             [line] => 26
             [file] => common/models/Employee.php
             [message] => No docblock for element 'getParams'
         )
 
-    [208] => Array
+    [233] => Array
         (
             [line] => 30
             [file] => common/models/Employee.php
             [message] => No docblock for element 'filterCondition'
         )
 
-    [209] => Array
+    [234] => Array
         (
             [line] => 21
             [file] => common/models/Flight.php
             [message] => No docblock for element 'filterCondition'
         )
 
-    [210] => Array
+    [235] => Array
         (
             [line] => 21
             [file] => common/models/Hotel.php
             [message] => No docblock for element 'filterCondition'
         )
 
-    [211] => Array
+    [236] => Array
         (
             [line] => 44
             [file] => common/models/Hotel.php
             [message] => No docblock for element 'afterBlock'
         )
 
-    [212] => Array
+    [237] => Array
         (
             [line] => 14
             [file] => common/models/LoginForm.php
             [message] => No docblock for element '$username'
         )
 
-    [213] => Array
+    [238] => Array
         (
             [line] => 14
             [file] => common/models/LoginForm.php
             [message] => No short description for element '$username'
         )
 
-    [214] => Array
+    [239] => Array
         (
             [line] => 15
             [file] => common/models/LoginForm.php
             [message] => No docblock for element '$password'
         )
 
-    [215] => Array
+    [240] => Array
         (
             [line] => 15
             [file] => common/models/LoginForm.php
             [message] => No short description for element '$password'
         )
 
-    [216] => Array
+    [241] => Array
         (
             [line] => 16
             [file] => common/models/LoginForm.php
             [message] => No docblock for element '$rememberMe'
         )
 
-    [217] => Array
+    [242] => Array
         (
             [line] => 16
             [file] => common/models/LoginForm.php
             [message] => No short description for element '$rememberMe'
         )
 
-    [218] => Array
+    [243] => Array
         (
             [line] => 16
             [file] => common/models/Media.php
             [message] => No docblock for element 'common\models\Media'
         )
 
-    [219] => Array
+    [244] => Array
         (
             [line] => 17
             [file] => common/models/Media.php
             [message] => No docblock for element 'attributeLabels'
         )
 
-    [220] => Array
+    [245] => Array
         (
             [line] => 22
             [file] => common/models/Media.php
             [message] => No docblock for element 'rules'
         )
 
-    [221] => Array
+    [246] => Array
         (
             [line] => 76
             [file] => common/models/Media.php
             [message] => No docblock for element 'filterCondition'
         )
 
-    [222] => Array
+    [247] => Array
         (
             [line] => 95
             [file] => common/models/Media.php
             [message] => No docblock for element 'toArray'
         )
 
-    [223] => Array
+    [248] => Array
         (
             [line] => 101
             [file] => common/models/Media.php
             [message] => No docblock for element 'saveFromHtml'
         )
 
-    [224] => Array
+    [249] => Array
         (
             [line] => 122
             [file] => common/models/Media.php
             [message] => No docblock for element 'afterBlock'
         )
 
-    [225] => Array
+    [250] => Array
         (
             [line] => 21
             [file] => common/models/Menu.php
             [message] => No docblock for element 'init'
         )
 
-    [226] => Array
+    [251] => Array
         (
             [line] => 26
             [file] => common/models/Menu.php
             [message] => No docblock for element 'getParams'
         )
 
-    [227] => Array
+    [252] => Array
         (
             [line] => 30
             [file] => common/models/Menu.php
             [message] => No docblock for element 'filterCondition'
         )
 
-    [228] => Array
+    [253] => Array
         (
             [line] => 40
             [file] => common/models/Menu.php
             [message] => No docblock for element 'extraFields'
         )
 
-    [229] => Array
+    [254] => Array
         (
             [line] => 55
             [file] => common/models/Menu.php
             [message] => No docblock for element 'attributeLabels'
         )
 
-    [230] => Array
+    [255] => Array
         (
             [line] => 65
             [file] => common/models/Menu.php
             [message] => No docblock for element 'getAllowActions'
         )
 
-    [231] => Array
+    [256] => Array
         (
             [line] => 71
             [file] => common/models/Menu.php
             [message] => No docblock for element 'getBreadcrumb'
         )
 
-    [232] => Array
+    [257] => Array
         (
             [line] => 76
             [file] => common/models/Message.php
             [message] => No docblock for element 'save'
         )
 
-    [233] => Array
+    [258] => Array
         (
             [line] => 14
             [file] => common/models/Meta.php
             [message] => No docblock for element 'common\models\Meta'
         )
 
-    [234] => Array
+    [259] => Array
         (
             [line] => 38
             [file] => common/models/Meta.php
             [message] => No docblock for element 'init'
         )
 
-    [235] => Array
+    [260] => Array
         (
             [line] => 43
             [file] => common/models/Meta.php
             [message] => No docblock for element 'tableName'
         )
 
-    [236] => Array
+    [261] => Array
         (
             [line] => 47
             [file] => common/models/Meta.php
             [message] => No docblock for element 'getParams'
         )
 
-    [237] => Array
+    [262] => Array
         (
             [line] => 51
             [file] => common/models/Meta.php
             [message] => No docblock for element 'filterCondition'
         )
 
-    [238] => Array
+    [263] => Array
         (
             [line] => 57
             [file] => common/models/Meta.php
             [message] => No docblock for element 'attributeLabels'
         )
 
-    [239] => Array
+    [264] => Array
         (
             [line] => 13
             [file] => common/models/Option.php
             [message] => No docblock for element 'common\models\Option'
         )
 
-    [240] => Array
+    [265] => Array
         (
             [line] => 14
             [file] => common/models/Option.php
             [message] => No docblock for element 'init'
         )
 
-    [241] => Array
+    [266] => Array
         (
             [line] => 19
             [file] => common/models/Option.php
             [message] => No docblock for element 'filterCondition'
         )
 
-    [242] => Array
+    [267] => Array
         (
             [line] => 29
             [file] => common/models/Option.php
             [message] => No docblock for element 'afterFind'
         )
 
-    [243] => Array
+    [268] => Array
         (
             [line] => 41
             [file] => common/models/Option.php
             [message] => No docblock for element 'beforeSave'
         )
 
-    [244] => Array
+    [269] => Array
         (
             [line] => 14
             [file] => common/models/Order.php
             [message] => No docblock for element 'common\models\Order'
         )
 
-    [245] => Array
+    [270] => Array
         (
             [line] => 16
             [file] => common/models/Order.php
             [message] => No docblock for element 'attributeLabels'
         )
 
-    [246] => Array
+    [271] => Array
         (
             [line] => 23
             [file] => common/models/Order.php
             [message] => No docblock for element 'rules'
         )
 
-    [247] => Array
+    [272] => Array
         (
             [line] => 77
             [file] => common/models/Order.php
             [message] => No docblock for element 'toArray'
         )
 
-    [248] => Array
+    [273] => Array
         (
             [line] => 82
             [file] => common/models/Order.php
             [message] => No docblock for element 'afterBlock'
         )
 
-    [249] => Array
+    [274] => Array
         (
             [line] => 13
             [file] => common/models/PaymentDays.php
             [message] => No docblock for element 'common\models\PaymentDays'
         )
 
-    [250] => Array
+    [275] => Array
         (
             [line] => 18
             [file] => common/models/Permission.php
             [message] => No docblock for element 'rules'
         )
 
-    [251] => Array
+    [276] => Array
         (
             [line] => 32
             [file] => common/models/Post.php
             [message] => No docblock for element 'init'
         )
 
-    [252] => Array
+    [277] => Array
         (
             [line] => 47
             [file] => common/models/Post.php
             [message] => No docblock for element 'tableName'
         )
 
-    [253] => Array
+    [278] => Array
         (
             [line] => 11
             [file] => common/models/PostMeta.php
             [message] => No docblock for element 'common\models\PostMeta'
         )
 
-    [254] => Array
+    [279] => Array
         (
             [line] => 12
             [file] => common/models/PostMeta.php
             [message] => No docblock for element 'tableName'
         )
 
-    [255] => Array
+    [280] => Array
         (
             [line] => 16
             [file] => common/models/PostMeta.php
             [message] => No docblock for element 'rules'
         )
 
-    [256] => Array
+    [281] => Array
         (
             [line] => 21
             [file] => common/models/PostVisa.php
             [message] => No docblock for element 'processMetaValue'
         )
 
-    [257] => Array
+    [282] => Array
         (
             [line] => 32
             [file] => common/models/PostVisa.php
             [message] => No docblock for element 'toArray'
         )
 
-    [258] => Array
+    [283] => Array
         (
             [line] => 15
             [file] => common/models/Product.php
             [message] => No docblock for element 'common\models\Product'
         )
 
-    [259] => Array
+    [284] => Array
         (
             [line] => 16
             [file] => common/models/Product.php
             [message] => No docblock for element 'scenarios'
         )
 
-    [260] => Array
+    [285] => Array
         (
             [line] => 25
             [file] => common/models/Product.php
             [message] => No docblock for element 'rules'
         )
 
-    [261] => Array
+    [286] => Array
         (
             [line] => 48
             [file] => common/models/Product.php
             [message] => No docblock for element 'processMetaValue'
         )
 
-    [262] => Array
+    [287] => Array
         (
             [line] => 71
             [file] => common/models/Product.php
             [message] => No docblock for element 'toArray'
         )
 
-    [263] => Array
+    [288] => Array
         (
             [line] => 98
             [file] => common/models/Product.php
             [message] => No docblock for element 'attributeInputs'
         )
 
-    [264] => Array
+    [289] => Array
         (
             [line] => 149
             [file] => common/models/Product.php
             [message] => No docblock for element 'attributeLabels'
         )
 
-    [265] => Array
+    [290] => Array
         (
             [line] => 158
             [file] => common/models/Product.php
             [message] => No docblock for element 'attributeHints'
         )
 
-    [266] => Array
+    [291] => Array
         (
             [line] => 13
             [file] => common/models/ProductCat.php
             [message] => No docblock for element 'common\models\ProductCat'
         )
 
-    [267] => Array
+    [292] => Array
         (
             [line] => 14
             [file] => common/models/Province.php
             [message] => No docblock for element 'common\models\Province'
         )
 
-    [268] => Array
+    [293] => Array
         (
             [line] => 16
             [file] => common/models/Province.php
             [message] => No docblock for element 'attributeLabels'
         )
 
-    [269] => Array
+    [294] => Array
         (
             [line] => 13
             [file] => common/models/Restaurant.php
             [message] => No docblock for element 'common\models\Restaurant'
         )
 
-    [270] => Array
+    [295] => Array
         (
             [line] => 14
             [file] => common/models/Restaurant.php
             [message] => No docblock for element 'filterCondition'
         )
 
-    [271] => Array
+    [296] => Array
         (
             [line] => 37
             [file] => common/models/Restaurant.php
             [message] => No docblock for element 'afterBlock'
         )
 
-    [272] => Array
+    [297] => Array
         (
             [line] => 13
             [file] => common/models/Role.php
             [message] => No docblock for element 'common\models\Role'
         )
 
-    [273] => Array
+    [298] => Array
         (
             [line] => 14
             [file] => common/models/Role.php
             [message] => No docblock for element 'getPermsisions'
         )
 
-    [274] => Array
+    [299] => Array
         (
             [line] => 13
             [file] => common/models/SellingType.php
             [message] => No docblock for element 'common\models\SellingType'
         )
 
-    [275] => Array
+    [300] => Array
         (
             [line] => 21
             [file] => common/models/Setting.php
             [message] => No docblock for element 'tableName'
         )
 
-    [276] => Array
+    [301] => Array
         (
             [line] => 92
             [file] => common/models/Setting.php
             [message] => No docblock for element 'getParentData'
         )
 
-    [277] => Array
+    [302] => Array
         (
             [line] => 96
             [file] => common/models/Setting.php
             [message] => No docblock for element 'findByPreName'
         )
 
-    [278] => Array
+    [303] => Array
         (
             [line] => 105
             [file] => common/models/Setting.php
             [message] => No docblock for element 'extraFields'
         )
 
-    [279] => Array
+    [304] => Array
         (
             [line] => 151
             [file] => common/models/Setting.php
             [message] => No docblock for element 'filterCondition'
         )
 
-    [280] => Array
+    [305] => Array
         (
             [line] => 168
             [file] => common/models/Setting.php
             [message] => No docblock for element 'attributeSchema'
         )
 
-    [281] => Array
+    [306] => Array
         (
             [line] => 13
             [file] => common/models/Store.php
             [message] => No docblock for element 'common\models\Store'
         )
 
-    [282] => Array
+    [307] => Array
         (
             [line] => 14
             [file] => common/models/Store.php
             [message] => No docblock for element 'filterCondition'
         )
 
-    [283] => Array
+    [308] => Array
         (
             [line] => 37
             [file] => common/models/Store.php
             [message] => No docblock for element 'afterBlock'
         )
 
-    [284] => Array
+    [309] => Array
         (
             [line] => 13
             [file] => common/models/Supplier.php
             [message] => No docblock for element 'common\models\Supplier'
         )
 
-    [285] => Array
+    [310] => Array
         (
             [line] => 14
             [file] => common/models/Template.php
             [message] => No docblock for element 'common\models\Template'
         )
 
-    [286] => Array
+    [311] => Array
         (
             [line] => 16
             [file] => common/models/Template.php
             [message] => No docblock for element 'attributeLabels'
         )
 
-    [287] => Array
+    [312] => Array
         (
             [line] => 21
             [file] => common/models/Template.php
             [message] => No docblock for element 'filterCondition'
         )
 
-    [288] => Array
+    [313] => Array
         (
             [line] => 44
             [file] => common/models/Template.php
             [message] => No docblock for element 'afterBlock'
         )
 
-    [289] => Array
+    [314] => Array
         (
             [line] => 22
             [file] => common/models/Term.php
             [message] => No docblock for element 'init'
         )
 
-    [290] => Array
+    [315] => Array
         (
             [line] => 27
             [file] => common/models/Term.php
             [message] => No docblock for element 'tableName'
         )
 
-    [291] => Array
+    [316] => Array
         (
             [line] => 41
             [file] => common/models/Term.php
             [message] => No docblock for element 'getMetaData'
         )
 
-    [292] => Array
+    [317] => Array
         (
             [line] => 45
             [file] => common/models/Term.php
             [message] => No docblock for element 'getMetaName'
         )
 
-    [293] => Array
+    [318] => Array
         (
             [line] => 49
             [file] => common/models/Term.php
             [message] => No docblock for element 'rules'
         )
 
-    [294] => Array
+    [319] => Array
         (
             [line] => 103
             [file] => common/models/Term.php
             [message] => No docblock for element 'beforeDelete'
         )
 
-    [295] => Array
+    [320] => Array
         (
             [line] => 108
             [file] => common/models/Term.php
             [message] => No docblock for element 'beforeSave'
         )
 
-    [296] => Array
+    [321] => Array
+        (
+            [line] => 63
+            [file] => common/models/Term.php
+            [message] => No docblock for element 'getMetaName'
+        )
+
+    [322] => Array
+        (
+            [line] => 67
+            [file] => common/models/Term.php
+            [message] => No docblock for element 'rules'
+        )
+
+    [323] => Array
         (
             [line] => 11
             [file] => common/models/TermMeta.php
             [message] => No docblock for element 'common\models\TermMeta'
         )
 
-    [297] => Array
+    [324] => Array
         (
             [line] => 12
             [file] => common/models/TermMeta.php
             [message] => No docblock for element 'tableName'
         )
 
-    [298] => Array
+    [325] => Array
         (
             [line] => 16
             [file] => common/models/TermMeta.php
             [message] => No docblock for element 'rules'
         )
 
-    [299] => Array
+    [326] => Array
         (
             [line] => 42
             [file] => common/models/Ticket.php
             [message] => No docblock for element 'scenarios'
         )
 
-    [300] => Array
+    [327] => Array
         (
             [line] => 177
             [file] => common/models/Ticket.php
             [message] => No docblock for element 'attributeSchema'
         )
 
-    [301] => Array
+    [328] => Array
         (
             [line] => 200
             [file] => common/models/Ticket.php
             [message] => No docblock for element 'afterFind'
         )
 
-    [302] => Array
+    [329] => Array
         (
             [line] => 244
             [file] => common/models/Ticket.php
             [message] => No docblock for element 'getReturnArriveport'
         )
 
-    [303] => Array
+    [330] => Array
         (
             [line] => 252
             [file] => common/models/Ticket.php
             [message] => No docblock for element 'getAirlineData'
         )
 
-    [304] => Array
+    [331] => Array
         (
             [line] => 256
             [file] => common/models/Ticket.php
             [message] => No docblock for element 'getFlightData'
         )
 
-    [305] => Array
+    [332] => Array
         (
             [line] => 260
             [file] => common/models/Ticket.php
             [message] => No docblock for element 'getSupplierData'
         )
 
-    [306] => Array
+    [333] => Array
         (
             [line] => 264
             [file] => common/models/Ticket.php
             [message] => No docblock for element 'filterCondition'
         )
 
-    [307] => Array
+    [334] => Array
         (
             [line] => 15
             [file] => common/models/TourRoute.php
             [message] => No docblock for element 'common\models\TourRoute'
         )
 
-    [308] => Array
+    [335] => Array
         (
             [line] => 17
             [file] => common/models/TourRoute.php
             [message] => No docblock for element 'attributeLabels'
         )
 
-    [309] => Array
+    [336] => Array
         (
             [line] => 24
             [file] => common/models/TourRoute.php
             [message] => No docblock for element 'attributeInputs'
         )
 
-    [310] => Array
+    [337] => Array
         (
             [line] => 75
             [file] => common/models/TourRoute.php
             [message] => No docblock for element 'processMetaValue'
         )
 
-    [311] => Array
+    [338] => Array
         (
             [line] => 99
             [file] => common/models/TourRoute.php
             [message] => No docblock for element 'filterCondition'
         )
 
-    [312] => Array
+    [339] => Array
         (
             [line] => 109
             [file] => common/models/TourRoute.php
             [message] => No docblock for element 'toArray'
         )
 
-    [313] => Array
+    [340] => Array
         (
             [line] => 13
             [file] => common/models/TourThemeConsume.php
             [message] => No docblock for element 'common\models\TourThemeConsume'
         )
 
-    [314] => Array
+    [341] => Array
         (
             [line] => 13
             [file] => common/models/TourThemeCulture.php
             [message] => No docblock for element 'common\models\TourThemeCulture'
         )
 
-    [315] => Array
+    [342] => Array
         (
             [line] => 13
             [file] => common/models/TourThemeDaily.php
             [message] => No docblock for element 'common\models\TourThemeDaily'
         )
 
-    [316] => Array
+    [343] => Array
         (
             [line] => 15
             [file] => common/models/TreeActiveRecord.php
             [message] => No docblock for element 'common\models\TreeActiveRecord'
         )
 
-    [317] => Array
+    [344] => Array
         (
             [line] => 16
             [file] => common/models/TreeActiveRecord.php
             [message] => No docblock for element 'parentKey'
         )
 
-    [318] => Array
+    [345] => Array
         (
             [line] => 43
             [file] => common/models/TreeActiveRecord.php
             [message] => No docblock for element 'getRoots'
         )
 
-    [319] => Array
+    [346] => Array
         (
             [line] => 12
             [file] => common/models/TreeView.php
             [message] => No docblock for element '$data'
         )
 
-    [320] => Array
+    [347] => Array
         (
             [line] => 12
             [file] => common/models/TreeView.php
             [message] => No short description for element '$data'
         )
 
-    [321] => Array
+    [348] => Array
         (
             [line] => 13
             [file] => common/models/TreeView.php
             [message] => No docblock for element '$object'
         )
 
-    [322] => Array
+    [349] => Array
         (
             [line] => 13
             [file] => common/models/TreeView.php
             [message] => No short description for element '$object'
         )
 
-    [323] => Array
+    [350] => Array
         (
             [line] => 14
             [file] => common/models/TreeView.php
             [message] => No docblock for element '$child'
         )
 
-    [324] => Array
+    [351] => Array
         (
             [line] => 14
             [file] => common/models/TreeView.php
             [message] => No short description for element '$child'
         )
 
-    [325] => Array
+    [352] => Array
         (
             [line] => 15
             [file] => common/models/TreeView.php
             [message] => No docblock for element '$layer'
         )
 
-    [326] => Array
+    [353] => Array
         (
             [line] => 15
             [file] => common/models/TreeView.php
             [message] => No short description for element '$layer'
         )
 
-    [327] => Array
+    [354] => Array
         (
             [line] => 16
             [file] => common/models/TreeView.php
             [message] => No docblock for element '$parent'
         )
 
-    [328] => Array
+    [355] => Array
         (
             [line] => 16
             [file] => common/models/TreeView.php
             [message] => No short description for element '$parent'
         )
 
-    [329] => Array
+    [356] => Array
         (
             [line] => 17
             [file] => common/models/TreeView.php
             [message] => No docblock for element '$countid'
         )
 
-    [330] => Array
+    [357] => Array
         (
             [line] => 17
             [file] => common/models/TreeView.php
             [message] => No short description for element '$countid'
         )
 
-    [331] => Array
+    [358] => Array
         (
             [line] => 18
             [file] => common/models/TreeView.php
             [message] => No docblock for element '$path'
         )
 
-    [332] => Array
+    [359] => Array
         (
             [line] => 18
             [file] => common/models/TreeView.php
             [message] => No short description for element '$path'
         )
 
-    [333] => Array
+    [360] => Array
         (
             [line] => 50
             [file] => common/models/TreeView.php
             [message] => No docblock for element 'getPath'
         )
 
-    [334] => Array
+    [361] => Array
         (
             [line] => 69
             [file] => common/models/TreeView.php
             [message] => No docblock for element 'getListAll'
         )
 
-    [335] => Array
+    [362] => Array
         (
             [line] => 84
             [file] => common/models/TreeView.php
             [message] => No docblock for element 'getObject'
         )
 
-    [336] => Array
+    [363] => Array
         (
             [line] => 88
             [file] => common/models/TreeView.php
             [message] => No docblock for element 'ResetLayer'
         )
 
-    [337] => Array
+    [364] => Array
         (
             [line] => 95
             [file] => common/models/TreeView.php
             [message] => No docblock for element 'getLayer'
         )
 
-    [338] => Array
+    [365] => Array
         (
             [line] => 104
             [file] => common/models/TreeView.php
             [message] => No docblock for element 'getParent'
         )
 
-    [339] => Array
+    [366] => Array
         (
             [line] => 7
             [file] => common/models/Uploader.php
             [message] => No docblock for element 'common\models\Uploader'
         )
 
-    [340] => Array
+    [367] => Array
         (
             [line] => 31
             [file] => common/models/User.php
             [message] => No docblock for element 'tableName'
         )
 
-    [341] => Array
+    [368] => Array
         (
             [line] => 35
             [file] => common/models/User.php
             [message] => No docblock for element 'getMetaName'
         )
 
-    [342] => Array
+    [369] => Array
         (
             [line] => 39
             [file] => common/models/User.php
             [message] => No docblock for element 'getParams'
         )
 
-    [343] => Array
+    [370] => Array
         (
             [line] => 196
             [file] => common/models/User.php
             [message] => No docblock for element 'getMetaData'
         )
 
-    [344] => Array
+    [371] => Array
         (
             [line] => 200
             [file] => common/models/User.php
             [message] => No docblock for element 'getSettings'
         )
 
-    [345] => Array
+    [372] => Array
         (
             [line] => 11
             [file] => common/models/UserMeta.php
             [message] => No docblock for element 'common\models\UserMeta'
         )
 
-    [346] => Array
+    [373] => Array
         (
             [line] => 12
             [file] => common/models/UserMeta.php
             [message] => No docblock for element 'tableName'
         )
 
-    [347] => Array
+    [374] => Array
         (
             [line] => 16
             [file] => common/models/UserMeta.php
             [message] => No docblock for element 'rules'
         )
 
-    [348] => Array
+    [375] => Array
         (
             [line] => 13
             [file] => common/models/VisaCondition.php
             [message] => No docblock for element 'common\models\VisaCondition'
         )
 
-    [349] => Array
+    [376] => Array
         (
             [line] => 13
             [file] => common/models/VisaPerson.php
             [message] => No docblock for element 'common\models\VisaPerson'
         )
 
-    [350] => Array
+    [377] => Array
         (
             [line] => 13
             [file] => common/models/VisaType.php
             [message] => No docblock for element 'common\models\VisaType'
         )
 
-    [351] => Array
+    [378] => Array
         (
             [line] => 17
             [file] => common/tests/unit/models/LoginFormTest.php
             [message] => No short description for element '$tester'
         )
 
-    [352] => Array
+    [379] => Array
         (
             [line] => 33
             [file] => common/tests/unit/models/LoginFormTest.php
             [message] => No docblock for element 'testLoginNoUser'
         )
 
-    [353] => Array
+    [380] => Array
         (
             [line] => 44
             [file] => common/tests/unit/models/LoginFormTest.php
             [message] => No docblock for element 'testLoginWrongPassword'
         )
 
-    [354] => Array
+    [381] => Array
         (
             [line] => 56
             [file] => common/tests/unit/models/LoginFormTest.php
             [message] => No docblock for element 'testLoginCorrect'
         )
 
-    [355] => Array
+    [382] => Array
         (
             [line] => 17
             [file] => common/widgets/ActiveField.php
             [message] => No docblock for element 'common\widgets\ActiveField'
         )
 
-    [356] => Array
+    [383] => Array
         (
             [line] => 25
             [file] => common/widgets/ActiveField.php
             [message] => No docblock for element '$template'
         )
 
-    [357] => Array
+    [384] => Array
         (
             [line] => 25
             [file] => common/widgets/ActiveField.php
             [message] => No short description for element '$template'
         )
 
-    [358] => Array
+    [385] => Array
         (
             [line] => 26
             [file] => common/widgets/ActiveField.php
             [message] => No docblock for element '$labelOptions'
         )
 
-    [359] => Array
+    [386] => Array
         (
             [line] => 26
             [file] => common/widgets/ActiveField.php
             [message] => No short description for element '$labelOptions'
         )
 
-    [360] => Array
+    [387] => Array
         (
             [line] => 218
             [file] => common/widgets/ActiveField.php
             [message] => No docblock for element 'setTemplate'
         )
 
-    [361] => Array
+    [388] => Array
         (
             [line] => 241
             [file] => common/widgets/ActiveField.php
             [message] => No docblock for element 'telInput'
         )
 
-    [362] => Array
+    [389] => Array
         (
             [line] => 255
             [file] => common/widgets/ActiveField.php
             [message] => No docblock for element 'timeInput'
         )
 
-    [363] => Array
+    [390] => Array
         (
             [line] => 269
             [file] => common/widgets/ActiveField.php
             [message] => No docblock for element 'urlInput'
         )
 
-    [364] => Array
+    [391] => Array
         (
             [line] => 498
             [file] => common/widgets/ActiveField.php
             [message] => No docblock for element 'localeList'
         )
 
-    [365] => Array
+    [392] => Array
         (
             [line] => 738
             [file] => common/widgets/ActiveField.php
             [message] => No docblock for element 'colorInput'
         )
 
-    [366] => Array
+    [393] => Array
         (
             [line] => 796
             [file] => common/widgets/ActiveField.php
             [message] => No docblock for element 'htmlEditor'
         )
 
-    [367] => Array
+    [394] => Array
         (
             [line] => 810
             [file] => common/widgets/ActiveField.php
             [message] => No docblock for element 'dateInput'
         )
 
-    [368] => Array
+    [395] => Array
         (
             [line] => 824
             [file] => common/widgets/ActiveField.php
             [message] => No docblock for element 'dateRangeInput'
         )
 
-    [369] => Array
+    [396] => Array
         (
             [line] => 842
             [file] => common/widgets/ActiveField.php
             [message] => No docblock for element 'searchableList'
         )
 
-    [370] => Array
+    [397] => Array
         (
             [line] => 856
             [file] => common/widgets/ActiveField.php
             [message] => No docblock for element 'modalInput'
         )
 
-    [371] => Array
+    [398] => Array
         (
             [line] => 870
             [file] => common/widgets/ActiveField.php
             [message] => No docblock for element 'blankInput'
         )
 
-    [372] => Array
+    [399] => Array
         (
             [line] => 875
             [file] => common/widgets/ActiveField.php
             [message] => No docblock for element 'buttonList'
         )
 
-    [373] => Array
+    [400] => Array
         (
             [line] => 10
             [file] => common/widgets/ActiveForm.php
             [message] => No docblock for element 'common\widgets\ActiveForm'
         )
 
-    [374] => Array
+    [401] => Array
         (
             [line] => 20
             [file] => common/widgets/BootstrapPluginAsset.php
             [message] => No docblock for element '$sourcePath'
         )
 
-    [375] => Array
+    [402] => Array
         (
             [line] => 20
             [file] => common/widgets/BootstrapPluginAsset.php
             [message] => No short description for element '$sourcePath'
         )
 
-    [376] => Array
+    [403] => Array
         (
             [line] => 21
             [file] => common/widgets/BootstrapPluginAsset.php
             [message] => No docblock for element '$js'
         )
 
-    [377] => Array
+    [404] => Array
         (
             [line] => 21
             [file] => common/widgets/BootstrapPluginAsset.php
             [message] => No short description for element '$js'
         )
 
-    [378] => Array
+    [405] => Array
         (
             [line] => 24
             [file] => common/widgets/BootstrapPluginAsset.php
             [message] => No docblock for element '$depends'
         )
 
-    [379] => Array
+    [406] => Array
         (
             [line] => 24
             [file] => common/widgets/BootstrapPluginAsset.php
             [message] => No short description for element '$depends'
         )
 
-    [380] => Array
+    [407] => Array
         (
             [line] => 10
             [file] => common/widgets/Breadcrumbs.php
             [message] => No docblock for element 'common\widgets\Breadcrumbs'
         )
 
-    [381] => Array
+    [408] => Array
         (
             [line] => 14
             [file] => common/widgets/Image.php
             [message] => No docblock for element 'common\widgets\Image'
         )
 
-    [382] => Array
+    [409] => Array
         (
             [line] => 14
             [file] => common/widgets/LinkPager.php
             [message] => No docblock for element 'common\widgets\LinkPager'
         )
 
-    [383] => Array
+    [410] => Array
         (
             [line] => 15
             [file] => common/widgets/LinkPager.php
             [message] => No docblock for element 'renderPageButton'
         )
 
-    [384] => Array
+    [411] => Array
         (
             [line] => 39
             [file] => common/widgets/LinkPager.php
             [message] => No docblock for element 'renderPageButtons'
         )
 
-    [385] => Array
+    [412] => Array
         (
             [line] => 14
             [file] => common/widgets/Modal.php
             [message] => No docblock for element 'common\widgets\Modal'
         )
 
-    [386] => Array
+    [413] => Array
         (
             [line] => 15
             [file] => common/widgets/Modal.php
             [message] => No docblock for element 'registerPlugin'
         )
 
-    [387] => Array
+    [414] => Array
         (
             [line] => 17
             [file] => common/widgets/datepicker/DatePicker.php
             [message] => No docblock for element 'common\widgets\datepicker\DatePicker'
         )
 
-    [388] => Array
+    [415] => Array
         (
             [line] => 22
             [file] => common/widgets/datepicker/DatePicker.php
             [message] => No docblock for element '$containerOptions'
         )
 
-    [389] => Array
+    [416] => Array
         (
             [line] => 22
             [file] => common/widgets/datepicker/DatePicker.php
             [message] => No short description for element '$containerOptions'
         )
 
-    [390] => Array
+    [417] => Array
         (
             [line] => 22
             [file] => common/widgets/datepicker/DatePickerAsset.php
             [message] => No docblock for element '$basePath'
         )
 
-    [391] => Array
+    [418] => Array
         (
             [line] => 22
             [file] => common/widgets/datepicker/DatePickerAsset.php
             [message] => No short description for element '$basePath'
         )
 
-    [392] => Array
+    [419] => Array
         (
             [line] => 23
             [file] => common/widgets/datepicker/DatePickerAsset.php
             [message] => No docblock for element '$baseUrl'
         )
 
-    [393] => Array
+    [420] => Array
         (
             [line] => 23
             [file] => common/widgets/datepicker/DatePickerAsset.php
             [message] => No short description for element '$baseUrl'
         )
 
-    [394] => Array
+    [421] => Array
         (
             [line] => 18
             [file] => common/widgets/modaldialog/ModalDialog.php
             [message] => No docblock for element 'common\widgets\modaldialog\ModalDialog'
         )
 
-    [395] => Array
+    [422] => Array
         (
             [line] => 58
             [file] => common/widgets/modaldialog/ModalDialog.php
             [message] => No docblock for element '$initValueText'
         )
 
-    [396] => Array
+    [423] => Array
         (
             [line] => 58
             [file] => common/widgets/modaldialog/ModalDialog.php
             [message] => No short description for element '$initValueText'
         )
 
-    [397] => Array
+    [424] => Array
         (
             [line] => 59
             [file] => common/widgets/modaldialog/ModalDialog.php
             [message] => No docblock for element '$items'
         )
 
-    [398] => Array
+    [425] => Array
         (
             [line] => 59
             [file] => common/widgets/modaldialog/ModalDialog.php
             [message] => No short description for element '$items'
         )
 
-    [399] => Array
+    [426] => Array
         (
             [line] => 60
             [file] => common/widgets/modaldialog/ModalDialog.php
             [message] => No docblock for element '$separator'
         )
 
-    [400] => Array
+    [427] => Array
         (
             [line] => 60
             [file] => common/widgets/modaldialog/ModalDialog.php
             [message] => No short description for element '$separator'
         )
 
-    [401] => Array
+    [428] => Array
         (
             [line] => 61
             [file] => common/widgets/modaldialog/ModalDialog.php
             [message] => No docblock for element '$options'
         )
 
-    [402] => Array
+    [429] => Array
         (
             [line] => 61
             [file] => common/widgets/modaldialog/ModalDialog.php
             [message] => No short description for element '$options'
         )
 
-    [403] => Array
+    [430] => Array
         (
             [line] => 62
             [file] => common/widgets/modaldialog/ModalDialog.php
             [message] => No docblock for element '$clientOptions'
         )
 
-    [404] => Array
+    [431] => Array
         (
             [line] => 62
             [file] => common/widgets/modaldialog/ModalDialog.php
             [message] => No short description for element '$clientOptions'
         )
 
-    [405] => Array
+    [432] => Array
         (
             [line] => 63
             [file] => common/widgets/modaldialog/ModalDialog.php
             [message] => No docblock for element '$buttons'
         )
 
-    [406] => Array
+    [433] => Array
         (
             [line] => 63
             [file] => common/widgets/modaldialog/ModalDialog.php
             [message] => No short description for element '$buttons'
         )
 
-    [407] => Array
+    [434] => Array
         (
             [line] => 68
             [file] => common/widgets/modaldialog/ModalDialog.php
             [message] => No docblock for element 'init'
         )
 
-    [408] => Array
+    [435] => Array
         (
             [line] => 139
             [file] => common/widgets/modaldialog/ModalDialog.php
             [message] => No docblock for element 'run'
         )
 
-    [409] => Array
+    [436] => Array
         (
             [line] => 8
             [file] => common/widgets/modaldialog/ModalDialogAsset.php
             [message] => No docblock for element 'common\widgets\modaldialog\ModalDialogAsset'
         )
 
-    [410] => Array
+    [437] => Array
         (
             [line] => 10
             [file] => common/widgets/modaldialog/ModalDialogAsset.php
             [message] => No short description for element '$sourcePath'
         )
 
-    [411] => Array
+    [438] => Array
         (
             [line] => 12
             [file] => common/widgets/modaldialog/ModalDialogAsset.php
             [message] => No short description for element '$depends'
         )
 
-    [412] => Array
+    [439] => Array
         (
             [line] => 13
             [file] => common/widgets/select2/AssetBoundle.php
             [message] => No docblock for element 'common\widgets\select2\AssetBoundle'
         )
 
-    [413] => Array
+    [440] => Array
         (
             [line] => 14
             [file] => common/widgets/select2/AssetBoundle.php
             [message] => No docblock for element 'addLanguage'
         )
 
-    [414] => Array
+    [441] => Array
         (
             [line] => 17
             [file] => common/widgets/select2/Select2.php
             [message] => No docblock for element 'common\widgets\select2\Select2'
         )
 
-    [415] => Array
+    [442] => Array
         (
             [line] => 61
             [file] => common/widgets/select2/Select2.php
             [message] => No docblock for element 'renderWidget'
         )
 
-    [416] => Array
+    [443] => Array
         (
             [line] => 11
             [file] => common/widgets/select2/Select2Asset.php
             [message] => No docblock for element 'common\widgets\select2\Select2Asset'
         )
 
-    [417] => Array
+    [444] => Array
         (
             [line] => 10
             [file] => common/widgets/summernote/Summernote.php
             [message] => No docblock for element 'common\widgets\summernote\Summernote'
         )
 
-    [418] => Array
+    [445] => Array
         (
             [line] => 8
             [file] => common/widgets/summernote/SummernoteAsset.php
             [message] => No docblock for element 'common\widgets\summernote\SummernoteAsset'
         )
 
-    [419] => Array
+    [446] => Array
         (
             [line] => 11
             [file] => common/widgets/summernote/SummernoteAsset.php
             [message] => No short description for element '$sourcePath'
         )
 
-    [420] => Array
+    [447] => Array
         (
             [line] => 13
             [file] => common/widgets/summernote/SummernoteAsset.php
             [message] => No short description for element '$depends'
         )
 
-    [421] => Array
+    [448] => Array
         (
             [line] => 8
             [file] => common/widgets/summernote/SummernoteLanguageAsset.php
             [message] => No docblock for element 'common\widgets\summernote\SummernoteLanguageAsset'
         )
 
-    [422] => Array
+    [449] => Array
         (
             [line] => 11
             [file] => common/widgets/summernote/SummernoteLanguageAsset.php
             [message] => No short description for element '$language'
         )
 
-    [423] => Array
+    [450] => Array
         (
             [line] => 13
             [file] => common/widgets/summernote/SummernoteLanguageAsset.php
             [message] => No short description for element '$sourcePath'
         )
 
-    [424] => Array
+    [451] => Array
         (
             [line] => 15
             [file] => common/widgets/summernote/SummernoteLanguageAsset.php

@@ -54,14 +54,16 @@ Array
 
     [8] => Array
         (
+            [line] => 798
             [file] => common/helpers/BaseHtml.php
-            [message] => broken link to \activeCheckbox() in common\helpers\BaseHtml
+            [message] => Undefined parameter documented: $value in localeList().
         )
 
     [9] => Array
         (
+            [line] => 918
             [file] => common/helpers/BaseHtml.php
-            [message] => broken link to \activeRadio() in common\helpers\BaseHtml
+            [message] => Undefined parameter documented: $type in activeLocaleList().
         )
 
     [10] => Array
@@ -79,19 +81,19 @@ Array
     [12] => Array
         (
             [file] => common/helpers/BaseHtml.php
-            [message] => broken link to \getAttributeName() in common\helpers\BaseHtml
+            [message] => broken link to \activeCheckbox() in common\helpers\BaseHtml
         )
 
     [13] => Array
         (
             [file] => common/helpers/BaseHtml.php
-            [message] => broken link to \clientChange in common\helpers\BaseHtml
+            [message] => broken link to \activeRadio() in common\helpers\BaseHtml
         )
 
     [14] => Array
         (
             [file] => common/helpers/BaseHtml.php
-            [message] => broken link to \input in common\helpers\BaseHtml
+            [message] => broken link to \getAttributeName() in common\helpers\BaseHtml
         )
 
     [15] => Array
@@ -241,65 +243,65 @@ Array
     [39] => Array
         (
             [file] => common/helpers/BaseHtml.php
-            [message] => broken link to \activeCheckbox() in common\helpers\BaseHtml
+            [message] => broken link to \clientChange in common\helpers\BaseHtml
         )
 
     [40] => Array
         (
             [file] => common/helpers/BaseHtml.php
-            [message] => broken link to \activeRadio() in common\helpers\BaseHtml
+            [message] => broken link to \input in common\helpers\BaseHtml
         )
 
     [41] => Array
+        (
+            [file] => common/helpers/BaseHtml.php
+            [message] => broken link to \activeCheckbox() in common\helpers\BaseHtml
+        )
+
+    [42] => Array
+        (
+            [file] => common/helpers/BaseHtml.php
+            [message] => broken link to \activeRadio() in common\helpers\BaseHtml
+        )
+
+    [43] => Array
         (
             [file] => common/helpers/Html.php
             [message] => broken link to \common\helpers\tag() in common\helpers\Html
         )
 
-    [42] => Array
+    [44] => Array
         (
-            [line] => 314
+            [line] => 326
             [file] => common/models/ActiveRecord.php
             [message] => Method beforeBlock has no parent to inherit from in common\models\ActiveRecord.
         )
 
-    [43] => Array
-        (
-            [file] => common/models/ActiveRecord.php
-            [message] => broken link to \CModel::attributeLabels() in common\models\ActiveRecord
-        )
-
-    [44] => Array
-        (
-            [file] => common/models/ActiveRecord.php
-            [message] => broken link to \ActiveQuery in common\models\ActiveRecord
-        )
-
     [45] => Array
+        (
+            [file] => common/models/ActiveRecord.php
+            [message] => broken link to \common\models\CModel::attributeLabels() in common\models\ActiveRecord
+        )
+
+    [46] => Array
         (
             [line] => 31
             [file] => common/models/Message.php
             [message] => Method rules has no parent to inherit from in common\models\Message.
         )
 
-    [46] => Array
+    [47] => Array
         (
             [line] => 54
             [file] => common/models/Post.php
             [message] => Method rules has no parent to inherit from in common\models\Post.
         )
 
-    [47] => Array
+    [48] => Array
         (
             [line] => 28
             [file] => common/models/Setting.php
             [message] => Method rules has no parent to inherit from in common\models\Setting.
-        )
-
-    [48] => Array
-        (
-            [file] => common/widgets/ActiveField.php
-            [message] => broken link to \attribute in common\widgets\ActiveField
         )
 
     [49] => Array
@@ -311,7 +313,7 @@ Array
     [50] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \Html::encode() in common\widgets\ActiveField
+            [message] => broken link to \attribute in common\widgets\ActiveField
         )
 
     [51] => Array
@@ -323,109 +325,109 @@ Array
     [52] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \$selectors in common\widgets\ActiveField
+            [message] => broken link to \Html::encode() in common\widgets\ActiveField
         )
 
     [53] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \yii\helpers\Html::activeCheckboxList() in common\widgets\ActiveField
+            [message] => broken link to \$selectors in common\widgets\ActiveField
         )
 
     [54] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \ArrayHelper::map() in common\widgets\ActiveField
+            [message] => broken link to \yii\helpers\Html::activeCheckboxList() in common\widgets\ActiveField
         )
 
     [55] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \yii\helpers\Html::activeDropDownList() in common\widgets\ActiveField
+            [message] => broken link to \ArrayHelper::map() in common\widgets\ActiveField
         )
 
     [56] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \$selectors in common\widgets\ActiveField
+            [message] => broken link to \yii\helpers\Html::activeDropDownList() in common\widgets\ActiveField
         )
 
     [57] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \attribute in common\widgets\ActiveField
+            [message] => broken link to \$selectors in common\widgets\ActiveField
         )
 
     [58] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \$errorOptions in common\widgets\ActiveField
+            [message] => broken link to \attribute in common\widgets\ActiveField
         )
 
     [59] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \errorOptions in common\widgets\ActiveField
+            [message] => broken link to \$errorOptions in common\widgets\ActiveField
         )
 
     [60] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \Html::encode() in common\widgets\ActiveField
+            [message] => broken link to \errorOptions in common\widgets\ActiveField
         )
 
     [61] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \yii\helpers\Html::tag() in common\widgets\ActiveField
+            [message] => broken link to \Html::encode() in common\widgets\ActiveField
         )
 
     [62] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \$selectors in common\widgets\ActiveField
+            [message] => broken link to \yii\helpers\Html::tag() in common\widgets\ActiveField
         )
 
     [63] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \Html::encode() in common\widgets\ActiveField
+            [message] => broken link to \$selectors in common\widgets\ActiveField
         )
 
     [64] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \$selectors in common\widgets\ActiveField
+            [message] => broken link to \Html::encode() in common\widgets\ActiveField
         )
 
     [65] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \yii\helpers\Html::activeHiddenInput() in common\widgets\ActiveField
+            [message] => broken link to \$selectors in common\widgets\ActiveField
         )
 
     [66] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \Html::encode() in common\widgets\ActiveField
+            [message] => broken link to \yii\helpers\Html::activeHiddenInput() in common\widgets\ActiveField
         )
 
     [67] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \$selectors in common\widgets\ActiveField
+            [message] => broken link to \Html::encode() in common\widgets\ActiveField
         )
 
     [68] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \Model::getAttributeHint() in common\widgets\ActiveField
+            [message] => broken link to \$selectors in common\widgets\ActiveField
         )
 
     [69] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \Html::encode() in common\widgets\ActiveField
+            [message] => broken link to \Model::getAttributeHint() in common\widgets\ActiveField
         )
 
     [70] => Array
@@ -437,37 +439,37 @@ Array
     [71] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \yii\helpers\Html::tag() in common\widgets\ActiveField
+            [message] => broken link to \Html::encode() in common\widgets\ActiveField
         )
 
     [72] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \Html::encode() in common\widgets\ActiveField
+            [message] => broken link to \yii\helpers\Html::tag() in common\widgets\ActiveField
         )
 
     [73] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \$selectors in common\widgets\ActiveField
+            [message] => broken link to \Html::encode() in common\widgets\ActiveField
         )
 
     [74] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \attribute in common\widgets\ActiveField
+            [message] => broken link to \$selectors in common\widgets\ActiveField
         )
 
     [75] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \Model::getAttributeLabel() in common\widgets\ActiveField
+            [message] => broken link to \attribute in common\widgets\ActiveField
         )
 
     [76] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \Html::encode() in common\widgets\ActiveField
+            [message] => broken link to \Model::getAttributeLabel() in common\widgets\ActiveField
         )
 
     [77] => Array
@@ -479,37 +481,37 @@ Array
     [78] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \yii\helpers\ArrayHelper::map() in common\widgets\ActiveField
+            [message] => broken link to \Html::encode() in common\widgets\ActiveField
         )
 
     [79] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \yii\helpers\Html::activeListBox() in common\widgets\ActiveField
+            [message] => broken link to \yii\helpers\ArrayHelper::map() in common\widgets\ActiveField
         )
 
     [80] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \$selectors in common\widgets\ActiveField
+            [message] => broken link to \yii\helpers\Html::activeListBox() in common\widgets\ActiveField
         )
 
     [81] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \Html::encode() in common\widgets\ActiveField
+            [message] => broken link to \$selectors in common\widgets\ActiveField
         )
 
     [82] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \$selectors in common\widgets\ActiveField
+            [message] => broken link to \Html::encode() in common\widgets\ActiveField
         )
 
     [83] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \Html::encode() in common\widgets\ActiveField
+            [message] => broken link to \$selectors in common\widgets\ActiveField
         )
 
     [84] => Array
@@ -521,85 +523,85 @@ Array
     [85] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \$selectors in common\widgets\ActiveField
+            [message] => broken link to \Html::encode() in common\widgets\ActiveField
         )
 
     [86] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \yii\helpers\Html::activeRadioList() in common\widgets\ActiveField
+            [message] => broken link to \$selectors in common\widgets\ActiveField
         )
 
     [87] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \Html::encode() in common\widgets\ActiveField
+            [message] => broken link to \yii\helpers\Html::activeRadioList() in common\widgets\ActiveField
         )
 
     [88] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \yii\validators\StringValidator::max in common\widgets\ActiveField
+            [message] => broken link to \Html::encode() in common\widgets\ActiveField
         )
 
     [89] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \selectors in common\widgets\ActiveField
+            [message] => broken link to \yii\validators\StringValidator::max in common\widgets\ActiveField
         )
 
     [90] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \Html::encode() in common\widgets\ActiveField
+            [message] => broken link to \selectors in common\widgets\ActiveField
         )
 
     [91] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \$selectors in common\widgets\ActiveField
+            [message] => broken link to \Html::encode() in common\widgets\ActiveField
         )
 
     [92] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \model in common\widgets\ActiveField
+            [message] => broken link to \$selectors in common\widgets\ActiveField
         )
 
     [93] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \attribute in common\widgets\ActiveField
+            [message] => broken link to \model in common\widgets\ActiveField
         )
 
     [94] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \render() in common\widgets\ActiveField
+            [message] => broken link to \attribute in common\widgets\ActiveField
         )
 
     [95] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \MaskedInput in common\widgets\ActiveField
+            [message] => broken link to \render() in common\widgets\ActiveField
         )
 
     [96] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \ActiveForm in common\widgets\ActiveField
+            [message] => broken link to \MaskedInput in common\widgets\ActiveField
         )
 
     [97] => Array
         (
             [file] => common/widgets/ActiveField.php
-            [message] => broken link to \$selectors in common\widgets\ActiveField
+            [message] => broken link to \ActiveForm in common\widgets\ActiveField
         )
 
     [98] => Array
         (
-            [file] => common/widgets/ActiveForm.php
-            [message] => broken link to \field() in common\widgets\ActiveForm
+            [file] => common/widgets/ActiveField.php
+            [message] => broken link to \$selectors in common\widgets\ActiveField
         )
 
     [99] => Array
@@ -611,19 +613,19 @@ Array
     [100] => Array
         (
             [file] => common/widgets/ActiveForm.php
-            [message] => broken link to \fieldConfig in common\widgets\ActiveForm
+            [message] => broken link to \field() in common\widgets\ActiveForm
         )
 
     [101] => Array
         (
-            [file] => common/widgets/Alert.php
-            [message] => broken link to \yii\bootstrap\Alert::closeButton in common\widgets\Alert
+            [file] => common/widgets/ActiveForm.php
+            [message] => broken link to \fieldConfig in common\widgets\ActiveForm
         )
 
     [102] => Array
         (
-            [file] => common/widgets/datepicker/DatePicker.php
-            [message] => broken link to \DatePicker in common\widgets\datepicker\DatePicker
+            [file] => common/widgets/Alert.php
+            [message] => broken link to \yii\bootstrap\Alert::closeButton in common\widgets\Alert
         )
 
     [103] => Array
@@ -634,43 +636,43 @@ Array
 
     [104] => Array
         (
+            [file] => common/widgets/datepicker/DatePicker.php
+            [message] => broken link to \DatePicker in common\widgets\datepicker\DatePicker
+        )
+
+    [105] => Array
+        (
             [line] => 27
             [file] => common/widgets/datepicker/DatePickerAsset.php
             [message] => Method init has no parent to inherit from in common\widgets\datepicker\DatePickerAsset.
         )
 
-    [105] => Array
+    [106] => Array
         (
             [line] => 19
             [file] => common/widgets/modaldialog/ModalDialogAsset.php
             [message] => Method init has no parent to inherit from in common\widgets\modaldialog\ModalDialogAsset.
         )
 
-    [106] => Array
+    [107] => Array
         (
             [line] => 15
             [file] => common/widgets/select2/Select2Asset.php
             [message] => Method init has no parent to inherit from in common\widgets\select2\Select2Asset.
         )
 
-    [107] => Array
+    [108] => Array
         (
             [line] => 25
             [file] => common/widgets/select2/ThemeBootstrapAsset.php
             [message] => Method init has no parent to inherit from in common\widgets\select2\ThemeBootstrapAsset.
         )
 
-    [108] => Array
+    [109] => Array
         (
             [line] => 25
             [file] => common/widgets/select2/ThemeClassicAsset.php
             [message] => Method init has no parent to inherit from in kartik\select2\ThemeClassicAsset.
-        )
-
-    [109] => Array
-        (
-            [file] => common/widgets/select2/ThemeClassicAsset.php
-            [message] => broken link to \kartik\select2\Select2 in kartik\select2\ThemeClassicAsset
         )
 
     [110] => Array
@@ -687,15 +689,15 @@ Array
 
     [112] => Array
         (
-            [line] => 25
-            [file] => common/widgets/select2/ThemeDefaultAsset.php
-            [message] => Method init has no parent to inherit from in kartik\select2\ThemeDefaultAsset.
+            [file] => common/widgets/select2/ThemeClassicAsset.php
+            [message] => broken link to \kartik\select2\Select2 in kartik\select2\ThemeClassicAsset
         )
 
     [113] => Array
         (
+            [line] => 25
             [file] => common/widgets/select2/ThemeDefaultAsset.php
-            [message] => broken link to \kartik\select2\Select2 in kartik\select2\ThemeDefaultAsset
+            [message] => Method init has no parent to inherit from in kartik\select2\ThemeDefaultAsset.
         )
 
     [114] => Array
@@ -712,15 +714,15 @@ Array
 
     [116] => Array
         (
-            [line] => 25
-            [file] => common/widgets/select2/ThemeKrajeeAsset.php
-            [message] => Method init has no parent to inherit from in kartik\select2\ThemeKrajeeAsset.
+            [file] => common/widgets/select2/ThemeDefaultAsset.php
+            [message] => broken link to \kartik\select2\Select2 in kartik\select2\ThemeDefaultAsset
         )
 
     [117] => Array
         (
+            [line] => 25
             [file] => common/widgets/select2/ThemeKrajeeAsset.php
-            [message] => broken link to \kartik\select2\Select2 in kartik\select2\ThemeKrajeeAsset
+            [message] => Method init has no parent to inherit from in kartik\select2\ThemeKrajeeAsset.
         )
 
     [118] => Array
@@ -737,19 +739,25 @@ Array
 
     [120] => Array
         (
+            [file] => common/widgets/select2/ThemeKrajeeAsset.php
+            [message] => broken link to \kartik\select2\Select2 in kartik\select2\ThemeKrajeeAsset
+        )
+
+    [121] => Array
+        (
             [line] => 15
             [file] => common/widgets/summernote/Summernote.php
             [message] => Method run has no parent to inherit from in common\widgets\summernote\Summernote.
         )
 
-    [121] => Array
+    [122] => Array
         (
             [line] => 21
             [file] => common/widgets/summernote/SummernoteAsset.php
             [message] => Method init has no parent to inherit from in common\widgets\summernote\SummernoteAsset.
         )
 
-    [122] => Array
+    [123] => Array
         (
             [line] => 22
             [file] => common/widgets/summernote/SummernoteLanguageAsset.php

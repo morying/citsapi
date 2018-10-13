@@ -194,10 +194,11 @@
     </colgroup>
             <tr><th>Inheritance</th><td><a href="common-helpers-stringhelper.html">common\helpers\StringHelper</a> &raquo;
 yii\helpers\BaseStringHelper</td></tr>
-                                        </table>
+                                        <tr><th>Available since version</th><td>2.0</td></tr>
+            </table>
 
 <div class="class-description">
-    <p><strong></strong></p>
+    <p><strong>字符串助手类</strong></p>
     
     </div>
 
@@ -231,7 +232,7 @@ yii\helpers\BaseStringHelper</td></tr>
     </tr>
             <tr id="isJsonString()">
         <td><a href="common-helpers-stringhelper.html#isJsonString()-detail">isJsonString()</a></td>
-        <td></td>
+        <td>是否为 JSON 字符串</td>
         <td><a href="common-helpers-stringhelper.html">common\helpers\StringHelper</a></td>
     </tr>
             <tr id="isMobile()">
@@ -241,17 +242,17 @@ yii\helpers\BaseStringHelper</td></tr>
     </tr>
             <tr id="isSerialized()">
         <td><a href="common-helpers-stringhelper.html#isSerialized()-detail">isSerialized()</a></td>
-        <td></td>
+        <td>是否为系列化字符串</td>
         <td><a href="common-helpers-stringhelper.html">common\helpers\StringHelper</a></td>
     </tr>
             <tr id="md5()">
         <td><a href="common-helpers-stringhelper.html#md5()-detail">md5()</a></td>
-        <td></td>
+        <td>自定义 <code>md5</code> 函数</td>
         <td><a href="common-helpers-stringhelper.html">common\helpers\StringHelper</a></td>
     </tr>
             <tr id="parseTemplate()">
         <td><a href="common-helpers-stringhelper.html#parseTemplate()-detail">parseTemplate()</a></td>
-        <td></td>
+        <td>解析字符串模板</td>
         <td><a href="common-helpers-stringhelper.html">common\helpers\StringHelper</a></td>
     </tr>
     </table>
@@ -359,7 +360,7 @@ yii\helpers\BaseStringHelper</td></tr>
 
     
     <div class="doc-description">
-        <p><strong></strong></p>
+        <p><strong>是否为 JSON 字符串</strong></p>
 
         
             </div>
@@ -415,7 +416,7 @@ yii\helpers\BaseStringHelper</td></tr>
 
     
     <div class="doc-description">
-        <p><strong></strong></p>
+        <p><strong>是否为系列化字符串</strong></p>
 
         
             </div>
@@ -443,7 +444,7 @@ yii\helpers\BaseStringHelper</td></tr>
 
     
     <div class="doc-description">
-        <p><strong></strong></p>
+        <p><strong>自定义 <code>md5</code> 函数</strong></p>
 
         
             </div>
@@ -471,9 +472,17 @@ yii\helpers\BaseStringHelper</td></tr>
 
     
     <div class="doc-description">
-        <p><strong></strong></p>
+        <p><strong>解析字符串模板</strong></p>
 
-        
+        <p>将 类似<code>{name}</code> 解析为指定数组里的值</p>
+<pre><code class="hljs php language-php">    preg_match_all(<span class="hljs-string">"/\{(.+?)\}/"</span>, <span class="hljs-variable">$template</span>, <span class="hljs-variable">$matches</span>);
+    <span class="hljs-variable">$result</span> = <span class="hljs-variable">$template</span>;
+    <span class="hljs-keyword">foreach</span> (<span class="hljs-variable">$matches</span>[<span class="hljs-number">1</span>] <span class="hljs-keyword">as</span> <span class="hljs-variable">$v</span>) {
+        <span class="hljs-variable">$result</span> = str_replace(<span class="hljs-string">'{'</span> . <span class="hljs-variable">$v</span> . <span class="hljs-string">'}'</span>, ArrayHelper::getValue(<span class="hljs-variable">$array</span>, <span class="hljs-variable">$v</span>), <span class="hljs-variable">$result</span>);
+    }
+    <span class="hljs-keyword">return</span> <span class="hljs-variable">$result</span>;
+</code></pre>
+
             </div>
 
     <table class="detail-table table table-striped table-bordered table-hover">
@@ -530,7 +539,7 @@ yii\helpers\BaseStringHelper</td></tr>
 </div>
 
 <footer class="footer">
-        <p class="pull-right"><small>Page generated on Sat, 13 Oct 2018 15:13:56 +0000</small></p>
+        <p class="pull-right"><small>Page generated on Sat, 13 Oct 2018 15:59:07 +0000</small></p>
     Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></footer>
 
 <script>jQuery(function ($) {

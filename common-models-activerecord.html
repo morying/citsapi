@@ -197,10 +197,11 @@
 yii\db\ActiveRecord</td></tr>
                         <tr><th>Uses Traits</th><td><a href="common-base-metarecordtrait.html">common\base\MetaRecordTrait</a></td></tr>
                 <tr><th>Subclasses</th><td><a href="common-models-activity.html">common\models\Activity</a>, <a href="common-models-airline.html">common\models\Airline</a>, <a href="common-models-airport.html">common\models\Airport</a>, <a href="common-models-attraction.html">common\models\Attraction</a>, <a href="common-models-businesstype.html">common\models\BusinessType</a>, <a href="common-models-city.html">common\models\City</a>, <a href="common-models-contact.html">common\models\Contact</a>, <a href="common-models-continent.html">common\models\Continent</a>, <a href="common-models-country.html">common\models\Country</a>, <a href="common-models-currency.html">common\models\Currency</a>, <a href="common-models-customer.html">common\models\Customer</a>, <a href="common-models-department.html">common\models\Department</a>, <a href="common-models-employee.html">common\models\Employee</a>, <a href="common-models-flight.html">common\models\Flight</a>, <a href="common-models-hotel.html">common\models\Hotel</a>, <a href="common-models-marketing.html">common\models\Marketing</a>, <a href="common-models-media.html">common\models\Media</a>, <a href="common-models-menu.html">common\models\Menu</a>, <a href="common-models-message.html">common\models\Message</a>, <a href="common-models-meta.html">common\models\Meta</a>, <a href="common-models-operation.html">common\models\Operation</a>, <a href="common-models-option.html">common\models\Option</a>, <a href="common-models-order.html">common\models\Order</a>, <a href="common-models-paymentdays.html">common\models\PaymentDays</a>, <a href="common-models-permission.html">common\models\Permission</a>, <a href="common-models-post.html">common\models\Post</a>, <a href="common-models-postmeta.html">common\models\PostMeta</a>, <a href="common-models-postvisa.html">common\models\PostVisa</a>, <a href="common-models-product.html">common\models\Product</a>, <a href="common-models-productcat.html">common\models\ProductCat</a>, <a href="common-models-province.html">common\models\Province</a>, <a href="common-models-restaurant.html">common\models\Restaurant</a>, <a href="common-models-role.html">common\models\Role</a>, <a href="common-models-sellingtype.html">common\models\SellingType</a>, <a href="common-models-setting.html">common\models\Setting</a>, <a href="common-models-store.html">common\models\Store</a>, <a href="common-models-supplier.html">common\models\Supplier</a>, <a href="common-models-template.html">common\models\Template</a>, <a href="common-models-term.html">common\models\Term</a>, <a href="common-models-termmeta.html">common\models\TermMeta</a>, <a href="common-models-ticket.html">common\models\Ticket</a>, <a href="common-models-tourroute.html">common\models\TourRoute</a>, <a href="common-models-tourthemeconsume.html">common\models\TourThemeConsume</a>, <a href="common-models-tourthemeculture.html">common\models\TourThemeCulture</a>, <a href="common-models-tourthemedaily.html">common\models\TourThemeDaily</a>, <a href="common-models-treeactiverecord.html">common\models\TreeActiveRecord</a>, <a href="common-models-user.html">common\models\User</a>, <a href="common-models-usermeta.html">common\models\UserMeta</a>, <a href="common-models-visacondition.html">common\models\VisaCondition</a>, <a href="common-models-visaperson.html">common\models\VisaPerson</a>, <a href="common-models-visatype.html">common\models\VisaType</a></td></tr>
-                        </table>
+                        <tr><th>Available since version</th><td>2.0</td></tr>
+            </table>
 
 <div class="class-description">
-    <p><strong></strong></p>
+    <p><strong>模型基类</strong></p>
     
     </div>
 
@@ -313,7 +314,7 @@ yii\db\ActiveRecord</td></tr>
     </tr>
             <tr id="extraFields()">
         <td><a href="common-models-activerecord.html#extraFields()-detail">extraFields()</a></td>
-        <td></td>
+        <td>输入额外字段</td>
         <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
     </tr>
             <tr id="filterCondition()">
@@ -328,7 +329,7 @@ yii\db\ActiveRecord</td></tr>
     </tr>
             <tr id="getAttributeLabel()">
         <td><a href="common-models-activerecord.html#getAttributeLabel()-detail">getAttributeLabel()</a></td>
-        <td></td>
+        <td>返回字段标题</td>
         <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
     </tr>
             <tr id="getCacheKey()">
@@ -353,7 +354,7 @@ yii\db\ActiveRecord</td></tr>
     </tr>
             <tr class="inherited" id="getMetaValue()">
         <td><a href="common-base-metarecordtrait.html#getMetaValue()-detail">getMetaValue()</a></td>
-        <td></td>
+        <td>返回指定元数据字段的值</td>
         <td><a href="common-base-metarecordtrait.html">common\base\MetaRecordTrait</a></td>
     </tr>
             <tr id="getObject()">
@@ -363,8 +364,7 @@ yii\db\ActiveRecord</td></tr>
     </tr>
             <tr id="getParams()">
         <td><a href="common-models-activerecord.html#getParams()-detail">getParams()</a></td>
-        <td>处理请求的查询参数
-过滤掉含下划线的，空值的以及非字段的 TODO: META数据含下划线要另外处理</td>
+        <td>处理请求的查询参数</td>
         <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
     </tr>
                         <tr id="setObject()">
@@ -416,7 +416,7 @@ yii\db\ActiveRecord</td></tr>
     </tr>
             <tr class="inherited" id="processMetaSchema()">
         <td><a href="common-base-metarecordtrait.html#processMetaSchema()-detail">processMetaSchema()</a></td>
-        <td></td>
+        <td>ProcessMetaSchema</td>
         <td><a href="common-base-metarecordtrait.html">common\base\MetaRecordTrait</a></td>
     </tr>
             <tr class="inherited" id="processMetaValue()">
@@ -540,7 +540,7 @@ yii\db\ActiveRecord</td></tr>
         <p><strong>重写方法，获取字段标题</strong></p>
 
         
-        <p>See also <span class="broken-link">\CModel::attributeLabels()</span>.</p>    </div>
+        <p>See also <span class="broken-link">\common\models\CModel::attributeLabels()</span>.</p>    </div>
 
     <table class="detail-table table table-striped table-bordered table-hover">
         <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="common-models-activerecord.html#attributeLabels()-detail">attributeLabels</a></strong> ( )</td></tr>
@@ -724,7 +724,7 @@ yii\db\ActiveRecord</td></tr>
 
     
     <div class="doc-description">
-        <p><strong></strong></p>
+        <p><strong>输入额外字段</strong></p>
 
         
             </div>
@@ -785,7 +785,7 @@ yii\db\ActiveRecord</td></tr>
                                                 <tr>
                   <th class="param-name-col">return</th>
                   <td class="param-type-col"><a href="common-models-activequery.html">common\models\ActiveQuery</a></td>
-                  <td class="param-desc-col"><p>The newly created <span class="broken-link">\ActiveQuery</span> instance.</p>
+                  <td class="param-desc-col"><p>The newly created <a href="common-models-activequery.html">common\models\ActiveQuery</a> instance.</p>
 </td>
                 </tr>
                                     </table>
@@ -804,7 +804,7 @@ yii\db\ActiveRecord</td></tr>
 
     
     <div class="doc-description">
-        <p><strong></strong></p>
+        <p><strong>返回字段标题</strong></p>
 
         
             </div>
@@ -916,10 +916,10 @@ yii\db\ActiveRecord</td></tr>
 
     
     <div class="doc-description">
-        <p><strong>处理请求的查询参数
-过滤掉含下划线的，空值的以及非字段的 TODO: META数据含下划线要另外处理</strong></p>
+        <p><strong>处理请求的查询参数</strong></p>
 
-        
+        <p>过滤掉含下划线的，空值的以及非字段的 TODO: META数据含下划线要另外处理</p>
+
             </div>
 
     <table class="detail-table table table-striped table-bordered table-hover">
@@ -1054,7 +1054,8 @@ yii\db\ActiveRecord</td></tr>
                             <tr>
                   <td class="param-name-col"><span style="color: #0000BB">$metaValueToText</span></td>
                   <td class="param-type-col"><a href="http://www.php.net/language.types.boolean">boolean</a></td>
-                  <td class="param-desc-col"></td>
+                  <td class="param-desc-col"><p>是否将元数据内容转为文本，</p>
+</td>
                 </tr>
                                                 </table>
 
@@ -1098,7 +1099,7 @@ yii\db\ActiveRecord</td></tr>
 </div>
 
 <footer class="footer">
-        <p class="pull-right"><small>Page generated on Sat, 13 Oct 2018 15:13:54 +0000</small></p>
+        <p class="pull-right"><small>Page generated on Sat, 13 Oct 2018 15:59:04 +0000</small></p>
     Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></footer>
 
 <script>jQuery(function ($) {
