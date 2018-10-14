@@ -92,7 +92,8 @@
 <a class="list-group-item" href="./common-base-metarecordtrait.html">MetaRecordTrait</a>
 <a class="list-group-item" href="./common-base-settableinterface.html">SettableInterface</a>
 <a class="list-group-item" href="./common-base-sortableinterface.html">SortableInterface</a>
-<a class="list-group-item" href="./common-base-textmessage.html">TextMessage</a></div>
+<a class="list-group-item" href="./common-base-textmessage.html">TextMessage</a>
+<a class="list-group-item" href="./common-base-timestampbehavior.html">TimestampBehavior</a></div>
 <a class="list-group-item" href="#navigation-206" data-toggle="collapse" data-parent="#navigation">common\behaviors <b class="caret"></b></a><div id="navigation-206" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-behaviors-attachbehavior.html">AttachBehavior</a></div>
 <a class="list-group-item" href="#navigation-207" data-toggle="collapse" data-parent="#navigation">common\controllers <b class="caret"></b></a><div id="navigation-207" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-controllers-controller.html">Controller</a></div>
 <a class="list-group-item" href="#navigation-208" data-toggle="collapse" data-parent="#navigation">common\fixtures <b class="caret"></b></a><div id="navigation-208" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-fixtures-userfixture.html">UserFixture</a></div>
@@ -109,6 +110,7 @@
 <a class="list-group-item" href="./common-models-businesstype.html">BusinessType</a>
 <a class="list-group-item" href="./common-models-city.html">City</a>
 <a class="list-group-item" href="./common-models-contact.html">Contact</a>
+<a class="list-group-item" href="./common-models-contactmeta.html">ContactMeta</a>
 <a class="list-group-item" href="./common-models-continent.html">Continent</a>
 <a class="list-group-item" href="./common-models-country.html">Country</a>
 <a class="list-group-item" href="./common-models-currency.html">Currency</a>
@@ -193,7 +195,6 @@
         <col class="col-value" />
     </colgroup>
             <tr><th>Inheritance</th><td><a href="backend-controllers-contactcontroller.html">backend\controllers\ContactController</a> &raquo;
-<a href="backend-controllers-usercontroller.html">backend\controllers\UserController</a> &raquo;
 <a href="backend-controllers-admincontroller.html">backend\controllers\AdminController</a> &raquo;
 <a href="common-controllers-controller.html">common\controllers\Controller</a> &raquo;
 yii\web\Controller</td></tr>
@@ -224,12 +225,7 @@ yii\web\Controller</td></tr>
 <tr>
   <th>Method</th><th>Description</th><th>Defined By</th>
 </tr>
-        <tr class="inherited" id="actionActivate()">
-        <td><a href="backend-controllers-usercontroller.html#actionActivate()-detail">actionActivate()</a></td>
-        <td></td>
-        <td><a href="backend-controllers-usercontroller.html">backend\controllers\UserController</a></td>
-    </tr>
-            <tr class="inherited" id="actionAjax()">
+        <tr class="inherited" id="actionAjax()">
         <td><a href="common-controllers-controller.html#actionAjax()-detail">actionAjax()</a></td>
         <td>独立的ajax请求动作</td>
         <td><a href="common-controllers-controller.html">common\controllers\Controller</a></td>
@@ -311,14 +307,14 @@ yii\web\Controller</td></tr>
         <td><a href="backend-controllers-contactcontroller.html">backend\controllers\ContactController</a></td>
     </tr>
             <tr class="inherited" id="pageFilters()">
-        <td><a href="backend-controllers-usercontroller.html#pageFilters()-detail">pageFilters()</a></td>
-        <td></td>
-        <td><a href="backend-controllers-usercontroller.html">backend\controllers\UserController</a></td>
+        <td><a href="common-controllers-controller.html#pageFilters()-detail">pageFilters()</a></td>
+        <td>页面过滤器</td>
+        <td><a href="common-controllers-controller.html">common\controllers\Controller</a></td>
     </tr>
             <tr class="inherited" id="pageLinks()">
-        <td><a href="backend-controllers-usercontroller.html#pageLinks()-detail">pageLinks()</a></td>
-        <td></td>
-        <td><a href="backend-controllers-usercontroller.html">backend\controllers\UserController</a></td>
+        <td><a href="backend-controllers-admincontroller.html#pageLinks()-detail">pageLinks()</a></td>
+        <td>处理页面链接的URL</td>
+        <td><a href="backend-controllers-admincontroller.html">backend\controllers\AdminController</a></td>
     </tr>
             <tr class="inherited" id="pageTabs()">
         <td><a href="common-controllers-controller.html#pageTabs()-detail">pageTabs()</a></td>
@@ -372,7 +368,7 @@ yii\web\Controller</td></tr>
 <tr>
   <th>Method</th><th>Description</th><th>Defined By</th>
 </tr>
-                                            <tr class="inherited" id="afterActionAjax()">
+                                        <tr class="inherited" id="afterActionAjax()">
         <td><a href="common-controllers-controller.html#afterActionAjax()-detail">afterActionAjax()</a></td>
         <td>在执行 <code>actionAjax</code> 之后调用此方法。以处理 $data 数据。</td>
         <td><a href="common-controllers-controller.html">common\controllers\Controller</a></td>
@@ -532,7 +528,7 @@ yii\web\Controller</td></tr>
 </div>
 
 <footer class="footer">
-        <p class="pull-right"><small>Page generated on Sat, 13 Oct 2018 16:12:44 +0000</small></p>
+        <p class="pull-right"><small>Page generated on Sun, 14 Oct 2018 15:56:59 +0000</small></p>
     Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></footer>
 
 <script>jQuery(function ($) {

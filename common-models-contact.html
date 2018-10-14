@@ -92,7 +92,8 @@
 <a class="list-group-item" href="./common-base-metarecordtrait.html">MetaRecordTrait</a>
 <a class="list-group-item" href="./common-base-settableinterface.html">SettableInterface</a>
 <a class="list-group-item" href="./common-base-sortableinterface.html">SortableInterface</a>
-<a class="list-group-item" href="./common-base-textmessage.html">TextMessage</a></div>
+<a class="list-group-item" href="./common-base-textmessage.html">TextMessage</a>
+<a class="list-group-item" href="./common-base-timestampbehavior.html">TimestampBehavior</a></div>
 <a class="list-group-item" href="#navigation-1328" data-toggle="collapse" data-parent="#navigation">common\behaviors <b class="caret"></b></a><div id="navigation-1328" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-behaviors-attachbehavior.html">AttachBehavior</a></div>
 <a class="list-group-item" href="#navigation-1329" data-toggle="collapse" data-parent="#navigation">common\controllers <b class="caret"></b></a><div id="navigation-1329" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-controllers-controller.html">Controller</a></div>
 <a class="list-group-item" href="#navigation-1330" data-toggle="collapse" data-parent="#navigation">common\fixtures <b class="caret"></b></a><div id="navigation-1330" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-fixtures-userfixture.html">UserFixture</a></div>
@@ -109,6 +110,7 @@
 <a class="list-group-item" href="./common-models-businesstype.html">BusinessType</a>
 <a class="list-group-item" href="./common-models-city.html">City</a>
 <a class="list-group-item active" href="./common-models-contact.html">Contact</a>
+<a class="list-group-item" href="./common-models-contactmeta.html">ContactMeta</a>
 <a class="list-group-item" href="./common-models-continent.html">Continent</a>
 <a class="list-group-item" href="./common-models-country.html">Country</a>
 <a class="list-group-item" href="./common-models-currency.html">Currency</a>
@@ -186,8 +188,7 @@
     <a href="index.html">All Classes</a>
             | <a href="#properties">Properties</a>
                 | <a href="#methods">Methods</a>
-                    | <a href="#constants">Constants</a>
-    </div>
+            </div>
 
 <table class="summaryTable docClass table table-bordered">
     <colgroup>
@@ -195,11 +196,9 @@
         <col class="col-value" />
     </colgroup>
             <tr><th>Inheritance</th><td><a href="common-models-contact.html">common\models\Contact</a> &raquo;
-<a href="common-models-user.html">common\models\User</a> &raquo;
 <a href="common-models-activerecord.html">common\models\ActiveRecord</a> &raquo;
 yii\db\ActiveRecord</td></tr>
-                <tr><th>Implements</th><td>yii\web\IdentityInterface</td></tr>
-                    <tr><th>Uses Traits</th><td><a href="common-base-metarecordtrait.html">common\base\MetaRecordTrait</a></td></tr>
+                        <tr><th>Uses Traits</th><td><a href="common-base-metarecordtrait.html">common\base\MetaRecordTrait</a></td></tr>
                             </table>
 
 <div class="class-description">
@@ -284,25 +283,25 @@ yii\db\ActiveRecord</td></tr>
         <td>返回模型的属性名称</td>
         <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
     </tr>
-            <tr class="inherited" id="attributeSchema()">
-        <td><a href="common-models-activerecord.html#attributeSchema()-detail">attributeSchema()</a></td>
-        <td>返回模型的属性模式数据</td>
-        <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
+            <tr id="attributeSchema()">
+        <td><a href="common-models-contact.html#attributeSchema()-detail">attributeSchema()</a></td>
+        <td></td>
+        <td><a href="common-models-contact.html">common\models\Contact</a></td>
     </tr>
             <tr class="inherited" id="beforeBlock()">
         <td><a href="common-models-activerecord.html#beforeBlock()-detail">beforeBlock()</a></td>
         <td></td>
         <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
     </tr>
+            <tr class="inherited" id="beforeDelete()">
+        <td><a href="common-base-metarecordtrait.html#beforeDelete()-detail">beforeDelete()</a></td>
+        <td>模型数据删除时，同时删除meta数据</td>
+        <td><a href="common-base-metarecordtrait.html">common\base\MetaRecordTrait</a></td>
+    </tr>
             <tr class="inherited" id="beforeSave()">
         <td><a href="common-models-activerecord.html#beforeSave()-detail">beforeSave()</a></td>
         <td>保存前事件</td>
         <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
-    </tr>
-            <tr class="inherited" id="behaviors()">
-        <td><a href="common-models-user.html#behaviors()-detail">behaviors()</a></td>
-        <td>{@inheritdoc}</td>
-        <td><a href="common-models-user.html">common\models\User</a></td>
     </tr>
             <tr class="inherited" id="block()">
         <td><a href="common-models-activerecord.html#block()-detail">block()</a></td>
@@ -334,45 +333,10 @@ yii\db\ActiveRecord</td></tr>
         <td>{@inheritdoc}</td>
         <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
     </tr>
-            <tr class="inherited" id="findByPasswordResetToken()">
-        <td><a href="common-models-user.html#findByPasswordResetToken()-detail">findByPasswordResetToken()</a></td>
-        <td>Finds user by password reset token</td>
-        <td><a href="common-models-user.html">common\models\User</a></td>
-    </tr>
-            <tr class="inherited" id="findByUsername()">
-        <td><a href="common-models-user.html#findByUsername()-detail">findByUsername()</a></td>
-        <td>Finds user by username</td>
-        <td><a href="common-models-user.html">common\models\User</a></td>
-    </tr>
-            <tr class="inherited" id="findIdentity()">
-        <td><a href="common-models-user.html#findIdentity()-detail">findIdentity()</a></td>
-        <td>{@inheritdoc}</td>
-        <td><a href="common-models-user.html">common\models\User</a></td>
-    </tr>
-            <tr class="inherited" id="findIdentityByAccessToken()">
-        <td><a href="common-models-user.html#findIdentityByAccessToken()-detail">findIdentityByAccessToken()</a></td>
-        <td>{@inheritdoc}</td>
-        <td><a href="common-models-user.html">common\models\User</a></td>
-    </tr>
-            <tr class="inherited" id="generateAuthKey()">
-        <td><a href="common-models-user.html#generateAuthKey()-detail">generateAuthKey()</a></td>
-        <td>Generates "remember me" authentication key</td>
-        <td><a href="common-models-user.html">common\models\User</a></td>
-    </tr>
-            <tr class="inherited" id="generatePasswordResetToken()">
-        <td><a href="common-models-user.html#generatePasswordResetToken()-detail">generatePasswordResetToken()</a></td>
-        <td>Generates new password reset token</td>
-        <td><a href="common-models-user.html">common\models\User</a></td>
-    </tr>
             <tr class="inherited" id="getAttributeLabel()">
         <td><a href="common-models-activerecord.html#getAttributeLabel()-detail">getAttributeLabel()</a></td>
         <td>返回字段标题</td>
         <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
-    </tr>
-            <tr class="inherited" id="getAuthKey()">
-        <td><a href="common-models-user.html#getAuthKey()-detail">getAuthKey()</a></td>
-        <td>{@inheritdoc}</td>
-        <td><a href="common-models-user.html">common\models\User</a></td>
     </tr>
             <tr class="inherited" id="getCacheKey()">
         <td><a href="common-models-activerecord.html#getCacheKey()-detail">getCacheKey()</a></td>
@@ -384,20 +348,15 @@ yii\db\ActiveRecord</td></tr>
         <td>返回调用静态方法里的命名间转类名</td>
         <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
     </tr>
-            <tr class="inherited" id="getId()">
-        <td><a href="common-models-user.html#getId()-detail">getId()</a></td>
-        <td>{@inheritdoc}</td>
-        <td><a href="common-models-user.html">common\models\User</a></td>
+            <tr id="getMetaData()">
+        <td><a href="common-models-contact.html#getMetaData()-detail">getMetaData()</a></td>
+        <td></td>
+        <td><a href="common-models-contact.html">common\models\Contact</a></td>
     </tr>
-            <tr class="inherited" id="getMetaData()">
-        <td><a href="common-base-metarecordtrait.html#getMetaData()-detail">getMetaData()</a></td>
-        <td>返回模型的元数据</td>
-        <td><a href="common-base-metarecordtrait.html">common\base\MetaRecordTrait</a></td>
-    </tr>
-                <tr class="inherited" id="getMetaName()">
-        <td><a href="common-base-metarecordtrait.html#getMetaName()-detail">getMetaName()</a></td>
-        <td>获取模型的元数据模型名称</td>
-        <td><a href="common-base-metarecordtrait.html">common\base\MetaRecordTrait</a></td>
+                <tr id="getMetaName()">
+        <td><a href="common-models-contact.html#getMetaName()-detail">getMetaName()</a></td>
+        <td></td>
+        <td><a href="common-models-contact.html">common\models\Contact</a></td>
     </tr>
             <tr class="inherited" id="getMetaValue()">
         <td><a href="common-base-metarecordtrait.html#getMetaValue()-detail">getMetaValue()</a></td>
@@ -410,44 +369,24 @@ yii\db\ActiveRecord</td></tr>
         <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
     </tr>
             <tr class="inherited" id="getParams()">
-        <td><a href="common-models-user.html#getParams()-detail">getParams()</a></td>
-        <td></td>
-        <td><a href="common-models-user.html">common\models\User</a></td>
-    </tr>
-            <tr class="inherited" id="getSettings()">
-        <td><a href="common-models-user.html#getSettings()-detail">getSettings()</a></td>
-        <td></td>
-        <td><a href="common-models-user.html">common\models\User</a></td>
-    </tr>
-            <tr class="inherited" id="isPasswordResetTokenValid()">
-        <td><a href="common-models-user.html#isPasswordResetTokenValid()-detail">isPasswordResetTokenValid()</a></td>
-        <td>Finds out if password reset token is valid</td>
-        <td><a href="common-models-user.html">common\models\User</a></td>
+        <td><a href="common-models-activerecord.html#getParams()-detail">getParams()</a></td>
+        <td>处理请求的查询参数</td>
+        <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
     </tr>
                     <tr id="processMetaValue()">
         <td><a href="common-models-contact.html#processMetaValue()-detail">processMetaValue()</a></td>
         <td></td>
         <td><a href="common-models-contact.html">common\models\Contact</a></td>
     </tr>
-            <tr class="inherited" id="removePasswordResetToken()">
-        <td><a href="common-models-user.html#removePasswordResetToken()-detail">removePasswordResetToken()</a></td>
-        <td>Removes password reset token</td>
-        <td><a href="common-models-user.html">common\models\User</a></td>
-    </tr>
-            <tr class="inherited" id="rules()">
-        <td><a href="common-models-user.html#rules()-detail">rules()</a></td>
-        <td>{@inheritdoc}</td>
-        <td><a href="common-models-user.html">common\models\User</a></td>
+            <tr id="rules()">
+        <td><a href="common-models-contact.html#rules()-detail">rules()</a></td>
+        <td></td>
+        <td><a href="common-models-contact.html">common\models\Contact</a></td>
     </tr>
             <tr class="inherited" id="setObject()">
         <td><a href="common-models-activerecord.html#setObject()-detail">setObject()</a></td>
         <td>设置模型的额外对象值</td>
         <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
-    </tr>
-            <tr class="inherited" id="setPassword()">
-        <td><a href="common-models-user.html#setPassword()-detail">setPassword()</a></td>
-        <td>Generates password hash from password and sets it to the model</td>
-        <td><a href="common-models-user.html">common\models\User</a></td>
     </tr>
             <tr class="inherited" id="setScenario()">
         <td><a href="common-models-activerecord.html#setScenario()-detail">setScenario()</a></td>
@@ -455,24 +394,14 @@ yii\db\ActiveRecord</td></tr>
         <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
     </tr>
             <tr class="inherited" id="tableName()">
-        <td><a href="common-models-user.html#tableName()-detail">tableName()</a></td>
-        <td></td>
-        <td><a href="common-models-user.html">common\models\User</a></td>
+        <td><a href="common-models-activerecord.html#tableName()-detail">tableName()</a></td>
+        <td>通过模型名返回复数形式的表名</td>
+        <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
     </tr>
             <tr class="inherited" id="toArray()">
         <td><a href="common-models-activerecord.html#toArray()-detail">toArray()</a></td>
         <td>将查询结果模型数据转为数组</td>
         <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
-    </tr>
-            <tr class="inherited" id="validateAuthKey()">
-        <td><a href="common-models-user.html#validateAuthKey()-detail">validateAuthKey()</a></td>
-        <td>{@inheritdoc}</td>
-        <td><a href="common-models-user.html">common\models\User</a></td>
-    </tr>
-            <tr class="inherited" id="validatePassword()">
-        <td><a href="common-models-user.html#validatePassword()-detail">validatePassword()</a></td>
-        <td>Validates password</td>
-        <td><a href="common-models-user.html">common\models\User</a></td>
     </tr>
     </table>
 </div>
@@ -491,12 +420,12 @@ yii\db\ActiveRecord</td></tr>
 <tr>
   <th>Method</th><th>Description</th><th>Defined By</th>
 </tr>
-                                                                                                                            <tr class="inherited" id="getMetaExtraFields()">
+                                                                                            <tr class="inherited" id="getMetaExtraFields()">
         <td><a href="common-base-metarecordtrait.html#getMetaExtraFields()-detail">getMetaExtraFields()</a></td>
         <td>获取meta的扩展字段</td>
         <td><a href="common-base-metarecordtrait.html">common\base\MetaRecordTrait</a></td>
     </tr>
-                                    <tr class="inherited" id="metaValueToText()">
+                            <tr class="inherited" id="metaValueToText()">
         <td><a href="common-base-metarecordtrait.html#metaValueToText()-detail">metaValueToText()</a></td>
         <td>将meta值转为文本显示内容</td>
         <td><a href="common-base-metarecordtrait.html">common\base\MetaRecordTrait</a></td>
@@ -506,47 +435,39 @@ yii\db\ActiveRecord</td></tr>
         <td>ProcessMetaSchema</td>
         <td><a href="common-base-metarecordtrait.html">common\base\MetaRecordTrait</a></td>
     </tr>
-                                            </table>
+                            </table>
 </div>
 
 <a id="events"></a>
 
 <a id="constants"></a>
-<div class="summary doc-const">
-    <h2>Constants</h2>
-
-    <p><a href="#" class="toggle">Hide inherited constants</a></p>
-
-    <table class="summary-table table table-striped table-bordered table-hover">
-    <colgroup>
-        <col class="col-const" />
-        <col class="col-value" />
-        <col class="col-description" />
-        <col class="col-defined" />
-    </colgroup>
-    <tr>
-        <th>Constant</th><th>Value</th><th>Description</th><th>Defined By</th>
-    </tr>
-            <tr class="inherited" id="STATUS_ACTIVE">
-          <td id="STATUS_ACTIVE-detail">STATUS_ACTIVE</td>
-          <td>10</td>
-          <td>
-                        </td>
-          <td><a href="common-models-user.html">common\models\User</a></td>
-        </tr>
-            <tr class="inherited" id="STATUS_DELETED">
-          <td id="STATUS_DELETED-detail">STATUS_DELETED</td>
-          <td>0</td>
-          <td>
-                        </td>
-          <td><a href="common-models-user.html">common\models\User</a></td>
-        </tr>
-        </table>
-</div>
 
 <h2>Method Details</h2>
 
 <div class="method-doc">
+
+    <div class="detail-header h3" id="attributeSchema()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-models-contact.html#attributeSchema()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        attributeSchema()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="common-models-contact.html#attributeSchema()-detail">attributeSchema</a></strong> ( )</td></tr>
+            </table>
+
+<!--	-->
 
     <div class="detail-header h3" id="filterCondition()-detail">
         <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
@@ -576,6 +497,52 @@ yii\db\ActiveRecord</td></tr>
 
 <!--	-->
 
+    <div class="detail-header h3" id="getMetaData()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-models-contact.html#getMetaData()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        getMetaData()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="common-models-contact.html#getMetaData()-detail">getMetaData</a></strong> ( )</td></tr>
+            </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="getMetaName()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-models-contact.html#getMetaName()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        getMetaName()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="common-models-contact.html#getMetaName()-detail">getMetaName</a></strong> ( )</td></tr>
+            </table>
+
+<!--	-->
+
     <div class="detail-header h3" id="processMetaValue()-detail">
         <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
         <a class="tool-link hash" href="common-models-contact.html#processMetaValue()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
@@ -601,6 +568,29 @@ yii\db\ActiveRecord</td></tr>
                   <td class="param-desc-col"></td>
                 </tr>
                                                 </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="rules()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="common-models-contact.html#rules()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        rules()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="common-models-contact.html#rules()-detail">rules</a></strong> ( )</td></tr>
+            </table>
 
 <!--	-->
 </div>
@@ -642,7 +632,7 @@ yii\db\ActiveRecord</td></tr>
 </div>
 
 <footer class="footer">
-        <p class="pull-right"><small>Page generated on Sat, 13 Oct 2018 16:12:46 +0000</small></p>
+        <p class="pull-right"><small>Page generated on Sun, 14 Oct 2018 15:57:02 +0000</small></p>
     Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></footer>
 
 <script>jQuery(function ($) {

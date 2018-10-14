@@ -92,7 +92,8 @@
 <a class="list-group-item" href="./common-base-metarecordtrait.html">MetaRecordTrait</a>
 <a class="list-group-item" href="./common-base-settableinterface.html">SettableInterface</a>
 <a class="list-group-item" href="./common-base-sortableinterface.html">SortableInterface</a>
-<a class="list-group-item" href="./common-base-textmessage.html">TextMessage</a></div>
+<a class="list-group-item" href="./common-base-textmessage.html">TextMessage</a>
+<a class="list-group-item" href="./common-base-timestampbehavior.html">TimestampBehavior</a></div>
 <a class="list-group-item" href="#navigation-1311" data-toggle="collapse" data-parent="#navigation">common\behaviors <b class="caret"></b></a><div id="navigation-1311" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-behaviors-attachbehavior.html">AttachBehavior</a></div>
 <a class="list-group-item" href="#navigation-1312" data-toggle="collapse" data-parent="#navigation">common\controllers <b class="caret"></b></a><div id="navigation-1312" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-controllers-controller.html">Controller</a></div>
 <a class="list-group-item" href="#navigation-1313" data-toggle="collapse" data-parent="#navigation">common\fixtures <b class="caret"></b></a><div id="navigation-1313" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-fixtures-userfixture.html">UserFixture</a></div>
@@ -109,6 +110,7 @@
 <a class="list-group-item" href="./common-models-businesstype.html">BusinessType</a>
 <a class="list-group-item" href="./common-models-city.html">City</a>
 <a class="list-group-item" href="./common-models-contact.html">Contact</a>
+<a class="list-group-item" href="./common-models-contactmeta.html">ContactMeta</a>
 <a class="list-group-item" href="./common-models-continent.html">Continent</a>
 <a class="list-group-item" href="./common-models-country.html">Country</a>
 <a class="list-group-item" href="./common-models-currency.html">Currency</a>
@@ -295,6 +297,11 @@ yii\db\ActiveRecord</td></tr>
         <td></td>
         <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
     </tr>
+            <tr class="inherited" id="beforeDelete()">
+        <td><a href="common-base-metarecordtrait.html#beforeDelete()-detail">beforeDelete()</a></td>
+        <td>模型数据删除时，同时删除meta数据</td>
+        <td><a href="common-base-metarecordtrait.html">common\base\MetaRecordTrait</a></td>
+    </tr>
             <tr class="inherited" id="beforeSave()">
         <td><a href="common-models-activerecord.html#beforeSave()-detail">beforeSave()</a></td>
         <td>保存前事件</td>
@@ -452,7 +459,7 @@ yii\db\ActiveRecord</td></tr>
 <tr>
   <th>Method</th><th>Description</th><th>Defined By</th>
 </tr>
-                                                                                            <tr class="inherited" id="getMetaExtraFields()">
+                                                                                                <tr class="inherited" id="getMetaExtraFields()">
         <td><a href="common-base-metarecordtrait.html#getMetaExtraFields()-detail">getMetaExtraFields()</a></td>
         <td>获取meta的扩展字段</td>
         <td><a href="common-base-metarecordtrait.html">common\base\MetaRecordTrait</a></td>
@@ -495,7 +502,7 @@ yii\db\ActiveRecord</td></tr>
     </tr>
             <tr id="META_NAME_PREFIX">
           <td id="META_NAME_PREFIX-detail">META_NAME_PREFIX</td>
-          <td>array('_tour_route_' => '线路', '_product_' => '产品', '_activity_' => '活动', '_order_' => '订单', '_post_visa_' => '签证', '_voucher_' => '票据', '_flight_' => '航班', '_airport_' => '机场', '_continent_' => '大洲', '_country_' => '国家', '_city_' => '城市', '_operation_' => '操作', '_airline_' => '航空公司', '_hotel_' => '酒店', '_store_' => '商店', '_restaurant_' => '餐厅', '_message_' => '消息', '_employee_' => '员工', '_contact_' => '联系人', '_department_' => '部门')</td>
+          <td>array('_tour_route_' => '线路', '_product_' => '产品', '_activity_' => '活动', '_order_' => '订单', '_post_visa_' => '签证', '_voucher_' => '票据', '_flight_' => '航班', '_airport_' => '机场', '_continent_' => '大洲', '_country_' => '国家', '_city_' => '城市', '_operation_' => '操作', '_airline_' => '航空公司', '_hotel_' => '酒店', '_store_' => '商店', '_restaurant_' => '餐厅', '_message_' => '消息', '_employee_' => '员工', '_contact_' => '联系人', '_department_' => '部门', '_customer_' => '客户', '_supplier_' => '供应商')</td>
           <td>
                         </td>
           <td><a href="common-models-meta.html">common\models\Meta</a></td>
@@ -670,7 +677,7 @@ yii\db\ActiveRecord</td></tr>
 </div>
 
 <footer class="footer">
-        <p class="pull-right"><small>Page generated on Sat, 13 Oct 2018 16:12:46 +0000</small></p>
+        <p class="pull-right"><small>Page generated on Sun, 14 Oct 2018 15:57:02 +0000</small></p>
     Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></footer>
 
 <script>jQuery(function ($) {

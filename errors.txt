@@ -272,7 +272,7 @@ Array
 
     [44] => Array
         (
-            [line] => 326
+            [line] => 331
             [file] => common/models/ActiveRecord.php
             [message] => Method beforeBlock has no parent to inherit from in common\models\ActiveRecord.
         )
@@ -292,7 +292,7 @@ Array
 
     [47] => Array
         (
-            [line] => 54
+            [line] => 64
             [file] => common/models/Post.php
             [message] => Method rules has no parent to inherit from in common\models\Post.
         )

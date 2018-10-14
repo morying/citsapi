@@ -92,7 +92,8 @@
 <a class="list-group-item" href="./common-base-metarecordtrait.html">MetaRecordTrait</a>
 <a class="list-group-item" href="./common-base-settableinterface.html">SettableInterface</a>
 <a class="list-group-item" href="./common-base-sortableinterface.html">SortableInterface</a>
-<a class="list-group-item" href="./common-base-textmessage.html">TextMessage</a></div>
+<a class="list-group-item" href="./common-base-textmessage.html">TextMessage</a>
+<a class="list-group-item" href="./common-base-timestampbehavior.html">TimestampBehavior</a></div>
 <a class="list-group-item" href="#navigation-852" data-toggle="collapse" data-parent="#navigation">common\behaviors <b class="caret"></b></a><div id="navigation-852" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-behaviors-attachbehavior.html">AttachBehavior</a></div>
 <a class="list-group-item" href="#navigation-853" data-toggle="collapse" data-parent="#navigation">common\controllers <b class="caret"></b></a><div id="navigation-853" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-controllers-controller.html">Controller</a></div>
 <a class="list-group-item" href="#navigation-854" data-toggle="collapse" data-parent="#navigation">common\fixtures <b class="caret"></b></a><div id="navigation-854" class="submenu panel-collapse collapse"><a class="list-group-item" href="./common-fixtures-userfixture.html">UserFixture</a></div>
@@ -109,6 +110,7 @@
 <a class="list-group-item" href="./common-models-businesstype.html">BusinessType</a>
 <a class="list-group-item" href="./common-models-city.html">City</a>
 <a class="list-group-item" href="./common-models-contact.html">Contact</a>
+<a class="list-group-item" href="./common-models-contactmeta.html">ContactMeta</a>
 <a class="list-group-item" href="./common-models-continent.html">Continent</a>
 <a class="list-group-item" href="./common-models-country.html">Country</a>
 <a class="list-group-item" href="./common-models-currency.html">Currency</a>
@@ -196,7 +198,7 @@
             <tr><th>Inheritance</th><td><a href="common-models-activerecord.html">common\models\ActiveRecord</a> &raquo;
 yii\db\ActiveRecord</td></tr>
                         <tr><th>Uses Traits</th><td><a href="common-base-metarecordtrait.html">common\base\MetaRecordTrait</a></td></tr>
-                <tr><th>Subclasses</th><td><a href="common-models-activity.html">common\models\Activity</a>, <a href="common-models-airline.html">common\models\Airline</a>, <a href="common-models-airport.html">common\models\Airport</a>, <a href="common-models-attraction.html">common\models\Attraction</a>, <a href="common-models-businesstype.html">common\models\BusinessType</a>, <a href="common-models-city.html">common\models\City</a>, <a href="common-models-contact.html">common\models\Contact</a>, <a href="common-models-continent.html">common\models\Continent</a>, <a href="common-models-country.html">common\models\Country</a>, <a href="common-models-currency.html">common\models\Currency</a>, <a href="common-models-customer.html">common\models\Customer</a>, <a href="common-models-department.html">common\models\Department</a>, <a href="common-models-employee.html">common\models\Employee</a>, <a href="common-models-flight.html">common\models\Flight</a>, <a href="common-models-hotel.html">common\models\Hotel</a>, <a href="common-models-marketing.html">common\models\Marketing</a>, <a href="common-models-media.html">common\models\Media</a>, <a href="common-models-menu.html">common\models\Menu</a>, <a href="common-models-message.html">common\models\Message</a>, <a href="common-models-meta.html">common\models\Meta</a>, <a href="common-models-operation.html">common\models\Operation</a>, <a href="common-models-option.html">common\models\Option</a>, <a href="common-models-order.html">common\models\Order</a>, <a href="common-models-paymentdays.html">common\models\PaymentDays</a>, <a href="common-models-permission.html">common\models\Permission</a>, <a href="common-models-post.html">common\models\Post</a>, <a href="common-models-postmeta.html">common\models\PostMeta</a>, <a href="common-models-postvisa.html">common\models\PostVisa</a>, <a href="common-models-product.html">common\models\Product</a>, <a href="common-models-productcat.html">common\models\ProductCat</a>, <a href="common-models-province.html">common\models\Province</a>, <a href="common-models-restaurant.html">common\models\Restaurant</a>, <a href="common-models-role.html">common\models\Role</a>, <a href="common-models-sellingtype.html">common\models\SellingType</a>, <a href="common-models-setting.html">common\models\Setting</a>, <a href="common-models-store.html">common\models\Store</a>, <a href="common-models-supplier.html">common\models\Supplier</a>, <a href="common-models-template.html">common\models\Template</a>, <a href="common-models-term.html">common\models\Term</a>, <a href="common-models-termmeta.html">common\models\TermMeta</a>, <a href="common-models-ticket.html">common\models\Ticket</a>, <a href="common-models-tourroute.html">common\models\TourRoute</a>, <a href="common-models-tourthemeconsume.html">common\models\TourThemeConsume</a>, <a href="common-models-tourthemeculture.html">common\models\TourThemeCulture</a>, <a href="common-models-tourthemedaily.html">common\models\TourThemeDaily</a>, <a href="common-models-treeactiverecord.html">common\models\TreeActiveRecord</a>, <a href="common-models-user.html">common\models\User</a>, <a href="common-models-usermeta.html">common\models\UserMeta</a>, <a href="common-models-visacondition.html">common\models\VisaCondition</a>, <a href="common-models-visaperson.html">common\models\VisaPerson</a>, <a href="common-models-visatype.html">common\models\VisaType</a></td></tr>
+                <tr><th>Subclasses</th><td><a href="common-models-activity.html">common\models\Activity</a>, <a href="common-models-airline.html">common\models\Airline</a>, <a href="common-models-airport.html">common\models\Airport</a>, <a href="common-models-attraction.html">common\models\Attraction</a>, <a href="common-models-businesstype.html">common\models\BusinessType</a>, <a href="common-models-city.html">common\models\City</a>, <a href="common-models-contact.html">common\models\Contact</a>, <a href="common-models-contactmeta.html">common\models\ContactMeta</a>, <a href="common-models-continent.html">common\models\Continent</a>, <a href="common-models-country.html">common\models\Country</a>, <a href="common-models-currency.html">common\models\Currency</a>, <a href="common-models-customer.html">common\models\Customer</a>, <a href="common-models-department.html">common\models\Department</a>, <a href="common-models-employee.html">common\models\Employee</a>, <a href="common-models-flight.html">common\models\Flight</a>, <a href="common-models-hotel.html">common\models\Hotel</a>, <a href="common-models-marketing.html">common\models\Marketing</a>, <a href="common-models-media.html">common\models\Media</a>, <a href="common-models-menu.html">common\models\Menu</a>, <a href="common-models-message.html">common\models\Message</a>, <a href="common-models-meta.html">common\models\Meta</a>, <a href="common-models-operation.html">common\models\Operation</a>, <a href="common-models-option.html">common\models\Option</a>, <a href="common-models-order.html">common\models\Order</a>, <a href="common-models-paymentdays.html">common\models\PaymentDays</a>, <a href="common-models-permission.html">common\models\Permission</a>, <a href="common-models-post.html">common\models\Post</a>, <a href="common-models-postmeta.html">common\models\PostMeta</a>, <a href="common-models-postvisa.html">common\models\PostVisa</a>, <a href="common-models-product.html">common\models\Product</a>, <a href="common-models-productcat.html">common\models\ProductCat</a>, <a href="common-models-province.html">common\models\Province</a>, <a href="common-models-restaurant.html">common\models\Restaurant</a>, <a href="common-models-role.html">common\models\Role</a>, <a href="common-models-sellingtype.html">common\models\SellingType</a>, <a href="common-models-setting.html">common\models\Setting</a>, <a href="common-models-store.html">common\models\Store</a>, <a href="common-models-supplier.html">common\models\Supplier</a>, <a href="common-models-template.html">common\models\Template</a>, <a href="common-models-term.html">common\models\Term</a>, <a href="common-models-termmeta.html">common\models\TermMeta</a>, <a href="common-models-ticket.html">common\models\Ticket</a>, <a href="common-models-tourroute.html">common\models\TourRoute</a>, <a href="common-models-tourthemeconsume.html">common\models\TourThemeConsume</a>, <a href="common-models-tourthemeculture.html">common\models\TourThemeCulture</a>, <a href="common-models-tourthemedaily.html">common\models\TourThemeDaily</a>, <a href="common-models-treeactiverecord.html">common\models\TreeActiveRecord</a>, <a href="common-models-user.html">common\models\User</a>, <a href="common-models-usermeta.html">common\models\UserMeta</a>, <a href="common-models-visacondition.html">common\models\VisaCondition</a>, <a href="common-models-visaperson.html">common\models\VisaPerson</a>, <a href="common-models-visatype.html">common\models\VisaType</a></td></tr>
                         <tr><th>Available since version</th><td>2.0</td></tr>
             </table>
 
@@ -291,6 +293,11 @@ yii\db\ActiveRecord</td></tr>
         <td><a href="common-models-activerecord.html#beforeBlock()-detail">beforeBlock()</a></td>
         <td></td>
         <td><a href="common-models-activerecord.html">common\models\ActiveRecord</a></td>
+    </tr>
+            <tr class="inherited" id="beforeDelete()">
+        <td><a href="common-base-metarecordtrait.html#beforeDelete()-detail">beforeDelete()</a></td>
+        <td>模型数据删除时，同时删除meta数据</td>
+        <td><a href="common-base-metarecordtrait.html">common\base\MetaRecordTrait</a></td>
     </tr>
             <tr id="beforeSave()">
         <td><a href="common-models-activerecord.html#beforeSave()-detail">beforeSave()</a></td>
@@ -404,7 +411,7 @@ yii\db\ActiveRecord</td></tr>
 <tr>
   <th>Method</th><th>Description</th><th>Defined By</th>
 </tr>
-                                                                                        <tr class="inherited" id="getMetaExtraFields()">
+                                                                                            <tr class="inherited" id="getMetaExtraFields()">
         <td><a href="common-base-metarecordtrait.html#getMetaExtraFields()-detail">getMetaExtraFields()</a></td>
         <td>获取meta的扩展字段</td>
         <td><a href="common-base-metarecordtrait.html">common\base\MetaRecordTrait</a></td>
@@ -1099,7 +1106,7 @@ yii\db\ActiveRecord</td></tr>
 </div>
 
 <footer class="footer">
-        <p class="pull-right"><small>Page generated on Sat, 13 Oct 2018 16:12:45 +0000</small></p>
+        <p class="pull-right"><small>Page generated on Sun, 14 Oct 2018 15:57:01 +0000</small></p>
     Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></footer>
 
 <script>jQuery(function ($) {
